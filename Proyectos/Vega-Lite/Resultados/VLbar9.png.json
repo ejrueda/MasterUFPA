@@ -1,0 +1,1 @@
+{"data": {"values": [{"a": 0, "b": 1.0}]}, "mark": "bar", "encoding": {"x": {"field": "a", "type": "nominal"}, "y": {"field": "b", "type": "quantitative"}}}
