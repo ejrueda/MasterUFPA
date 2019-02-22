@@ -1,0 +1,1 @@
+Este é um gráfico de barras verticais a legenda do eixo y Yorave com 19 barras de do eixo x com a legenda Tozaxeri. Os valores das barras variam entre 0.0 a 0.8955. A média dos valores é 0.4347 e o desvio padrão é 0.279.
