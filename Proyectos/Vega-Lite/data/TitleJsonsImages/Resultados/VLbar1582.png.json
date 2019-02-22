@@ -1,0 +1,1 @@
+{"data": {"values": [{"Qarubefe": 0, "Jocey": 0.3266666667}, {"Qarubefe": 1, "Jocey": 1.3333333333}]}, "mark": "bar", "encoding": {"x": {"field": "Qarubefe", "type": "nominal"}, "y": {"field": "Jocey", "type": "quantitative"}}, "title": "Cebatocax Hatef"}

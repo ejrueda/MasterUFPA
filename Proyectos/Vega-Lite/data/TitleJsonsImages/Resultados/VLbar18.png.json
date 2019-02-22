@@ -1,0 +1,1 @@
+{"data": {"values": [{"Qegevukata": 0, "Reley": 1.701754386}, {"Qegevukata": 1, "Reley": 1.2280701754}, {"Qegevukata": 2, "Reley": 3.2105263158}]}, "mark": "bar", "encoding": {"x": {"field": "Qegevukata", "type": "nominal"}, "y": {"field": "Reley", "type": "quantitative"}}, "title": "Fedudif Xazed"}

@@ -1,0 +1,1 @@
+{"data": {"values": [{"Rocelosuji": 0, "Mizor": 0.3409090909}, {"Rocelosuji": 1, "Mizor": 4.1590909091}, {"Rocelosuji": 2, "Mizor": 3.25}]}, "mark": "bar", "encoding": {"x": {"field": "Rocelosuji", "type": "nominal"}, "y": {"field": "Mizor", "type": "quantitative"}}, "title": "Yuruwifila Foqav"}
