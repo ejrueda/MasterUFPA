@@ -1,1 +1,1 @@
-Este é um gráfico de barras verticais a legenda do eixo y Canazet com 2 barras de do eixo x com a legenda Repate. A barra 1 tem valor 0.74, A barra 2 tem valor 0.328, Os valores das barras variam entre 0.328 a 0.74. A média dos valores é 0.534 e o desvio padrão é 0.206.
+Este é um gráfico de barras verticais intitulado Tuveve Ceyep a legenda do eixo y Canazet com 2 barras de do eixo x com a legenda Repate. A barra 1 tem valor 0.74, A barra 2 tem valor 0.328, Os valores das barras variam entre 0.328 a 0.74. A média dos valores é 0.534 e o desvio padrão é 0.206.

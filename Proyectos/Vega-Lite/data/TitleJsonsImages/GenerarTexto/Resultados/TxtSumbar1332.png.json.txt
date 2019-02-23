@@ -1,1 +1,1 @@
-Este é um gráfico de barras verticais a legenda do eixo y Pepupebuc com 17 barras de do eixo x com a legenda Johab. Os valores das barras variam entre 0.0 a 3.0769. A média dos valores é 0.7204 e o desvio padrão é 0.9131.
+Este é um gráfico de barras verticais intitulado  Sokutat Zucir a legenda do eixo y Pepupebuc com 17 barras de do eixo x com a legenda Johab. Os valores das barras variam entre 0.0 a 3.0769. A média dos valores é 0.7204 e o desvio padrão é 0.9131.

@@ -1,1 +1,1 @@
-Este é um gráfico de barras verticais a legenda do eixo y Reley com 3 barras de do eixo x com a legenda Qegevukata. Os valores das barras variam entre 1.2281 a 3.2105. A média dos valores é 2.0468 e o desvio padrão é 0.8453.
+Este é um gráfico de barras verticais intitulado Fedudif Xazed a legenda do eixo y Reley com 3 barras de do eixo x com a legenda Qegevukata. Os valores das barras variam entre 1.2281 a 3.2105. A média dos valores é 2.0468 e o desvio padrão é 0.8453.
