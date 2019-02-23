@@ -1,0 +1,1 @@
+Este é um gráfico de barras verticais a legenda do eixo y Yobosapus com 2 barras de do eixo x com a legenda Fobacecebu. A barra 1 tem valor 2.0, A barra 2 tem valor 2.0, Os valores das barras variam entre 2.0 a 2.0. A média dos valores é 2.0 e o desvio padrão é 0.0.
