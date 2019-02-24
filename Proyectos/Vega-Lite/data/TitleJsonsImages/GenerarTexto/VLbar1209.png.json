@@ -1,0 +1,1 @@
+{"data": {"values": [{"Repate": 0, "Canazet": 0.74}, {"Repate": 1, "Canazet": 0.328}]}, "mark": "bar", "encoding": {"x": {"field": "Repate", "type": "nominal"}, "y": {"field": "Canazet", "type": "quantitative"}}, "title": "Tuveve Ceyep"}

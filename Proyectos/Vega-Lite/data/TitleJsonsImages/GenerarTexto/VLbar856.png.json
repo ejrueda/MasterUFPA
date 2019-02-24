@@ -1,0 +1,1 @@
+{"data": {"values": [{"Wukotogi": 0, "Sewosi": 0.7}, {"Wukotogi": 1, "Sewosi": 3.5333333333}, {"Wukotogi": 2, "Sewosi": 6.4333333333}, {"Wukotogi": 3, "Sewosi": 6.0}, {"Wukotogi": 4, "Sewosi": 1.0666666667}]}, "mark": "bar", "encoding": {"x": {"field": "Wukotogi", "type": "nominal"}, "y": {"field": "Sewosi", "type": "quantitative"}}, "title": " Zeyoseda Senot"}

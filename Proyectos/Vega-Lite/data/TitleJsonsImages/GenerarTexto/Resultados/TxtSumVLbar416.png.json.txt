@@ -1,0 +1,1 @@
+Este é um gráfico de barras verticais intitulado  Fepohu Tufaf a legenda do eixo y Zafogalu com 10 barras de do eixo x com a legenda Rupubawev. Os valores das barras variam entre 0.0 a 3.0769. A média dos valores é 1.3261699999999998 e o desvio padrão é 0.8025046268402444.

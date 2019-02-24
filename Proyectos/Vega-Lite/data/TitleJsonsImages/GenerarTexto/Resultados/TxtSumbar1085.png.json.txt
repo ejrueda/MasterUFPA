@@ -1,1 +1,0 @@
-Este é um gráfico de barras verticais intitulado Bujabaz Voros a legenda do eixo y Kimalozokav com 20 barras de do eixo x com a legenda Vodoka. Os valores das barras variam entre 0.0 a 1.84. A média dos valores é 0.6865 e o desvio padrão é 0.5927.

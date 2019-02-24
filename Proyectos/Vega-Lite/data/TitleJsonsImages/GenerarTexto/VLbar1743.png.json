@@ -1,0 +1,1 @@
+{"data": {"values": [{"Fobacecebu": 0, "Yobosapus": 2.0}, {"Fobacecebu": 1, "Yobosapus": 2.0}]}, "mark": "bar", "encoding": {"x": {"field": "Fobacecebu", "type": "nominal"}, "y": {"field": "Yobosapus", "type": "quantitative"}}, "title": " Doromocija Qijay"}

@@ -1,0 +1,1 @@
+Este é um gráfico de barras verticais intitulado  Puyijuz Nugud a legenda do eixo y Hokibem com 17 barras de do eixo x com a legenda Wetama. Os valores das barras variam entre 0.0 a 2.7714. A média dos valores é 0.931935294117647 e o desvio padrão é 0.7161125502577638.

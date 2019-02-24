@@ -1,1 +1,0 @@
-Este é um gráfico de barras verticais intitulado Yuruwifila Foqav a legenda do eixo y Mizor com 3 barras de do eixo x com a legenda Rocelosuji. A barra 1 tem valor 0.3409, A barra 2 tem valor 4.1591, A barra 3 tem valor 3.25, Os valores das barras variam entre 0.3409 a 4.1591. A média dos valores é 2.5833 e o desvio padrão é 1.6285.
