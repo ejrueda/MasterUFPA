@@ -1,1 +1,1 @@
-Este é um gráfico de barras verticais intitulado Bavayipeve Penuh a legenda do eixo y Zozoguduwi com 21 barras de do eixo x com a legenda Pebegivi. Os valores das barras variam entre 0.0 a 12.3871. A média dos valores é 4.384009523809524 e o desvio padrão é 3.163737261667232.
+Este é um gráfico de barras verticais intitulado Bavayipeve Penuh a legenda do eixo y Zozoguduwi com 21 barras de do eixo x com a legenda Pebegivi. Os valores das barras variam entre 0.0 a 12.3871. A média dos valores é 4.384 e o desvio padrão é 3.1637.

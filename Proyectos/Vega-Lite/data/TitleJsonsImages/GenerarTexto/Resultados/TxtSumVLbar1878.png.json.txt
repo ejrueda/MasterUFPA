@@ -1,1 +1,1 @@
-Este é um gráfico de barras verticais intitulado Muposakilo Gohep a legenda do eixo y Pudap com 8 barras de do eixo x com a legenda Witele. Os valores das barras variam entre 0.52 a 1.81. A média dos valores é 1.2449999999999999 e o desvio padrão é 0.4473812691653507.
+Este é um gráfico de barras verticais intitulado Muposakilo Gohep a legenda do eixo y Pudap com 8 barras de do eixo x com a legenda Witele. Os valores das barras variam entre 0.52 a 1.81. A média dos valores é 1.245 e o desvio padrão é 0.4474.
