@@ -1,1 +1,1 @@
-Este é um gráfico de barras verticais intitulado Qunebidun Sulid a legenda do eixo y Kemedo com 7 barras de do eixo x com a legenda Somorusapin. Os valores das barras variam entre 0.0 a 1.448. A média dos valores é 0.5543 e o desvio padrão é 0.4532.
+Este é um gráfico de barras verticais intitulado Qunebidun Sulid a legenda do eixo y Kemedo com 7 barras de do eixo x com a legenda Somorusapin.

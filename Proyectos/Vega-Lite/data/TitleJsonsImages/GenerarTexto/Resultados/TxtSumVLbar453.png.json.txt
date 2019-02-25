@@ -1,1 +1,1 @@
-Este é um gráfico de barras verticais intitulado Wemaz Pegaw a legenda do eixo y Paxoheyomec com 19 barras de do eixo x com a legenda Rutoy. Os valores das barras variam entre 0.0 a 3.0769. A média dos valores é 0.9118 e o desvio padrão é 0.8065.
+Este é um gráfico de barras verticais intitulado Wemaz Pegaw a legenda do eixo y Paxoheyomec com 19 barras de do eixo x com a legenda Rutoy.
