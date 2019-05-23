@@ -3,7 +3,7 @@ import numpy as np
 from bokeh.plotting import figure, show, output_file
 from bokeh.io import output_notebook, reset_output, curdoc
 from bokeh.embed import file_html
-from bokeh.models import LabelSet, Label, ColumnDataSource, FactorRange
+from bokeh.models import LabelSet, Label, ColumnDataSource, FactorRange, HoverTool
 from bokeh.models.annotations import Title
 from bokeh.transform import factor_cmap
 import bokeh.plotting as bp
@@ -12,8 +12,8 @@ from bokeh.models.widgets import Slider, TextInput
 from bokeh.transform import cumsum
 from bokeh.palettes import Category10
 
-#reset_output()
-#output_notebook()
+reset_output()
+output_notebook()
 #nombres de los vecindarios
 names = ["Palace Hills", "Northwest","Old Town", "Safe Town","Southwest","Downtown",
          "Wilson Forest", "Scenic Vista", "Broadview", "Chapparal", "TerrapinSprings",
@@ -26,10 +26,10 @@ df_outs = pd.read_csv("boxplot/df_outs.csv")
 
 x_ticks = ["sewer_and_water","power","roads_and_bridges","medical","buildings","shake_intensity"]
 p = figure(plot_height=400, plot_width=800, title="Boxplot",background_fill_color="#efefef",
-           tools="pan,reset,save,wheel_zoom, hover", x_range=x_ticks, y_range=(-1,11))
+           tools="box_select,pan,wheel_zoom,box_zoom,reset,save", x_range=x_ticks, y_range=(-1,11))
 
 p2 = figure(plot_height=300, plot_width=300, title="quantidade de outliers",
-           tools="pan,reset,save,wheel_zoom, hover", x_range=x_ticks)
+           tools="hover,box_select,pan,wheel_zoom,box_zoom,reset,save", x_range=x_ticks)
 p2.xaxis.major_label_orientation = "vertical"
 
 v_day = 6 #Configuración inicial del dia
@@ -41,22 +41,30 @@ y_q2 = df_bxplt.loc[df_bxplt.day==v_day].loc[df_bxplt.location==v_loc]["q2"].val
 y_q3 = df_bxplt.loc[df_bxplt.day==v_day].loc[df_bxplt.location==v_loc]["q3"].values
 source_seg = ColumnDataSource(dict(x=x_ticks, y_lower=y_rlower, y_upper=y_rupper, q1=y_q1, q2=y_q2, q3=y_q3))
 #Para graficar las lineas superiores del boxplot
-p.rect("x", "y_upper", 0.2, 0.01, line_color="black", source=source_seg)
+fig_rect1 = p.rect("x", "y_upper", 0.2, 0.01, line_color="black", source=source_seg)
 #Para graficar las lineas inferiores del boxplot
-p.rect("x", "y_lower", 0.2, 0.01, line_color="black", source=source_seg)
+fig_rect2 = p.rect("x", "y_lower", 0.2, 0.01, line_color="black", source=source_seg)
 #Para graficar los segmentos del boxplot
-p.segment("x", "y_lower", "x", "q1", line_color="black", source=source_seg)
-p.segment("x", "y_upper", "x", "q3", line_color="black", source=source_seg)
+fig_seg1 = p.segment("x", "y_lower", "x", "q1", line_color="black", source=source_seg)
+fig_seg2 = p.segment("x", "y_upper", "x", "q3", line_color="black", source=source_seg)
 #Para graficar las barras
-p.vbar("x", 0.3, "q1", "q2", fill_color="#3B8686", line_color="black", source=source_seg)
-p.vbar("x", 0.3, "q2", "q3", fill_color="#E08E79", line_color="black", source=source_seg)
+fig_bar1 = p.vbar("x", 0.3, "q1", "q2", fill_color="#3B8686", line_color="black", source=source_seg, legend="q1 até q2")
+fig_bar2 = p.vbar("x", 0.3, "q2", "q3", fill_color="#E08E79", line_color="black", source=source_seg, legend="q2 até q3")
+p.add_tools(HoverTool(renderers=[fig_bar1, fig_bar2,
+                                fig_rect1, fig_rect2,
+                                fig_seg1, fig_seg2], tooltips=[("quartil 1","@q1"),
+                                                                ("quartil 2","@q2"),
+                                                                ("quartil 3","@q3"),
+                                                                ("min", "@y_lower"),
+                                                                ("max","@y_upper")]))
 #Para graficar los outliers si es que hay
 #para pintar solo de a un punto si se presentan los mismos datos
 aux_data = df_outs.groupby(["day","vecindario","x_outs","y_outs"],as_index=False).last().reset_index(drop=True)
 
 source_out = ColumnDataSource(dict(aux_data[aux_data.day==v_day].loc[aux_data[aux_data.day==v_day].vecindario==v_loc]))
-p.circle("x_outs", "y_outs", size=6, color="#F38630", fill_alpha=0.6, source=source_out)
-
+fig_out = p.circle("x_outs", "y_outs", size=6, color="#F38630", fill_alpha=0.6, source=source_out, legend="outliers")
+#Para insertar el Hover solo a esos datos
+p.add_tools(HoverTool(renderers=[fig_out], tooltips=[("value","@y_outs")]))
 p.ygrid.grid_line_color = "white"
 p.xgrid.grid_line_color = None
 
@@ -67,8 +75,7 @@ for t in x_ticks:
     num_outs.append(df_outs_aux.loc[df_outs_aux.x_outs==t].shape[0])
 source_nout = ColumnDataSource(dict(x_outs=x_ticks, y_outs=num_outs))
 p2.vbar("x_outs", 0.3, "y_outs", fill_color="#3B8686", line_color="black", source=source_nout)
-p2.hover.tooltips = [("quantidade", "@y_outs")]
-
+p2.hover.tooltips = [("quantidade","@y_outs")]
 #Barras de interacción
 s_day_text = "registro de acordo com o dia"
 s_day = Slider(title=s_day_text, value=6.0, start=6.0, end=11.0, step=1.0)
