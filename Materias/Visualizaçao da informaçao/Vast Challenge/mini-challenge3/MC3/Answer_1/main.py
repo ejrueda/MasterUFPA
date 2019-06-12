@@ -43,15 +43,15 @@ p3 = figure(plot_height=300, plot_width=800, title="Quantidade de tweets por bai
 p3.xaxis.axis_label = "dias registrados"
 p3.yaxis.axis_label = "quantidade de tweets"
 #hashtag mais frequentes
-p4 = figure(plot_height=300, plot_width=300, title="Hashtag top",
-           tools="hover,pan,wheel_zoom,box_zoom,reset,save")
+p4 = figure(plot_height=300, plot_width=300, title="Quantidade de usuarios por bairro",
+           tools="hover,pan,wheel_zoom,box_zoom,reset,save",x_range=(-3.5,3.5), y_range=(-3.5,3.5))
 names = ["Palace Hills", "Northwest", "Old Town", "Safe Town", "Southwest", "Downtown",
          "Wilson Forest", "Scenic Vista", "Broadview", "Chapparal", "Terrapin Springs",
          "Pepper Mill", "Cheddarford", "Easton", "Weston", "Southton", "Oak Willow",
          "East Parton", "West Parton"]
 #Barras de interacción
-s_day = RangeSlider(title="intervalo de dias", start=6, end=10, value=(6, 10), step=1)
-s_range = RangeSlider(title="intervalo de horas", start=0, end=24, value=(0,24), step=1)
+#s_day = RangeSlider(title="intervalo de dias", start=6, end=10, value=(6, 10), step=1)
+#s_range = RangeSlider(title="intervalo de horas", start=0, end=24, value=(0,24), step=1)
 select_vec = Select(title="Bairro:", value="Palace Hills", options=names)
 #Gráfico 1
 edges1, hist1 = histogram(data, "location", bins=100)
@@ -81,29 +81,45 @@ data_aux.drop(["account","message"], axis=1)
 data_aux["values"] = 1
 data_aux = data_aux.groupby("location").sum()
 data_aux = data_aux.drop(["UNKNOWN", "<Location with-held due to contract>"])
-source3= ColumnDataSource(dict(data_aux, angle=data_aux["values"]/(data_aux["values"]).sum() * 2*np.pi,
+source3 = ColumnDataSource(dict(data_aux, angle=data_aux["values"]/(data_aux["values"]).sum() * 2*np.pi,
                                   color=Category20[19], location=data_aux.index))
 p2.wedge(x=0, y=0, radius=3,start_angle=cumsum('angle', include_zero=True), end_angle=cumsum('angle'),
          line_color="black", fill_color='color', source=source3)
 p2.hover.tooltips = [("bairro", "@location"),
                      ("quantidade", "@values")]
 
+#Gráfico 4
+data_aux2 = data.copy()
+data_aux2.drop("message", axis=1)
+data_aux2["values"] = 1
+data_aux2 = data_aux2.groupby(["location", "account"], as_index=False).sum()
+data_aux2 = data_aux2.set_index("location")
+data_aux2 = data_aux2.drop(["UNKNOWN", "<Location with-held due to contract>"])
+data_aux2["values"] = 1
+data_aux2 = data_aux2.groupby("location").sum()
+source4 = ColumnDataSource(dict(data_aux2, angle=data_aux["values"]/(data_aux["values"]).sum() * 2*np.pi,
+                               color=Category20[19], location=data_aux2.index))
+p4.wedge(x=0, y=0, radius=3,start_angle=cumsum('angle', include_zero=True), end_angle=cumsum('angle'),
+         line_color="black", fill_color='color', source=source4)
+p4.hover.tooltips = [("bairro", "@location"),
+                     ("quantidade", "@values")]
+
 def update_data(attrname, old, new):
 
     #Para obtener los valores actuales
-    day_val = s_day.value
+    #day_val = s_day.value
     vec_val = select_vec.value
-    hr_val = s_range.value
+    #hr_val = s_range.value
     #Actualizar grafico 3
     edges2, hist2 = histogram(data.loc[data.location==vec_val], "location", bins=100)
     source2.data = dict(hist=hist2,left=edges2[:-1], right=edges2[1:])
     
     
 #Para hacer las actualizaciones
-for w in [s_day, s_range, select_vec]:
+for w in [select_vec]:
     w.on_change('value', update_data)
 
-col_1 = column([s_day,s_range,select_vec], width=200)
+col_1 = column([select_vec], width=200)
 col_2 = column([p1, p3])
 col_3 = column([p2, p4])
 
