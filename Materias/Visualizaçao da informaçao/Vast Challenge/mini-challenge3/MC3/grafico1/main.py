@@ -45,7 +45,7 @@ p1.yaxis.axis_label = "quantidade de tweets"
 p2 = figure(plot_height=300, plot_width=300, title="Quantidade de tweets por bairro",
            tools="hover,pan,wheel_zoom,box_zoom,reset,save",x_range=(-4,4), y_range=(-4,4))
 #disribuição normalizada
-p3 = figure(plot_height=300, plot_width=800, title="Quantidade de tweets por bairro normaliada",
+p3 = figure(plot_height=300, plot_width=795, title="Quantidade de tweets por bairro normaliada",
            tools="hover,pan,wheel_zoom,box_zoom,reset,save",x_axis_type='datetime', x_range=p1.x_range)
 p3.xaxis.axis_label = "dias registrados"
 p3.yaxis.axis_label = "quantidade de tweets"
@@ -55,6 +55,9 @@ p4 = figure(plot_height=300, plot_width=600, title="Quantidade geral de tweets n
  
 p5 = figure(plot_height=300, plot_width=600, title="Quantidade de tweets por bairro no intervalo",
            tools="hover,pan,wheel_zoom,box_zoom,reset,save",x_axis_type='datetime')
+#quantidade de tweets por bairro no intervalo
+p6 = figure(plot_height=300, plot_width=300, title="Quantidade de tweets por bairro no intervalo",
+           tools="hover,pan,wheel_zoom,box_zoom,reset,save",x_range=(-4,4), y_range=(-4,4))
 
 names = ["Palace Hills", "Northwest", "Old Town", "Safe Town", "Southwest", "Downtown",
          "Wilson Forest", "Scenic Vista", "Broadview", "Chapparal", "Terrapin Springs",
@@ -124,26 +127,59 @@ p5.hover.tooltips = [("data inicial", "@left{%F %T}"),
 p5.hover.formatters = {'left': 'datetime', 'right': 'datetime'}
 p5.hover.mode = "vline"
 
+#Diagrama de pizza da cuantidade de chamadas por bairro no intervalo
+data6 = data_norm.loc["2020-04-06 14:40:00":"2020-04-06 19:40:00"].copy()
+data6.drop(["account","message"], axis=1)
+data6["values"] = 1
+data6 = data6.groupby("location").sum()
+#verificar sim todas as ciudades estão no index, sim não é assim, se adiciona com um valor de 1
+for name in names:
+    if not(name in data6.index):
+        data6.loc[name] = 1
+for idx in ["UNKNOWN", "<Location with-held due to contract>"]:
+    if idx in data6.index:
+        data6 = data6.drop(idx)
+source6 = ColumnDataSource(dict(data6, angle=data6["values"]/(data6["values"]).sum() * 2*np.pi,
+                                  color=Category20[19], location=data6.index))
+p6.wedge(x=0, y=0, radius=3,start_angle=cumsum('angle', include_zero=True), end_angle=cumsum('angle'),
+         line_color="black", fill_color='color', source=source6)
+p6.hover.tooltips = [("bairro", "@location"),
+                     ("quantidade", "@values")]
+
 def update_data(attrname, old, new):
     #Para obtener los valores actuales
     vec_val = select_vec.value
     #hr_val = s_range.value
     ht = s_tipo.value
-    #Actualizar grafico 3
+    #Atualizar grafico 3
     edges2, hist2 = histogram(data_norm.loc[data_norm.location==vec_val], "location", bins=100)
     source2.data = dict(hist=hist2,left=edges2[:-1], right=edges2[1:])
-    #Actualizar gráfico4
+    #Atualizar gráfico4
     if ht == "5":
         data4 = data_norm.loc["2020-04-06 14:40:00":"2020-04-06 19:40:00"]
-        data5 = data_norm.loc[data_norm.location==bairro_init].loc["2020-04-06 14:40:00":"2020-04-06 19:40:00"]
+        data5 = data_norm.loc[data_norm.location==vec_val].loc["2020-04-06 14:40:00":"2020-04-06 19:40:00"]
     else:
         data4 = data_norm.loc["2020-04-06 14:40:00":"2020-04-07 20:40:00"]
-        data5 = data_norm.loc[data_norm.location==bairro_init].loc["2020-04-06 14:40:00":"2020-04-07 20:40:00"]
+        data5 = data_norm.loc[data_norm.location==vec_val].loc["2020-04-06 14:40:00":"2020-04-07 20:40:00"]
     edges4, hist4 = histogram(data4,"location", bins=int(1+3.3*np.log(data4.shape[0])))
     source4.data = dict(hist=hist4,left=edges4[:-1], right=edges4[1:])
-    #Acutalizar gŕafico5
+    #Atualizar gŕafico5
     edges5, hist5 = histogram(data5,"location", bins=int(1+3.3*np.log(data5.shape[0])))
     source5.data = dict(hist=hist5,left=edges5[:-1], right=edges5[1:])
+    #Atualizar gráfico6
+    data6 = data4.copy()
+    data6.drop(["account","message"], axis=1)
+    data6["values"] = 1
+    data6 = data6.groupby("location").sum()
+    #verificar sim todas as ciudades estão no index, sim não é assim, se adiciona com um valor de 1
+    for name in names:
+        if not(name in data6.index):
+            data6.loc[name] = 1
+    for idx in ["UNKNOWN", "<Location with-held due to contract>"]:
+        if idx in data6.index:
+            data6 = data6.drop(idx)
+    source6.data = dict(data6, angle=data6["values"]/(data6["values"]).sum() * 2*np.pi,
+                                      color=Category20[19], location=data6.index)
     
 #Para hacer las actualizaciones
 for w in [select_vec, s_tipo]:
@@ -152,7 +188,7 @@ for w in [select_vec, s_tipo]:
 inputs = column([select_vec, s_tipo], width=200)
 vzio = column(width=210)
 row_1 = row([inputs, p1, p2], width=1100)
-row_2 = row([vzio, p3])
+row_2 = row([vzio, p3, p6])
 row_3 = row([p4, p5])
 row_4 = row([])
 
