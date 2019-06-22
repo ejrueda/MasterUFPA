@@ -54,10 +54,14 @@ p4 = figure(plot_height=300, plot_width=600, title="Quantidade geral de tweets n
            tools="hover,pan,wheel_zoom,box_zoom,reset,save",x_axis_type='datetime')
  
 p5 = figure(plot_height=300, plot_width=600, title="Quantidade de tweets por bairro no intervalo",
-           tools="hover,pan,wheel_zoom,box_zoom,reset,save",x_axis_type='datetime')
+           tools="hover,pan,wheel_zoom,box_zoom,reset,save",x_axis_type='datetime',x_range=p4.x_range)
 #quantidade de tweets por bairro no intervalo
 p6 = figure(plot_height=300, plot_width=300, title="Quantidade de tweets por bairro no intervalo",
            tools="hover,pan,wheel_zoom,box_zoom,reset,save",x_range=(-4,4), y_range=(-4,4))
+
+#WordCloud no intervalo com os dados normalizados
+p7 = figure(plot_height=400, plot_width=600, title="WordCloud de todos os bairros no intervalo",
+           tools="hover,pan,wheel_zoom,box_zoom,reset,save", x_range=(70,200), y_range=(30,160))
 
 names = ["Palace Hills", "Northwest", "Old Town", "Safe Town", "Southwest", "Downtown",
          "Wilson Forest", "Scenic Vista", "Broadview", "Chapparal", "Terrapin Springs",
@@ -146,6 +150,9 @@ p6.wedge(x=0, y=0, radius=3,start_angle=cumsum('angle', include_zero=True), end_
 p6.hover.tooltips = [("bairro", "@location"),
                      ("quantidade", "@values")]
 
+#Par o gráfico WordCloud de todos os bairros no intervalo
+p7.image_url(url=['grafico1/static/images/image.png'], x=80,y=180,w=120,h=180)
+
 def update_data(attrname, old, new):
     #Para obtener los valores actuales
     vec_val = select_vec.value
@@ -181,6 +188,7 @@ def update_data(attrname, old, new):
     source6.data = dict(data6, angle=data6["values"]/(data6["values"]).sum() * 2*np.pi,
                                       color=Category20[19], location=data6.index)
     
+    p7.image_url(url=['grafico1/static/images/Figure_5.png'], x=50,y=180,w=100,h=150)
 #Para hacer las actualizaciones
 for w in [select_vec, s_tipo]:
     w.on_change('value', update_data)
@@ -190,6 +198,6 @@ vzio = column(width=210)
 row_1 = row([inputs, p1, p2], width=1100)
 row_2 = row([vzio, p3, p6])
 row_3 = row([p4, p5])
-row_4 = row([])
+row_4 = row([p7])
 
 curdoc().add_root(row(gridplot([[row_1],[row_2],[row_3],[row_4]]), width=400))
