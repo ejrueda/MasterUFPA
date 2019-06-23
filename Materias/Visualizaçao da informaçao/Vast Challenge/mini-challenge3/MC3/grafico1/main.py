@@ -22,6 +22,11 @@ data_norm = pd.read_csv("./data/data_geral_normalizada.csv", parse_dates=True, i
 data_norm = data_norm.set_index("time")
 data_norm.index = pd.to_datetime(data_norm.index)
 
+#se cargan os dados para os wordclouds
+df_wc_geral = pd.read_csv("./data/wordcloud_intervalo_geral.csv")
+df_wc_bairro = pd.read_csv("grafico1/data/wordcloud_intervalo_bairro.csv")
+
+#função para gerar histograma dos dados
 def histogram(df, col, bins=30):
     edges = []
     hist = []
@@ -35,6 +40,44 @@ def histogram(df, col, bins=30):
     edges.append(aux)
     
     return edges, hist
+
+#função para gerar imagem wordcloud
+def gerar_wc(df, ivalo, bairro=""):
+    """
+    gera um wordcloud
+    df: DataFrame
+    bairro: bairro que vai ser selecionado para fazer o wordcloud
+    ivalo: intervalo do tempo, si é 5 ou 30
+    """
+    import pandas as pd
+    import numpy as np
+    from PIL import Image
+    import matplotlib.pyplot as plt
+    from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
+    
+    wine_mask = np.array(Image.open("grafico1/static/images/map_white.png"))
+    if bairro=="":
+        list_palavras = df.loc[df.intervalo==ivalo].words.values[0]
+        wordcloud = WordCloud(max_font_size=300, max_words=50, mode='RGB',mask=wine_mask, colormap=plt.cm.Set1,
+                          collocations=False, contour_width=8, relative_scaling=.5,
+                          background_color="white").generate(list_palavras)
+        # Display the generated image:
+        plt.figure(figsize=(10,10))
+        plt.imshow(wordcloud, interpolation='bilinear')
+        plt.axis('off')
+        plt.subplots_adjust(left=0.05, right=0.95, top=0.95, bottom=0.05)
+        plt.savefig("grafico1/static/images/image1.png")
+    else:
+        list_palavras = df.loc[df.intervalo==ivalo].loc[df.loc[df.intervalo==ivalo].location==bairro].words.values[0]
+        wordcloud = WordCloud(max_font_size=300, max_words=50, mode='RGB',mask=wine_mask, colormap=plt.cm.Set1,
+                          collocations=False, contour_width=8, relative_scaling=.5,
+                          background_color="white").generate(list_palavras)
+        # Display the generated image:
+        plt.figure(figsize=(10,10))
+        plt.imshow(wordcloud, interpolation='bilinear')
+        plt.axis('off')
+        plt.subplots_adjust(left=0.05, right=0.95, top=0.95, bottom=0.05)
+        plt.savefig("grafico1/static/images/image2.png")
 
 #Distribução geral dos dados
 p1 = figure(plot_height=300, plot_width=800, title="Quantidade de tweets por intervalo de tempo para todos os bairros",
@@ -61,6 +104,9 @@ p6 = figure(plot_height=300, plot_width=300, title="Quantidade de tweets por bai
 
 #WordCloud no intervalo com os dados normalizados
 p7 = figure(plot_height=400, plot_width=600, title="WordCloud de todos os bairros no intervalo",
+           tools="hover,pan,wheel_zoom,box_zoom,reset,save", x_range=(70,200), y_range=(30,160))
+#WordCloud no intervalo por bairro com os dados normalizados
+p8 = figure(plot_height=400, plot_width=600, title="WordCloud de todos os bairros no intervalo",
            tools="hover,pan,wheel_zoom,box_zoom,reset,save", x_range=(70,200), y_range=(30,160))
 
 names = ["Palace Hills", "Northwest", "Old Town", "Safe Town", "Southwest", "Downtown",
@@ -151,7 +197,12 @@ p6.hover.tooltips = [("bairro", "@location"),
                      ("quantidade", "@values")]
 
 #Par o gráfico WordCloud de todos os bairros no intervalo
-p7.image_url(url=['grafico1/static/images/image.png'], x=80,y=180,w=120,h=180)
+gerar_wc(df_wc_geral,ivalo=5,bairro="")
+p7.image_url(url=['grafico1/static/images/image1.png'], x=80,y=180,w=120,h=180)
+#Par o gráfico WordCloud de cada bairro no intervalo
+gerar_wc(df_wc_bairro,ivalo=5,bairro=bairro_init)
+p8.image_url(url=['grafico1/static/images/image2.png'], x=80,y=180,w=120,h=180)
+
 
 def update_data(attrname, old, new):
     #Para obtener los valores actuales
@@ -188,7 +239,12 @@ def update_data(attrname, old, new):
     source6.data = dict(data6, angle=data6["values"]/(data6["values"]).sum() * 2*np.pi,
                                       color=Category20[19], location=data6.index)
     
-    p7.image_url(url=['grafico1/static/images/Figure_5.png'], x=50,y=180,w=100,h=150)
+    #Para atualizar o gráfico7
+    gerar_wc(df_wc_geral,ivalo=ht,bairro="")
+    p7.image_url(url=['grafico1/static/images/image1.png'], x=80,y=180,w=120,h=180)
+    #Para atualizar o gráfico8
+    gerar_wc(df_wc_bairro,ivalo=ht,bairro=vec_val)
+    p8.image_url(url=['grafico1/static/images/image2.png'], x=80,y=180,w=120,h=180)
 #Para hacer las actualizaciones
 for w in [select_vec, s_tipo]:
     w.on_change('value', update_data)
@@ -198,6 +254,6 @@ vzio = column(width=210)
 row_1 = row([inputs, p1, p2], width=1100)
 row_2 = row([vzio, p3, p6])
 row_3 = row([p4, p5])
-row_4 = row([p7])
+row_4 = row([p7,p8])
 
 curdoc().add_root(row(gridplot([[row_1],[row_2],[row_3],[row_4]]), width=400))
