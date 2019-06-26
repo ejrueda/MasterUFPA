@@ -14,16 +14,16 @@ from bokeh.palettes import Category10, Category20
 import nltk
 
 #Se cargan los datos
-data = pd.read_csv("./data/data_procesada.csv", parse_dates=True, infer_datetime_format=True)
+data = pd.read_csv("grafico1/data/data_procesada.csv", parse_dates=True, infer_datetime_format=True)
 data = data.set_index("time")
 data.index = pd.to_datetime(data.index)
 
-data_norm = pd.read_csv("./data/data_geral_normalizada.csv", parse_dates=True, infer_datetime_format=True)
+data_norm = pd.read_csv("grafico1/data/data_geral_normalizada.csv", parse_dates=True, infer_datetime_format=True)
 data_norm = data_norm.set_index("time")
 data_norm.index = pd.to_datetime(data_norm.index)
 
 #se carregam os dados para os wordclouds
-df_wc_geral = pd.read_csv("./data/wordcloud_intervalo_geral.csv")
+df_wc_geral = pd.read_csv("grafico1/data/wordcloud_intervalo_geral.csv")
 df_wc_bairro = pd.read_csv("grafico1/data/wordcloud_intervalo_bairro.csv")
 
 #se carregam os dados que contem as rutas das imagens
