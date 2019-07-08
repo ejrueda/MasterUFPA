@@ -76,7 +76,7 @@ p8 = figure(plot_height=400, plot_width=600, title="WordCloud de todos os bairro
            tools="hover,pan,wheel_zoom,box_zoom,reset,save", x_range=(70,200), y_range=(30,160))
 
 names = ["Palace Hills", "Northwest", "Old Town", "Safe Town", "Southwest", "Downtown",
-         "Wilson Forest", "Scenic Vista", "Broadview", "Chapparal", "Terrapin Springs",
+         "Scenic Vista", "Broadview", "Chapparal", "Terrapin Springs",
          "Pepper Mill", "Cheddarford", "Easton", "Weston", "Southton", "Oak Willow",
          "East Parton", "West Parton"]
 #Barras de interacción
@@ -131,9 +131,12 @@ p4.hover.formatters = {'left': 'datetime', 'right': 'datetime'}
 p4.hover.mode = "vline"
 
 #histograma por bairro normalizado no intervalo de 5h até 30h depois do terremoto
-
 data5 = data_norm.loc[data_norm.location==bairro_init].loc["2020-04-06 14:40:00":"2020-04-06 19:40:00"]
-edges5, hist5 = histogram(data5,"location", bins=int(1+3.3*np.log(data5.shape[0])))
+if data5.shape[0]==0: #se o bairro não tem nenhum
+    n_bins = 1
+else:
+    n_bins = data5.shape[0]
+edges5, hist5 = histogram(data5,"location", bins=int(1+3.3*np.log(n_bins)))
 source5 = ColumnDataSource(dict(hist=hist5,left=edges5[:-1], right=edges5[1:]))
 p5.quad(top="hist", bottom=0, left="left", right="right", color = "green",
             line_color="white", alpha=0.8, source=source5, legend="tweets")
@@ -178,6 +181,11 @@ def update_data(attrname, old, new):
     #Atualizar grafico 3
     edges2, hist2 = histogram(data_norm.loc[data_norm.location==vec_val], "location", bins=100)
     source2.data = dict(hist=hist2,left=edges2[:-1], right=edges2[1:])
+
+    #Para atualizar o gráfico8
+    ruta_bairro = df_wcimg_bairro.loc[df_wcimg_bairro.intervalo==int(ht)].loc[df_wcimg_bairro.loc[df_wcimg_bairro.intervalo==int(ht)].bairro==vec_val].rutaimg
+    p8.image_url(url=[ruta_bairro], x=80,y=180,w=120,h=180)
+
     #Atualizar gráfico4
     if ht == "5":
         data4 = data_norm.loc["2020-04-06 14:40:00":"2020-04-06 19:40:00"]
@@ -187,8 +195,12 @@ def update_data(attrname, old, new):
         data5 = data_norm.loc[data_norm.location==vec_val].loc["2020-04-06 14:40:00":"2020-04-07 20:40:00"]
     edges4, hist4 = histogram(data4,"location", bins=int(1+3.3*np.log(data4.shape[0])))
     source4.data = dict(hist=hist4,left=edges4[:-1], right=edges4[1:])
-    #Atualizar gŕafico5
-    edges5, hist5 = histogram(data5,"location", bins=int(1+3.3*np.log(data5.shape[0])))
+    #Atualizar gŕafico5 por bairro
+    if data5.shape[0]==0: #se o bairro não tem nenhum
+        n_bins = 1
+    else:
+        n_bins = data5.shape[0]
+    edges5, hist5 = histogram(data5,"location", bins=int(1+3.3*np.log(n_bins)))
     source5.data = dict(hist=hist5,left=edges5[:-1], right=edges5[1:])
     #Atualizar gráfico6
     data6 = data4.copy()
@@ -208,9 +220,7 @@ def update_data(attrname, old, new):
     #Para atualizar o gráfico7
     ruta_geral = df_wcimg_geral.loc[df_wcimg_geral.intervalo==int(ht)].rutaimg.values[0]
     p7.image_url(url=[ruta_geral], x=80,y=180,w=120,h=180)
-    #Para atualizar o gráfico8
-    ruta_bairro = df_wcimg_bairro.loc[df_wcimg_bairro.intervalo==int(ht)].loc[df_wcimg_bairro.loc[df_wcimg_bairro.intervalo==int(ht)].bairro==vec_val].rutaimg
-    p8.image_url(url=[ruta_bairro], x=80,y=180,w=120,h=180)
+    
     
 #Para hacer las actualizaciones
 for w in [select_vec, s_tipo]:
