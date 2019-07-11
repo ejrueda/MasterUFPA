@@ -36,17 +36,18 @@ p1.ygrid.grid_line_color = None
 
 #gráfico dois, cluster das palavras chave
 data_aux = data_cluster.loc[data_cluster.location==bairro_init]
-source2 = ColumnDataSource(data_aux)
+data_aux["x"] = data_aux.index.values
+source2 = ColumnDataSource(dict(data_aux))
 pvras = ["power","shake","hospital","disaster","sewer","rescue","build","others"]
-p2 = figure(plot_width=1200, plot_height=400, y_range=pvras, x_axis_type='datetime',
+p2 = figure(plot_width=1150, plot_height=400, y_range=pvras, x_axis_type='datetime',
            title="Palavras chave por bairro",
           tools="hover,pan,wheel_zoom,box_zoom,reset,save",
-          background_fill_color="#F7F7F7", x_range=p1.x_range)
-p2.circle(x='time', y=jitter('tipo', width=0.6, range=p2.y_range),  source=source2, alpha=0.5,)
-p2.hover.tooltips = [("datetime", "@time{%F %T}"),
+	          background_fill_color="#F7F7F7", x_range=p1.x_range)
+p2.circle(x='x', y=jitter('tipo', width=0.6, range=p2.y_range),  source=source2, alpha=0.5,)
+p2.hover.tooltips = [("datetime", "@x{%F %T}"),
                     ("tipo", "@tipo"),
                     ("palavra", "@word")]
-p2.hover.formatters = {'time': 'datetime'}
+p2.hover.formatters = {'x': 'datetime'}
 p2.x_range.range_padding = .01
 p2.ygrid.grid_line_color = None
 p2.xaxis.axis_label = "dias do terremoto"
@@ -54,9 +55,20 @@ p2.yaxis.axis_label = "palavras chave no terremoto"
 
 #Barras de interação
 select_vec = Select(title="Bairro:", value=bairro_init, options=bairros)
-
+#callback
+def update_data(attrname, old, new):
+    vec_val = select_vec.value
+    d_aux = data_cluster.loc[data_cluster.location==vec_val]
+    d_aux["x"] = d_aux.index.values
+    source2.data = dict(d_aux)
+    
+#pra fazer as actualizações
+for w in [select_vec]:
+    w.on_change('value', update_data)
+    
 inputs = column([select_vec], width=150)
+vazio = row(width=159)
 row_1 = row([inputs, p1])
-row_2 = row([p2])
+row_2 = row([vazio, p2])
 
 curdoc().add_root(row(gridplot([[row_1],[row_2]]), width=400))
