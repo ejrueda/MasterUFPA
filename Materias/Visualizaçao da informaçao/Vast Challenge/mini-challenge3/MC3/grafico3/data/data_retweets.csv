@@ -12,6 +12,7 @@ time,location,account,message,num_re,word
 2020-04-06 14:42:00,Terrapin Springs,RosesAreTheBestFlower, All the vines were trembling  excited for the day!,9,tremble
 2020-04-08 14:27:00,Old Town,SunnyDay, Ambulances full of sick people loading up and leaving the hospital. Has traffic backed up. Still trying to get out of this godforsaken place.,3,ambulance
 2020-04-08 18:35:00,Safe Town,Workin4aLivin, And now we have no water. Earthquake is is the worst,6,water
+2020-04-08 07:03:00,Downtown,CarolGeenin, Anyone going to the circus?,4,circus
 2020-04-09 12:07:00,Downtown,Goody2Shues, Boil your water. Calm down. Stop making a scene.,8,water
 2020-04-08 17:10:00,Safe Town,Runner23, Can confirm. No water at all here,7,water
 2020-04-08 14:34:00,Old Town,SunnyDay, Cuting vacation short and getting out of here. If they every open the bridges again. I may have to swim home,2,bridge
@@ -25,8 +26,10 @@ time,location,account,message,num_re,word
 2020-04-08 13:38:00,Old Town,SunnyDay, I can't get ot of here. Stuff fell of a lot of the old buildings and the street is a mess,2,street
 2020-04-08 13:34:00,Pepper Mill,CaturdayNightFever, I feel lucky. Some power blips but we're mostly ok,6,power
 2020-04-08 13:06:00,Safe Town,Runner23, I finally get home and I can't drink my water #FTWcantWonder,6,water
+2020-04-06 08:06:00,Terrapin Springs,circusfan99, I love the circus. It was a blast last time! I hope they have a less scary clown this time though,11,circus
 2020-04-08 09:23:00,Northwest,ElwinJr, I wish I could see the bridges from ehre...,6,bridge
 2020-04-08 15:01:00,Downtown,Bride2Bee, I'm supposed to be getting martried this weekend. And I just heard that my church in Old Twon  has badd structure damage. I am crushed,7,structure
+2020-04-07 18:14:00,Cheddarford,WilburtheWonderPig, Is it time for the circus yet?,10,circus
 2020-04-08 13:40:00,Old Town,SunnyDay, It took a long time for us to even get down the street.  Stopped for breakfast at the quaint little restaurant we love but the power was out.,7,street
 2020-04-08 13:52:00,Old Town,SunnyDay, Just parseed the hospital.  The doors are locked????,11,hospital
 2020-04-08 23:53:00,Scenic Vista,Marco, LOL I don't need a tag to know to leave this pile of rubble #LOLCan,8,rubble
@@ -34,10 +37,12 @@ time,location,account,message,num_re,word
 2020-04-08 08:47:00,Old Town,SunnyDay, Lots of stuff in the street,5,street
 2020-04-08 13:52:00,Old Town,Whosawhutzit, Man! our hospital too?,7,hospital
 2020-04-08 14:22:00,Palace Hills,IfOnly," Man, thought I was gonna die without my phone! Finally found a place with power!",10,power
+2020-04-06 08:04:00,Chapparal,Workin4aLivin, Maybe I'll run away and join the circus instead,4,circus
 2020-04-09 00:12:00,Southton,BoredInStMark," Never thought the night life would be ""clear rubble"" #stupidEarthquake #HatestupidEarthquakeWonder",6,rubble
 2020-04-09 06:35:00,Palace Hills,HappyNess, Nobody's dying. it's just a little shaking. You guys don't know what a *real* earthquake feels like.,10,shake
 2020-04-08 12:46:00,Terrapin Springs,Terrapin Springs Schools," Remember folks, our student rodeo will last all week, earthquake or not.  Come support our junior rodeo experts and watch our clowns in action",10,earthquake
 2020-04-08 14:30:00,West Parton,IfIOnlyHadATrain, So sad about those bridges. Fine work there,9,bridge
+2020-04-06 08:04:00,Cheddarford,PeppyPepper, The circus is so cruel to animals. Should be illegal!,15,circus
 2020-04-10 07:20:00,Old Town,OldTownGirl, There are bricks everywhere blocking the roads. Remind me again why we had so many brick buildings??,5,road
 2020-04-08 08:41:00,Old Town,SunnyDay, This is so scary. Our hotel is shaking,10,shake
 2020-04-08 23:02:00,Downtown,CouldBeEconomics," Too much sky water, not enough pipe water.  Its just a distribution problem.",4,water
@@ -61,6 +66,7 @@ time,location,account,message,num_re,word
 2020-04-08 13:11:00,Cheddarford,DerekNolan,"""@AlwaysSafePowerCompany theres no safety in the middle of disaster!!!""",4,disaster
 2020-04-08 13:33:00,Safe Town,AlwaysSafePowerCompany,"""@CatLadyKylieCrane Thatís correct! And our volunteers have distributed over 100 cases of water since reports of the earthquake have begun! We are hard at work doing our best to keep you safe! ""#alwayssafe",7,water
 2020-04-10 07:16:00,Oak Willow,RockyFlame,"""@RockyFlame yeah I saw a cat by the water. Border of Southwest and Broadview. he was mad ugly tho :joy:""",1,water
+2020-04-06 08:00:00,Downtown,Circus,#Circus# Circus is in town at the convention center,11,circus
 2020-04-06 08:00:00,Downtown,AlwaysSafePowerCompany,#Power Plant# Always Safe Nuclear Power Plant shift change,10,power
 2020-04-08 09:01:00,<Location with-held due to contract>,Simpson2002,12th of July Bridge is down. Cars in water. Fishing boats are rescuing people in the water.,5,bridge
 2020-04-09 01:30:00,Chapparal,CedricLazySingletary,3 Alarm Fire at Guppy Apartments in Neighborhood 10 started by a candle left unattended.,6,fire
@@ -79,8 +85,10 @@ time,location,account,message,num_re,word
 2020-04-06 19:00:00,West Parton,FearsChristine_FleisherBird,@BlaineCat56 Emergency Manager for our City announced $1 million in funding to research unreinforced masonary buildings. We know we have several hundred old brick buildings that have not been reinforced to withstand an earthquake. With this money we can put together a funding proposal to bring these dangerous buildings up to code and save lives!,7,earthquake
 2020-04-08 13:42:00,Scenic Vista,Marco,@CandidTLight  My phone battery is about dead. No power :disappointed:,6,power
 2020-04-09 05:05:00,Old Town,OldTownBlues,@CatLadyKylieCrane Was that up by the bridge?,7,bridge
+2020-04-08 07:06:00,Scenic Vista,ChloeJohnson,@CatLadyKylieCrane the elephants live in inhumane conditions! Please donít support the circus!,13,circus
 2020-04-08 13:47:00,Cheddarford,DerekNolan,@ChemistryTeacherRichardNelson I bet yuo feel sooooo smart right now with your chemistry degree and this earthquake all around us,6,earthquake
 2020-04-08 13:54:00,Cheddarford,DerekNolan,@ChemistryTeacherRichardNelson guy can spend his time being a sheeple for the govt while the world burns around us and sewage is spread acorss the entire city,9,sewage
+2020-04-08 14:41:00,Scenic Vista,ChloeJohnson,"@ChemistryTeacherRichardNelson these are circus acts being brought out to the open! Theyíve never had exposure to such situations! Theyíre animals, and theyíre going to be frightened!",8,circus
 2020-04-08 14:54:00,Safe Town,AlwaysSafePowerCompany,"@ChloeJohnson Not only are we hard at work supplementing the work of our first responders and relief workers at the moment, but our engineers and physicists at our plant are also working extra hard to make sure you have the reliable energy you need! Rest ",4,plant
 2020-04-08 14:55:00,Old Town,ObnoxiousSBanana54,@Chocolatte I found bottled water!!!!,9,water
 2020-04-07 08:12:00,Safe Town,AlwaysSafePowerCompany,"@DerekNolan we may not have a bachelors in internet science, but we do have engineers, physicists and operators who are expertises in power plants to guarantee that we are always safe!",10,power
@@ -88,6 +96,7 @@ time,location,account,message,num_re,word
 2020-04-09 13:30:00,Weston,CandidHBanana21,@FastLightJohnson Will liberals now seek to eliminate dangerous nuclear power plants are just too expensive to build. See what someone she says:,27,nuclear
 2020-04-09 08:10:00,Terrapin Springs,SunnyDay,@Hammon48   Don't konwnow if I can get backonw to Jade bridge but got to try.,5,bridge
 2020-04-10 11:05:00,Safe Town,AlwaysSafePowerCompany,"@MyNameIsYourName2 Happy to hear that! Although we do not have donuts, we are sending lots of donut-shaped power waves to your home reliably and safely! :slightly_smiling_face:",3,power
+2020-04-10 11:10:00,Southwest,VanessaCorwin,@NoFearCher are you drunk? There might be more tsunamis!!,3,tsunami
 2020-04-09 10:19:00,Safe Town,AlwaysSafePowerCompany,@NotThirstyNEMore No problem! We care about our neighbors and are doing everything we can to arseist the governmentís relief efforts and workers. Happy with the work that Always Safe Power Company is doing? Consider supporting #alwayssafe nuclear power tod,8,power
 2020-04-08 14:33:00,Northwest,TonyPeterson,@RachelSimmons CALL AN AMBULANCE!,4,ambulance
 2020-04-10 11:07:00,Northwest,WileyKohnCandy,@RonaldFleetA Never thought I would be so happy to see bottled water and crackers!,13,water
@@ -99,6 +108,7 @@ time,location,account,message,num_re,word
 2020-04-08 14:33:00,West Parton,RachelSimmons,@TonyPeterson trying but i think the power lines are messed up ??,11,power
 2020-04-08 13:40:00,Downtown,AdministratorSophie,@TonyPeterson you should not be talking you water is way more contaminated than Vanessa's,5,water
 2020-04-10 00:06:00,Pepper Mill,FrancineHiggins,@VanessaCorwin hospital!? how dare you have these adventures without me! omw to you now,3,hospital
+2020-04-10 07:27:00,Pepper Mill,FrancineHiggins,@VanessaCorwin remember when we got tickets for St. Himark music festival?? woul'dve been so fun #HateSt,7,music
 2020-04-10 07:17:00,Cheddarford,DerekNolan,@WalkerTree Ive been staring at them from tactical hiding spots in boxes next to the street,10,street
 2020-04-10 07:20:00,Cheddarford,DerekNolan,@WanbdlkerTree we canbdn stanbdrt fires in those gianbdnt banbdrrel things anbdnd roanbdst overly panbdmpered ferret,9,fire
 2020-04-10 07:12:00,Chapparal,FireCpn,@firefighter87 Iíll get on the horn with dispatch  theyíll give the hospital a heads up and social services will meet you there,6,hospital
@@ -106,6 +116,7 @@ time,location,account,message,num_re,word
 2020-04-08 10:58:00,Safe Town,FearsMelbaBird,A janitor at Always Safe says the plant is damaged but cant give any details. He said he just ran out and drove away.,7,plant
 2020-04-08 09:32:00,Oak Willow,Scott2010,"A major sinkhole has collapsed taken several cars with it. I think the watermain burst. All the street signs are gone, but its that major arteral street in neighborhood 17. I get a busy signal on 911 and people are trapped. #street @Helen2017Martin",7,street
 2020-04-08 08:36:00,Downtown,EarthQuakeSeers,ALERT:  A 6.7 earthquake just occurred off the NE shore of  the town of St. Himark. This could be severe. Expect heavy damage.,5,earthquake
+2020-04-09 06:46:00,Old Town,RunsSharon_CrossOctopus,Also the music by they he is doing and why.,1,music
 2020-04-09 08:11:00,Chapparal,ChemistryTeacherRichardNelson,And it's been estimated that an earthquake of magnitude 11 would split the earth in two. So I'm wondering how you survived a 12.1.,6,earthquake
 2020-04-08 14:04:00,Safe Town,AlwaysSafePowerCompany,"Are you concerned about power in your home? Support nuclear power plant energy which is always safe, fast and reliable, with Always Safe Power Company! #alwayssafe #PowerWaste",6,power
 2020-04-08 08:36:00,Safe Town,DarkMelanieCandy,"As a precaution, Always Safe nuclear power plant has shut down for inspection after the earthquake.",3,nuclear
@@ -119,6 +130,7 @@ time,location,account,message,num_re,word
 2020-04-08 13:12:00,Old Town,TallCCouch,BrinG us water @AlwaysSafePowerCompany!!!,3,water
 2020-04-08 13:00:00,Downtown,HeathDept,"Broken water and sewer pipes pose a risk of contaminated water. Neighborhoods Old Town, Safe Town, Scenic Vista, Broadview, Chapparal, Easton should boil their drinking water for 2 minutes.",6,water
 2020-04-08 15:28:00,Palace Hills,TallBreadJoseph,Bulldosers are trying to remove the rubble on the street. Yay!,22,rubble
+2020-04-06 08:08:00,Old Town,Mrs.Tillenbottom,CIrcus,9,circus
 2020-04-08 10:58:00,Palace Hills,CandidCarBrittany,Can't treat a broken foot if there's stuff everywhere everywhere.  We need a hospital doctor!.,15,hospital
 2020-04-08 17:31:00,Old Town,ClevelandObnoxiousCarter,Can't treat a busted leg if there's stuff everywhere everywhere.  We need a new hospital.,10,hospital
 2020-04-08 15:05:00,Palace Hills,TallSCandy,Can't treat a contusions if there's piles of brick everywhere.  We need some help at the hospital.,15,hospital
@@ -155,14 +167,16 @@ time,location,account,message,num_re,word
 2020-04-08 12:10:00,<Location with-held due to contract>,RayDog1978,Dont go on any of the bridges. How do they know what bridges are safe? Are they sure? I used to build houses and know something about construction.,8,bridge
 2020-04-08 08:38:00,Easton,LovesJacquelineFish,Dribbles Ice Cream store is on fire,3,fire
 2020-04-08 14:12:00,<Location with-held due to contract>,ObnoxiousBLight1983,"Due to the contaminated water concern, all patients in the neonatal unit are being evacuated to other units around our state.",2,water
+2020-04-06 12:15:00,Northwest,GuapoJBread,"Each day of the music, it is the first thing that happened warseas that it is great, but the sound on your belt.",21,music
 2020-04-06 14:40:00,Chapparal,ChemistryTeacherRichardNelson,Earthquake or not I still have to teach,6,earthquake
 2020-04-08 08:40:00,Safe Town,FieldEngineerPhillipCarter,Earthquake!! Get out of here!!,5,earthquake
 2020-04-06 14:39:00,Safe Town,FieldEngineerPhillipCarter,Earthquake? Feeling something shaking.,11,earthquake
 2020-04-08 15:00:00,<Location with-held due to contract>,RunsThompsonMouse,Electricity is out over the entire City but should be restored to about 75% of customers within 24 hours. Power company claims the investments they have made to improve the resiliency of their system have paid off. #FTWCity,8,electricity
+2020-04-08 14:30:00,Easton,Circus,Elephants from the circus are in the Easton neighborhood helping clear heavy debris from collapsed buildings as part of the search for victims trapped. #HateEaston,7,circus
 2020-04-08 12:44:00,Terrapin Springs,EricFastH,Eustice and I are lost. Still a long road ahead.,28,road
 2020-04-08 09:20:00,Downtown,FamousThomasIcecream,Every building has evacuated downtown. Fire alarms going off everywhere. Nobody knows what to do.,7,fire
 2020-04-08 11:46:00,Palace Hills,ObnoxiousOHouse,"Everyone in Neighborhood 1 who wants to join our rescue task force meet at the community center. We will probably head to neighborhood 9. Bring tools, food, water, blankets.",10,water
-2020-04-08 09:16:00,Pepper Mill,JennyBear45,Everyone should evacuate from the coast. Tsunamis always come after an earthquake!,5,earthquake
+2020-04-08 09:16:00,Pepper Mill,JennyBear45,Everyone should evacuate from the coast. Tsunamis always come after an earthquake!,5,tsunami
 2020-04-10 00:30:00,Safe Town,T2013Thomas,"Everywhere we go for help, its a long line. Water, food, taarps, information. One line after another. There has to be a better way!",4,water
 2020-04-10 11:00:00,Old Town,BarryB,"Everywhere we go for help, we have to wait in line. Bottled water, tarps, food, or information. One line after another. There has to be a better way.",8,water
 2020-04-08 18:30:00,East Parton,SmartMacleodCandy19,Excaliber Treatment Center - have 4 adults that need transport to the hospital tomorrow for critical chemotherapy. Our bus was damaged and none of the other agencies are available.,6,hospital
@@ -189,6 +203,7 @@ time,location,account,message,num_re,word
 2020-04-09 21:10:00,Terrapin Springs,LazyIcecreamJoseph_Watkins,"Help! Ocean and I are wandering, trying to find the disaster shelter.",19,disaster
 2020-04-09 14:40:00,Chapparal,Nicholas81Svec,"Help! Sandra and I are wandering, trying to find the disaster shelter.",13,disaster
 2020-04-08 18:37:00,Terrapin Springs,FuriousCarJoshua,"Help! Trevor and I are wandering, trying to find the disaster shelter.",12,disaster
+2020-04-08 14:39:00,Easton,Miller2005,Her music wasníthgat even thgathathgat good,6,music
 2020-04-06 19:13:00,Safe Town,AlwaysSafePowerCompany,Here at Always Safe Company we invest a lot of time and money into making sure that our plant is Always Safe!,1,plant
 2020-04-10 02:00:00,Easton,RunsAllenMouse,"Hey the power, now its back on, no...its back off again. Can't they fix things so they stay fixed?",15,power
 2020-04-09 08:09:00,Safe Town,AlwaysSafePowerCompany,"Hi @ChloeJohnson! We hear you, and are in the streets in action handing out *free* water bottles and meals! A customer support agent will be with you to contact you directly about any external concerns, but rest arseured we are working efficiently and effectively at #alwayssafe",7,street
@@ -198,8 +213,10 @@ time,location,account,message,num_re,word
 2020-04-08 13:39:00,Safe Town,AlwaysSafePowerCompany,"Hi folks! Weíre hearing your reports about power lines falling. Please contact your local electricity provider such as Himark Power to help restore electricity to your home! In the meantime, our volunteers are out and about rescuing our neighbors - donít forget to tune into channel Safe Town to see those relief efforts!",4,power
 2020-04-08 19:13:00,Safe Town,AlwaysSafePowerCompany,"Higbee County Search and Rescue, weíre sending our volunteers with food and water to you right away! Thank you for your service to our neighborhoods. #alwayssafe",8,water
 2020-04-08 18:18:00,Old Town,CuriousPLight2006,High school gym as a disaster shelter? Why not?,18,disaster
+2020-04-07 18:03:00,Old Town,CleverPlateVincent,Hope itís not country music! I canít stand it,12,music
 2020-04-08 14:00:00,Palace Hills,PalaceHillsGeneral,Hospital boilers are offline until tomorrow. Our neighborhood (Palace Hills) was not on the list to boil water. Is our water safe to drink?,5,hospital
 2020-04-08 13:46:00,Old Town,OldTownHospital,"Hospithgeal is heavily damaged, no new pathgeienthges being admithgethgeed athge thgehis thgeime. The southgeh wing has been evacuathgeed thgeo thgehe northgeh wing, Basementhge flooded. Electhgeive surgeries canceled. Computhgeer systhgeem down",10,flood
+2020-04-08 14:38:00,Scenic Vista,ChloeJohnson,How can you claim that those poor elephants are ìhelpingî? Theyíve never been trained for search and rescue! This is coercion and clearly unethical! #circus,10,circus
 2020-04-08 14:27:00,Old Town,AttentativeBHouse,Howís thgehe bridge? Whathgeís thgehe safesthge place thgeo go?,10,bridge
 2020-04-08 13:04:00,Old Town,Henry_Anderson52,I CANíT EVEN DRINK WATER NOW,4,water
 2020-04-08 09:16:00,Pepper Mill,SmartBreadKim,I bet all of the bridges have collapsed like 12th of July Bridge - that was huge quake!,3,bridge
@@ -222,6 +239,7 @@ time,location,account,message,num_re,word
 2020-04-08 13:45:00,Downtown,AdministratorSophie,I sure can @Foster1995 I'll mail it in a container inside of another container submerged in water inside a box I think buzfeed did that once,9,water
 2020-04-08 14:15:00,Old Town,OldTownGirl,I think at least three fire trucks went past my house!,7,fire
 2020-04-08 11:15:00,<Location with-held due to contract>,SmartJCouch,I was in an earthquake once. The city should evacuate everyone until the danger of after shocks has parseed. #FTWearthquakeCan,12,earthquake
+2020-04-08 08:42:00,Old Town,LazyJoyceBanana,I wonder if thereís gonna be a tsunami omggg,2,tsunami
 2020-04-09 08:00:00,Oak Willow,Zeke,"I work for McDonagh Foods, our supply trucks can't get from the warehouses to the grocery stores. And, our supply has been cut off due to the bridges being closed. We need to get these roads clear and bridges open.",3,bridge
 2020-04-08 13:37:00,Downtown,AdministratorSophie,I''l mail you soemome water tho,9,water
 2020-04-08 14:24:00,Northwest,TonyPeterson,I'm calling the hospitals. @TheresaDog1987,8,hospital
@@ -248,6 +266,7 @@ time,location,account,message,num_re,word
 2020-04-09 08:00:00,Oak Willow,LovesDavidDog,"KRAK TV Officials are worried about food shortages, not just here but across the nation. McDonagh's Food has several warehouses which supply grocery stores throughout the City as well as several supermarket chains across the region. 'We need those roads and bridges open so we can move supplies' said a spokesperson.",7,road
 2020-04-08 10:05:00,Scenic Vista,FamousYelvertonCar,KRAK TV: 3 blocks of waterfront property at Entitled Acres housing development have slid into the water. All that is left is the golf course. No idea how many houses were lost! Major rescue operation underway.,6,water
 2020-04-08 09:10:00,<Location with-held due to contract>,WileyIcecreamBenny_Krick,"KRAK TV: According to the Fire Chief, the initial response will gusefullided by the National Earthqusefullake Prediction Center Shake Map. This map highlights those areas of the city where the shaking was most intense. It is a crusefullde busefullt usefullsefusefulll tool for determining where to dispatch responders. Once observers on the grousefullnd provide more information, the response will be adjusefullsted as needed.",6,fire
+2020-04-08 14:30:00,Easton,RacesWilliamHorse,KRAK TV: Elephants from the circus have been pressed into service to help lift and move heavy debris from collapsed buildings as part of the search for buried victims.,14,circus
 2020-04-08 21:30:00,<Location with-held due to contract>,Jennifer16M,"KRAK TV: Grocery store shelves are bare all around the city. People are stocking up and with the bad roads the warehouses cant easily resupply the grocery stores, especially in those areas that have been hardest hit.",5,road
 2020-04-09 04:30:00,Easton,CleverKomulaIcecream40,KRAK TV: Incredible Construction is helping rescue indivuduals trapped in collapsed buildings.'We called them as soon as we saw that cranes and other construction equipment would be needed.' Officials are directing construction companies to contact any fire station about helping out. ,5,fire
 2020-04-10 09:00:00,<Location with-held due to contract>,WFuriousL,"KRAK TV: Lakci Dasicle and several other celebrities will perform tonight at the Union Hall in neighborhood 13. Free concert, rain or shine!",10,rain
@@ -319,8 +338,10 @@ time,location,account,message,num_re,word
 2020-04-09 13:25:00,Palace Hills,FastGPlate79,"Seeing people gathering in the streets, hugging and crying. :(",19,street
 2020-04-08 13:40:00,Old Town,OldTownBlues,Send ambulances to Nrth st apt buildings. people cant get through to the emergency number,4,ambulance
 2020-04-09 11:00:00,Northwest,TallAshleyHouse,Sewers is our all over. What are we going to do?,12,sewer
+2020-04-08 10:06:00,Palace Hills,Mary_Gaylord2006,Sitting on the beach waiting to get pictures of the Tsunami. I wonder if we are too close?,9,tsunami
 2020-04-09 00:20:00,Safe Town,AlwaysSafePowerCompany,"Sleep well tonight, knowing that Always Safe Power Company has your back and will be working through the night to continue our relief efforts. #alwayssafe",6,power
 2020-04-08 17:45:00,<Location with-held due to contract>,FigueroaOctopus1959,So glad the library is offering shelter. This way I don't have to stay in the park during the rain!,14,rain
+2020-04-09 09:11:00,Broadview,WileyCarMoises,St Himark's unique geography is tsunami proof TAKE THAT! @ThomasCat1955,26,tsunami
 2020-04-08 23:00:00,West Parton,Cristina48Mcdaniel,St. Himanbdrk Museum is flooding. A manbdjor wanbdter manbdin hanbds ruptured anbdnd wanbdter is canbdscanbdding into the banbdsement where much of our collection is stored. We need help. Pumps anbdnd volunteers right anbdwanbdy. Our Heritanbdge is anbdt risk!,7,flood
 2020-04-08 10:02:00,Oak Willow,ReginaBusyL,St. Himark Fire Department is battling multiple structural fires. Low water pressure hindering them.,8,fire
 2020-04-08 12:15:00,<Location with-held due to contract>,CandidUzielCouch1967,St. Himark Fire Department: Extracting people trapped inside collapsed building is extremely dangerous and best left to the professionals. Call 911 if you know of someone who is trapped.,2,fire
@@ -400,6 +421,7 @@ time,location,account,message,num_re,word
 2020-04-08 15:55:00,Broadview,CandidGodboldLight1958,"Trying to get stocked up on power, batteries and cheese before they run out!",16,power
 2020-04-10 09:05:00,Safe Town,AlwaysSafePowerCompany,Tune into channel 5 to watch our heroic local rescuers and federal teams working alongside volunteers from Always Safe Power Company to save our family and friends! #TuneWaste,4,power
 2020-04-09 07:08:00,West Parton,WileyBananaCharles,Two reservoirs upstream discharged large volumes of water will be improved until at least 214 people to start up the foul smelling black detritus around them.,4,water
+2020-04-06 14:36:00,Old Town,FuriousLightEric,Ugh not going to the circus Iím going out tonight #UghWaste,7,circus
 2020-04-09 12:01:00,Weston,CandidSchultzCandy89,"Wait, if we need to turn off gas, how are we supposed to boil water?",22,water
 2020-04-08 12:39:00,Downtown,TObnoxiousLemle,Was just at the hospital visiting my mother. Don't know what I'll do if they don't make it.,5,hospital
 2020-04-08 14:19:00,Safe Town,AlwaysSafePowerCompany,Watch this heartwarming video of our team of volunteers saving a puppy from the rubble. #alwayssafe #yoursafetyisourtoppriority,3,rubble
@@ -454,14 +476,17 @@ time,location,account,message,num_re,word
 2020-04-08 13:50:00,Cheddarford,DerekNolan,first the city then the hospital then the truth tellers and then all of you?! yes - listen to me or be one of the power plant peoples servants in teh apocalupse,3,hospital
 2020-04-08 13:36:00,Downtown,AdministratorSophie,freeze sewer water for an ice pact,5,sewer
 2020-04-08 14:29:00,Cheddarford,DerekNolan,guess ytouou cant be a taxi driver if ytouou have no taxi. . . . and no roads,8,road
+2020-04-10 00:06:00,Broadview,kyle,guys follow me on streaming music i will keep u updated about the situation,4,music
 2020-04-10 11:50:00,Broadview,kyle,guys we have no water and mittens and i have been drinking out of the toilet tank pls help,1,water
 2020-04-06 16:27:00,Weston,GuapoVBread11,he anyone for hteyhey is nuclear energy will require a mulhteyi-million dollar inves...,12,nuclear
+2020-04-06 21:36:00,Northwest,CuriousCarLevi_Taylor,"he anyone only because you ARE my favorite songs by the lake and lots and lots of random music something arseuming? anyone awesome! anything she it 4GET! anything anything anything, night nite ya'll #MakesItawesomeWonder",26,music
 2020-04-06 19:05:00,Oak Willow,FuriousClaudeCar,he someone anyone for the follow! wow! over a fire and everything is ok haha. anyone posh!,37,fire
 2020-04-08 14:33:00,Cheddarford,DerekNolan,heres the truth - the nuclear reactor company orchestrated this with teh govt of our neighboring country so that they can take us over and then the entire world wil fall apart. theyre gloating in their mansions hours from here on the BEACH,4,nuclear
 2020-04-09 10:20:00,Scenic Vista,NeedAPlace,hey @AlwaysSafePowerCompany have you thought about letting people use your parking garage as a shelter? At least itís covered in case it rains some more!,3,rain
 2020-04-09 10:47:00,Downtown,TallPCouch1979,hmmm read about his views on environmental and nuclear power plant? If there is a crazyway to boil water,8,nuclear
 2020-04-08 23:07:00,Old Town,OldTownBlues,ice cream shop on the east side of old town is handing out free cones. Their power is out :scream: too bad I'm freezing already,3,power
 2020-04-08 13:09:00,Downtown,AdministratorSophie,if you are not a parent then it must suck for you boil your water you have a lot of time available to do so,5,water
+2020-04-08 08:41:00,West Parton,RachelSimmons,is this going to trigger a tsunami?? it's happened before,11,tsunami
 2020-04-07 09:09:00,Downtown,WileyMatthewCouch,it bats for nucularuclear power planuculart? If there is a growinucularg inuculardustry right nucularow?,17,power
 2020-04-09 00:14:00,Scenic Vista,ChloeJohnson,"itís a disaster here! No power, poisoned water, no running sewage systemÖ Colllapsed houses everywhere!",5,disaster
 2020-04-08 08:51:00,Old Town,FastHBanana46,iím near the water Iím so scared!!,3,water
