@@ -2,5 +2,15 @@
 
 <li> Autor: Edwin Jahir Rueda Rojas </li>
 <li> email: ejrueda95g@gmail.com </li>
-
-<p> Este repositorio contiene los trabajos realizados para la maestría de ciencias de la computación de la UFPA(http://ppgcc.propesp.ufpa.br/index.php/br/), también contiene proyectos de aprendizaje sobre <i>machine learning</i>, mas exactamente en el área de las GAN's</p>
+<br>
+<p align="justify"> Este repositorio contiene los trabajos realizados para la maestría de ciencias de la computación de la UFPA(http://ppgcc.propesp.ufpa.br/index.php/br/),
+también contiene proyectos de aprendizaje sobre <i>machine learning</i>, mas exactamente en el área de las GAN's</p>
+<br>
+Materias:
+<li> Aprendizado de Máquina 
+<li> Recognition of genre of music (4th): https://www.kaggle.com/c/music4ed </li>
+<li> GAN's </li>
+</li>
+<li> Teoria da Computação </li>
+<li> Visualização da informação 
+<li> Vast Challenge 2019: https://vast-challenge.github.io/2019/ </li></li>
