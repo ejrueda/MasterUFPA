@@ -15,4 +15,6 @@ Materias:
 </ul>
 <li> Teoria da Computação </li>
 <li>Visualização da informação 
-<ul> <li> Vast Challenge 2019: https://vast-challenge.github.io/2019/ </li></ul></li></ul>
+<ul> <li> Vast Challenge 2019: https://vast-challenge.github.io/2019/ </li></ul></li>
+<li> Projeto e Analise de algoritmos </li>
+</ul>
