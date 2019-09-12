@@ -1,0 +1,18 @@
+IJCNN:  (International Joint Conference on Neural Networks) em Budapest july 14-19 2019 Deadline - 16 Janeiro. A1
+
+WCCI:	(World Congress on Computational Intelligence) em Glasgow UK 19-24 july 2020 Deadline 19 de Janeiro. B3
+
+*EPIA:	em Portual 3-6 setembro 2019 Deadline: 15-30 abril 2019 B1
+
+*ICML:  (International Conference on Machine Learning) em Long Beach 9 de junho  Deadline 23 de Janeiro 2019 - A1
+
+ICMLA:	(International Conference on Machine Learning and Applications 16-19 December en Forida USA Deadline 1 maio B1
+
+*CARLA:	(Latin America High Performance COmputing Conference) costa rica 25-27 setembro 2019 Deadline junho 7 2019 B4
+
+BSB:	(Brazilian Symposium on Bioinformatics) Deadline 12 de agosto B3
+
+ISDA:	(International Conference on Intelligent Systems Design and Applications)  B1
+
+ISBRA: (International Symposium on Bioinformatics Research and Application) espanha, Deadline 18 de fevereiro B3
+
