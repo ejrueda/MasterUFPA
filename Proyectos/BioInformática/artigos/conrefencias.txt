@@ -8,11 +8,4 @@ WCCI:	(World Congress on Computational Intelligence) em Glasgow UK 19-24 july 20
 
 ICMLA:	(International Conference on Machine Learning and Applications 16-19 December en Forida USA Deadline 1 maio B1
 
-*CARLA:	(Latin America High Performance COmputing Conference) costa rica 25-27 setembro 2019 Deadline junho 7 2019 B4
-
-BSB:	(Brazilian Symposium on Bioinformatics) Deadline 12 de agosto B3
-
-ISDA:	(International Conference on Intelligent Systems Design and Applications)  B1
-
-ISBRA: (International Symposium on Bioinformatics Research and Application) espanha, Deadline 18 de fevereiro B3
 
