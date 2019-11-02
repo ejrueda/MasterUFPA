@@ -4,9 +4,7 @@
 <li> e-mail: ejrueda95g@gmail.com </li>
 <br>
 <p align="justify"> Este repositório contém todos os trabalhos feitos no mestrado em ciencias da computação da
-
-Este repositorio contiene los trabajos realizados para la maestría en ciencias de la computación de la UFPA(http://ppgcc.propesp.ufpa.br/index.php/br/), também contém
-projeitos na área de <i>machine learning</i> e <i> deep learning</i>.
+UFPA(http://ppgcc.propesp.ufpa.br/index.php/br/), também contém projeitos na área de <i>machine learning</i> e <i> deep learning</i>.
 
 <br>
 Matérias:
