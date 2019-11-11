@@ -1,0 +1,62 @@
+\begin{comment}
+\begin{table}[htbp]
+\centering
+\def\arraystretch{1.4}
+\caption{Overview of related works with each stage of the proposal}
+\label{tab:RelatedWorks}
+\begin{tabular}{|c|c|c|}
+\hline 
+\hline
+
+
+
+\textbf{Tests} & \textbf{Scenario} & \textbf{Template} \\ 
+\hline
+
+\multirow{4}{*}{1}   &        A       & \multirow{4}{12cm}{Este é um gráfico de barras verticais. Seu título é \{title\}. A legenda do eixo y é denominada \{y-axis label\}. A legenda do eixo x é denominada \{x-axis label\}. A primeira barra é denominada \{name of the first bar\} e apresenta valor \{value of the first bar\}. ($\ldots$) A n-ésima barra é denominada \{name of the nth bar\} e apresenta valor \{name of the nth bar\}} \\\cline{2-2}
+
+& B & \\    \cline{2-2}
+
+& C & \\   \cline{2-2}
+
+& D & \\    \cline{1-3}
+
+
+\multirow{15}{*}{3} & \multirow{6}{*}{E} & \multirow{6}{12cm}{Este é um gráfico de barras verticais agrupadas. Seu título é \{title\}. A legenda do eixo y é denominada \{y-axis label\}. A legenda do eixo x é denominada \{x-axis label\}. O gráfico é composto pelos grupos de barras \{name of the first bar group ($\ldots$) name of the nth bar group\}. Cada grupo contém \{number of bars\} barras denominadas: \{name of the first bar, ($\ldots$), name of the nth bar\}, que serão apresentadas nessa ordem. O primeiro conjunto de barras é denominado \{name of the first bar group\} e possui valores \{value of the first bar, ($\ldots$), value of the nth bar\}. O segundo conjunto de barras é denominado \{name of the second bar group\} e possui valores \{value of the first bar, ($\ldots$), value of the nth bar\}.($\ldots$). O enésimo conjunto de barras é denominado \{name of the nth bar group\} e possui valores \{value of the first bar, ($\ldots$), value of the nth bar\}}\\
+& &\\
+& & \\
+& &\\
+& &\\
+&  &\\ \cline{2-3}
+
+\hline
+\hline
+
+\end{tabular}
+\end{table}
+\end{comment}
+
+\begin{table}[hbtp]
+\footnotesize
+\centering
+\settowidth\tymin{\textbf{Scenario}}
+\setlength\extrarowheight{1.1pt}
+\caption{\textit{Templates} para vocalização de dados de gráficos de barras.}
+
+\label{tab:templates}
+\begin{tabulary}{1\textwidth}{|L|L|L|}
+\hline
+    \textbf{Tests} & 
+    \textbf{Scenario} & 
+    \textbf{Template} \\
+\hline
+    \multirow{1}{0.5cm}[-2ex]{\centering \thead {1 \\ 2}} & \thead{A  B  C  D} & {Este é um gráfico de barras verticais. Seu título é \{título\}. A legenda do eixo y é denominada \{rótulo do eixo y\}. A legenda do eixo x é denominada \{rótulo do eixo x\}. A primeira barra é denominada \{nome da primeira barra\} e apresenta valor \{valor da primeira barra\}. ($\ldots$) A n-ésima barra é denominada \{nome da n-ésima barra\} e apresenta valor \{valor da n-ésima barra\}}                                                  \\
+    \hline 
+    \multirow{3}{0.5cm}[-35ex]{\centering 3}  & \thead{E} & {Este é um gráfico de barras verticais agrupadas. Seu título é \{título\}. A legenda do eixo y é denominada \{rótulo do eixo y\}. A legenda do eixo x é denominada \{rótulo do eixo x\}. O gráfico é composto pelos grupos de barras \{nome do primeiro grupo de barras ($\ldots$) nome do n-ésimo grupo de barras\}. Cada grupo contém \{número de barras\} barras denominadas: \{nome da primeira barra, ($\ldots$), nome da n-ésima barra\}, que serão apresentadas nessa ordem. O primeiro conjunto de barras é denominado \{nome do primeiro grupo de barras\} e possui valores \{valor da primeira barra, ($\ldots$), valor da n-ésima barra\}. O segundo conjunto de barras é denominado \{nome do segundo grupo de barras\} e possui valores \{valor da primeira barra, ($\ldots$), valor da n-ésima barra\}.($\ldots$). O \{n-ésimo\} conjunto de barras é denominado \{nome do n-ésimo conjunto de barras\} e possui valores \{valor da primeira barra, ($\ldots$), valor da n-ésima barra\}}  \\ \cline{2-3}
+    &  \thead{F} &{Este é um gráfico de barras verticais agrupadas. Seu título é \{título\}. A legenda do eixo y é denominada \{rótulo do eixo y\}. A legenda do eixo x é denominada \{rótulo do eixo x\}. O gráfico é composto pelos grupos de barras: \{nome do primeiro grupo de barras, ($\ldots$), nome do n-ésimo grupo de barras\}. Cada grupo contém \{número de barras\} barras denominadas: \{nome da primeira barra, ($\ldots$), nome da n-ésima barra\}, nesta ordem. A série \{nome da primeira barra do primeiro grupo\} tem valores \{valor da primeira barra do primeiro grupo\} no grupo \{nome do primeiro grupo\}, ($\ldots$) e \{valor da primeira barra do n-ésimo grupo\} no grupo \{nome do n-ésimo grupo\}. ($\ldots$). A série \{nome da n-ésima barra do primeiro grupo\} tem valores \{valor da n-ésima barra do primeiro grupo\} no grupo \{nome do primeiro grupo\}, ($\ldots$) e \{valor da n-ésima barra do n-ésimo grupo\} no grupo \{nome do n-ésimo grupo\}.}\\ \cline{2-3}
+    & \thead{G} & {Este é um gráfico de barras verticais. Seu título é \{título\}. A legenda do eixo y é denominada \{rótulo do eixo y\}. A legenda do eixo x é denominada \{rótulo do eixo x\}. A primeira barra é denominada \{nome da primeira barra\} e apresenta valor \{valor da primeira barra\}. ($\ldots$). A enésima barra é denominada \{nome da n-ésima barra\} e apresenta valor \{valor da n-ésima barra\}. ($\ldots$) Este é um gráfico de barras verticais. Seu título é \{título\}. A legenda do eixo y é denominada \{rótulo do eixo y\}. A legenda do eixo x é denominada \{rótulo do eixo x\}. A primeira barra é denominada \{nome da primeira barra\} e apresenta valor \{valor da primeira barra\}. ($\ldots$). A enésima barra é denominada \{nome da n-ésima barra\} e apresenta valor \{valor da n-ésima barra\}.}\\
+   
+    \hline
+\end{tabulary}
+\label{XXX}
+\end{table}
