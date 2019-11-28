@@ -1,0 +1,16 @@
+adk
+cysG
+dnaG
+ftsZ
+gap
+gmk
+gyrA
+gyrB
+hcaT
+idnT
+recA
+rho
+rpoA
+rpoBrpoC
+rpoD
+secA
