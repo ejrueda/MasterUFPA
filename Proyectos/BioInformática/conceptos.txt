@@ -1,0 +1,17 @@
+housekeeping: Any constitutive gene that is transcribed at a relatively constant
+              level across many or all known conditions. Such a gene's products
+              typically serve functions critical to the maintenance of the cell.
+              It is generally assumed that their expression is unaffected by
+              experimental conditions.
+
+
+Rerefence genes:  Reference genes are expressed in all cells of an organism
+                  under normal and patho-physiological conditions. Although
+                  some housekeeping genes (such as LDHA,[4] NONO,[4] PGK1[4]
+                  and PPIH,[4]) are expressed at relatively constant levels in
+                  most non-pathological situations, other housekeeping genes may
+                  vary depending on experimental conditions.
+
+
+HKG: ihfB, ssrA, rrsA
+RG: cysG, idnT, hcaT
