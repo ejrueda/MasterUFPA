@@ -1,0 +1,1050 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="287"
+   height="200"
+   id="svg1574"
+   sodipodi:docname="cv_boxplot.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata1578">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1323"
+     inkscape:window-height="713"
+     id="namedview1576"
+     showgrid="false"
+     inkscape:zoom="1.6457053"
+     inkscape:cx="113.26866"
+     inkscape:cy="131.50569"
+     inkscape:window-x="43"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1570" />
+  <defs
+     id="defs1240">
+    <clipPath
+       id="JwnPPlEsDNJl">
+      <path
+         d="M 53,5 H 295 V 170 H 53 Z"
+         id="path1207"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:none" />
+    </clipPath>
+    <clipPath
+       id="pxIvDHkHPXSe">
+      <path
+         d="M 53,5 H 295 V 170 H 53 Z"
+         id="path1210"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:none" />
+    </clipPath>
+    <clipPath
+       id="kmxrlJtTNQfP">
+      <path
+         d="M 53,5 H 295 V 170 H 53 Z"
+         id="path1213"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:none" />
+    </clipPath>
+    <clipPath
+       id="yFaEbAoBQiUz">
+      <path
+         d="M 53,5 H 295 V 170 H 53 Z"
+         id="path1216"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:none" />
+    </clipPath>
+    <clipPath
+       id="loSksUAsWbGu">
+      <path
+         d="M 53,5 H 295 V 170 H 53 Z"
+         id="path1219"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:none" />
+    </clipPath>
+    <clipPath
+       id="cptsoeMTppEs">
+      <path
+         d="M 53,5 H 295 V 170 H 53 Z"
+         id="path1222"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:none" />
+    </clipPath>
+    <clipPath
+       id="SaUHkFUDbNlC">
+      <path
+         d="M 53,5 H 295 V 170 H 53 Z"
+         id="path1225"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:none" />
+    </clipPath>
+    <clipPath
+       id="CuzNRXQXOezA">
+      <path
+         d="M 53,5 H 295 V 170 H 53 Z"
+         id="path1228"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:none" />
+    </clipPath>
+    <clipPath
+       id="IMXoTbxJIpLT">
+      <path
+         d="M 53,5 H 295 V 170 H 53 Z"
+         id="path1231"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:none" />
+    </clipPath>
+    <clipPath
+       id="XCMOoqfnNUxm">
+      <path
+         d="M 53,5 H 295 V 170 H 53 Z"
+         id="path1234"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:none" />
+    </clipPath>
+    <clipPath
+       id="ekVIdkGWbPux">
+      <path
+         d="M 53,5 H 295 V 170 H 53 Z"
+         id="path1237"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:none" />
+    </clipPath>
+  </defs>
+  <g
+     id="g1572">
+    <g
+       transform="translate(0.5,0.5)"
+       id="g1570">
+      <rect
+         x="-3.554985"
+         y="0"
+         width="293.55499"
+         height="200"
+         id="rect1242"
+         style="fill:#ffffff;stroke:none;stroke-width:0.9892" />
+      <rect
+         x="-3.554985"
+         y="0"
+         width="293.55496"
+         height="200"
+         id="rect1244"
+         style="fill:#ffffff;stroke:none;stroke-width:0.9892" />
+      <rect
+         x="43"
+         y="5"
+         width="242"
+         height="165"
+         id="rect1246"
+         style="fill:#ffffff;stroke:none" />
+      <rect
+         x="43"
+         y="5"
+         width="242"
+         height="165"
+         id="rect1248"
+         style="fill:#ffffff;stroke:none" />
+      <g
+         id="g1252"
+         transform="translate(-10)">
+        <rect
+           x="53"
+           y="5"
+           width="242"
+           height="165"
+           stroke-miterlimit="10"
+           id="rect1250"
+           style="fill:none;stroke:#e5e5e5;stroke-linejoin:bevel;stroke-miterlimit:10" />
+      </g>
+      <g
+         clip-path="url(#JwnPPlEsDNJl)"
+         id="g1262"
+         transform="translate(-10)">
+        <g
+           id="g1260">
+          <g
+             id="g1258">
+            <path
+               d="M 114,170 V 5"
+               stroke-miterlimit="10"
+               id="path1254"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#e5e5e5;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+            <path
+               d="M 235,170 V 5"
+               stroke-miterlimit="10"
+               id="path1256"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#e5e5e5;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          </g>
+        </g>
+      </g>
+      <g
+         clip-path="url(#pxIvDHkHPXSe)"
+         id="g1284"
+         transform="translate(-10)">
+        <g
+           id="g1282">
+          <g
+             id="g1280">
+            <path
+               d="M 53,162 H 295"
+               stroke-miterlimit="10"
+               id="path1264"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#e5e5e5;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+            <path
+               d="M 53,140 H 295"
+               stroke-miterlimit="10"
+               id="path1266"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#e5e5e5;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+            <path
+               d="M 53,118 H 295"
+               stroke-miterlimit="10"
+               id="path1268"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#e5e5e5;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+            <path
+               d="M 53,95 H 295"
+               stroke-miterlimit="10"
+               id="path1270"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#e5e5e5;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+            <path
+               d="M 53,73 H 295"
+               stroke-miterlimit="10"
+               id="path1272"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#e5e5e5;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+            <path
+               d="M 53,50 H 295"
+               stroke-miterlimit="10"
+               id="path1274"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#e5e5e5;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+            <path
+               d="M 53,28 H 295"
+               stroke-miterlimit="10"
+               id="path1276"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#e5e5e5;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+            <path
+               d="M 53,5 H 295"
+               stroke-miterlimit="10"
+               id="path1278"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#e5e5e5;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          </g>
+        </g>
+      </g>
+      <g
+         clip-path="url(#kmxrlJtTNQfP)"
+         id="g1296"
+         transform="translate(-10)">
+        <g
+           id="g1294">
+          <g
+             id="g1292">
+            <path
+               id="path1286"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:none" />
+            <path
+               d="M 113.5,136.84455 V 106.36184"
+               stroke-miterlimit="10"
+               id="path1288"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+            <path
+               d="M 234.5,108.47395 V 43.740621"
+               stroke-miterlimit="10"
+               id="path1290"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          </g>
+        </g>
+      </g>
+      <g
+         clip-path="url(#yFaEbAoBQiUz)"
+         id="g1308"
+         transform="translate(-10)">
+        <g
+           id="g1306">
+          <g
+             id="g1304">
+            <path
+               id="path1298"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:none" />
+            <path
+               d="m 113.5,162.49439 v -5.32803"
+               stroke-miterlimit="10"
+               id="path1300"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+            <path
+               d="M 234.5,162.49439 V 151.6295"
+               stroke-miterlimit="10"
+               id="path1302"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          </g>
+        </g>
+      </g>
+      <g
+         clip-path="url(#loSksUAsWbGu)"
+         id="g1324"
+         transform="translate(-10)">
+        <g
+           id="g1322">
+          <g
+             id="g1320">
+            <path
+               id="path1310"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:none" />
+            <path
+               d="m 95.35,141.85108 h 36.3 v -5.00653 h -36.3 z"
+               id="path1312"
+               inkscape:connector-curvature="0"
+               style="fill:#e08e79;stroke:none;paint-order:stroke fill markers" />
+            <path
+               d="m 95.35,141.85108 h 36.3 v -5.00653 h -36.3 z"
+               stroke-miterlimit="10"
+               id="path1314"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+            <path
+               d="m 216.35,116.83677 h 36.3 v -8.36282 h -36.3 z"
+               id="path1316"
+               inkscape:connector-curvature="0"
+               style="fill:#e08e79;stroke:none;paint-order:stroke fill markers" />
+            <path
+               d="m 216.35,116.83677 h 36.3 v -8.36282 h -36.3 z"
+               stroke-miterlimit="10"
+               id="path1318"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          </g>
+        </g>
+      </g>
+      <g
+         clip-path="url(#cptsoeMTppEs)"
+         id="g1340"
+         transform="translate(-10)">
+        <g
+           id="g1338">
+          <g
+             id="g1336">
+            <path
+               id="path1326"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:none" />
+            <path
+               d="m 95.35,157.16636 h 36.3 v -15.31528 h -36.3 z"
+               id="path1328"
+               inkscape:connector-curvature="0"
+               style="fill:#3b8686;stroke:none;paint-order:stroke fill markers" />
+            <path
+               d="m 95.35,157.16636 h 36.3 v -15.31528 h -36.3 z"
+               stroke-miterlimit="10"
+               id="path1330"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+            <path
+               d="m 216.35,151.6295 h 36.3 v -34.79273 h -36.3 z"
+               id="path1332"
+               inkscape:connector-curvature="0"
+               style="fill:#3b8686;stroke:none;paint-order:stroke fill markers" />
+            <path
+               d="m 216.35,151.6295 h 36.3 v -34.79273 h -36.3 z"
+               stroke-miterlimit="10"
+               id="path1334"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          </g>
+        </g>
+      </g>
+      <g
+         clip-path="url(#SaUHkFUDbNlC)"
+         id="g1358"
+         transform="translate(-10)">
+        <g
+           id="g1356">
+          <g
+             id="g1354">
+            <path
+               id="path1342"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:none" />
+            <rect
+               x="101.4"
+               y="162.48878"
+               width="24.200001"
+               height="0.011214475"
+               id="rect1344"
+               style="fill:#1f77b4;stroke:none" />
+            <rect
+               x="222.39999"
+               y="162.48878"
+               width="24.200001"
+               height="0.011214475"
+               id="rect1346"
+               style="fill:#1f77b4;stroke:none" />
+            <path
+               d="m 101.4,162.48879 h 24.2 V 162.5 h -24.2 z"
+               stroke-miterlimit="10"
+               id="path1348"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+            <path
+               d="m 222.4,162.48879 h 24.2 V 162.5 h -24.2 z"
+               stroke-miterlimit="10"
+               id="path1350"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+            <path
+               d=""
+               stroke-miterlimit="10"
+               id="path1352"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          </g>
+        </g>
+      </g>
+      <g
+         clip-path="url(#CuzNRXQXOezA)"
+         id="g1376"
+         transform="translate(-10)">
+        <g
+           id="g1374">
+          <g
+             id="g1372">
+            <path
+               id="path1360"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:none" />
+            <rect
+               x="101.4"
+               y="106.35623"
+               width="24.200001"
+               height="0.011214475"
+               id="rect1362"
+               style="fill:#1f77b4;stroke:none" />
+            <rect
+               x="222.39999"
+               y="43.735016"
+               width="24.200001"
+               height="0.011214475"
+               id="rect1364"
+               style="fill:#1f77b4;stroke:none" />
+            <path
+               d="m 101.4,106.35623 h 24.2 v 0.0112 h -24.2 z"
+               stroke-miterlimit="10"
+               id="path1366"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+            <path
+               d="m 222.4,43.735014 h 24.2 v 0.01121 h -24.2 z"
+               stroke-miterlimit="10"
+               id="path1368"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+            <path
+               d=""
+               stroke-miterlimit="10"
+               id="path1370"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          </g>
+        </g>
+      </g>
+      <g
+         clip-path="url(#IMXoTbxJIpLT)"
+         id="g1386"
+         transform="translate(-10)">
+        <g
+           id="g1384">
+          <g
+             id="g1382">
+            <path
+               id="path1378"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:none" />
+            <path
+               d="m 116.5,105.49345 a 3,3 0 1 1 0,-0.003"
+               stroke-miterlimit="10"
+               id="path1380"
+               inkscape:connector-curvature="0"
+               style="fill:#f38630;fill-opacity:0.6;stroke:#f38630;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          </g>
+        </g>
+      </g>
+      <g
+         clip-path="url(#XCMOoqfnNUxm)"
+         id="g1398"
+         transform="translate(-10)">
+        <g
+           id="g1396">
+          <g
+             id="g1394">
+            <path
+               id="path1388"
+               inkscape:connector-curvature="0"
+               style="fill:none;stroke:none" />
+            <path
+               d="m 237.5,13.886193 a 3,3 0 1 1 0,-0.003"
+               stroke-miterlimit="10"
+               id="path1390"
+               inkscape:connector-curvature="0"
+               style="fill:#f38630;fill-opacity:0.6;stroke:#f38630;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+            <path
+               d="m 237.5,12.5 a 3,3 0 1 1 0,-0.003"
+               stroke-miterlimit="10"
+               id="path1392"
+               inkscape:connector-curvature="0"
+               style="fill:#f38630;fill-opacity:0.6;stroke:#f38630;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          </g>
+        </g>
+      </g>
+      <g
+         clip-path="url(#ekVIdkGWbPux)"
+         id="g1412"
+         transform="translate(-10)">
+        <g
+           id="g1410">
+          <g
+             id="g1400" />
+          <g
+             id="g1408">
+            <path
+               d="m 63,15 h 95.25 V 55 H 63 Z"
+               stroke-miterlimit="10"
+               id="path1402"
+               inkscape:connector-curvature="0"
+               style="fill:#ffffff;fill-opacity:0.95;stroke:#e5e5e5;stroke-linejoin:bevel;stroke-miterlimit:10;stroke-opacity:0.5;paint-order:fill stroke markers" />
+            <text
+               font-size="10pt"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="98"
+               y="35"
+               dominant-baseline="central"
+               id="text1404"
+               style="font-style:normal;font-weight:normal;font-size:13.33333302px;font-family:helvetica;dominant-baseline:central;text-anchor:start;fill:#444444;stroke:none">outliers</text>
+            <path
+               d="m 87,35 a 4,4 0 1 1 -2e-6,-0.004"
+               stroke-miterlimit="10"
+               id="path1406"
+               inkscape:connector-curvature="0"
+               style="fill:#f38630;fill-opacity:0.6;stroke:#f38630;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          </g>
+        </g>
+      </g>
+      <g
+         id="g1414" />
+      <path
+         d="M 43,170 H 285"
+         stroke-miterlimit="10"
+         id="path1416"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+      <path
+         d="m 104,176 v -8"
+         stroke-miterlimit="10"
+         id="path1418"
+         inkscape:connector-curvature="0"
+         style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+      <path
+         d="m 225,176 v -8"
+         stroke-miterlimit="10"
+         id="path1420"
+         inkscape:connector-curvature="0"
+         style="fill:#444444;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+      <g
+         style="fill:#444444"
+         transform="translate(104,187)"
+         id="g1430">
+        <text
+           fill=""
+           font-size="14px"
+           font-style="normal"
+           font-weight="normal"
+           text-decoration="normal"
+           x="0"
+           y="0"
+           dominant-baseline="hanging"
+           id="text1422"
+           style="font-style:normal;font-weight:normal;font-size:14px;font-family:helvetica;dominant-baseline:hanging;text-anchor:middle;stroke:none">Reference genes</text>
+        <g
+           transform="translate(121)"
+           id="g1428">
+          <text
+             fill=""
+             font-size="14px"
+             font-style="normal"
+             font-weight="normal"
+             text-decoration="normal"
+             x="0"
+             y="0"
+             dominant-baseline="hanging"
+             id="text1424"
+             style="font-style:normal;font-weight:normal;font-size:14px;font-family:helvetica;dominant-baseline:hanging;text-anchor:middle;stroke:none">Candidates</text>
+          <g
+             transform="translate(-235,-181)"
+             id="g1426" />
+        </g>
+      </g>
+      <g
+         id="g1568"
+         transform="translate(-10)">
+        <g
+           id="g1566"
+           style="fill:#444444">
+          <path
+             d="M 53,170 V 5"
+             stroke-miterlimit="10"
+             id="path1436"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 47,162 h 8"
+             stroke-miterlimit="10"
+             id="path1438"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 47,140 h 8"
+             stroke-miterlimit="10"
+             id="path1440"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 47,118 h 8"
+             stroke-miterlimit="10"
+             id="path1442"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 47,95 h 8"
+             stroke-miterlimit="10"
+             id="path1444"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 47,73 h 8"
+             stroke-miterlimit="10"
+             id="path1446"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 47,50 h 8"
+             stroke-miterlimit="10"
+             id="path1448"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 47,28 h 8"
+             stroke-miterlimit="10"
+             id="path1450"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 47,5 h 8"
+             stroke-miterlimit="10"
+             id="path1452"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,167 h 4"
+             stroke-miterlimit="10"
+             id="path1454"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,162 h 4"
+             stroke-miterlimit="10"
+             id="path1456"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,158 h 4"
+             stroke-miterlimit="10"
+             id="path1458"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,154 h 4"
+             stroke-miterlimit="10"
+             id="path1460"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,149 h 4"
+             stroke-miterlimit="10"
+             id="path1462"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,145 h 4"
+             stroke-miterlimit="10"
+             id="path1464"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,140 h 4"
+             stroke-miterlimit="10"
+             id="path1466"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,136 h 4"
+             stroke-miterlimit="10"
+             id="path1468"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,131 h 4"
+             stroke-miterlimit="10"
+             id="path1470"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,127 h 4"
+             stroke-miterlimit="10"
+             id="path1472"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,122 h 4"
+             stroke-miterlimit="10"
+             id="path1474"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,118 h 4"
+             stroke-miterlimit="10"
+             id="path1476"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,113 h 4"
+             stroke-miterlimit="10"
+             id="path1478"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,109 h 4"
+             stroke-miterlimit="10"
+             id="path1480"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,104 h 4"
+             stroke-miterlimit="10"
+             id="path1482"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,100 h 4"
+             stroke-miterlimit="10"
+             id="path1484"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,95 h 4"
+             stroke-miterlimit="10"
+             id="path1486"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,91 h 4"
+             stroke-miterlimit="10"
+             id="path1488"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,86 h 4"
+             stroke-miterlimit="10"
+             id="path1490"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,82 h 4"
+             stroke-miterlimit="10"
+             id="path1492"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,77 h 4"
+             stroke-miterlimit="10"
+             id="path1494"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,73 h 4"
+             stroke-miterlimit="10"
+             id="path1496"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,68 h 4"
+             stroke-miterlimit="10"
+             id="path1498"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,64 h 4"
+             stroke-miterlimit="10"
+             id="path1500"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,59 h 4"
+             stroke-miterlimit="10"
+             id="path1502"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,55 h 4"
+             stroke-miterlimit="10"
+             id="path1504"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,50 h 4"
+             stroke-miterlimit="10"
+             id="path1506"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,46 h 4"
+             stroke-miterlimit="10"
+             id="path1508"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,41 h 4"
+             stroke-miterlimit="10"
+             id="path1510"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,37 h 4"
+             stroke-miterlimit="10"
+             id="path1512"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,32 h 4"
+             stroke-miterlimit="10"
+             id="path1514"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,28 h 4"
+             stroke-miterlimit="10"
+             id="path1516"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,23 h 4"
+             stroke-miterlimit="10"
+             id="path1518"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,19 h 4"
+             stroke-miterlimit="10"
+             id="path1520"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,14 h 4"
+             stroke-miterlimit="10"
+             id="path1522"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             d="m 49,10 h 4"
+             stroke-miterlimit="10"
+             id="path1524"
+             inkscape:connector-curvature="0"
+             style="fill:none;stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <path
+             fill=""
+             d="m 49,5 h 4"
+             stroke-miterlimit="10"
+             id="path1526"
+             inkscape:connector-curvature="0"
+             style="stroke:#000000;stroke-linejoin:bevel;stroke-miterlimit:10;paint-order:fill stroke markers" />
+          <g
+             transform="translate(42,162)"
+             id="g1564">
+            <text
+               fill=""
+               font-size="8pt"
+               font-style="normal"
+               font-weight="normal"
+               text-decoration="normal"
+               x="0"
+               y="0"
+               dominant-baseline="central"
+               id="text1528"
+               style="font-style:normal;font-weight:normal;font-size:10.66666698px;font-family:helvetica;dominant-baseline:central;text-anchor:end;stroke:none">0</text>
+            <g
+               transform="translate(0,-22)"
+               id="g1562">
+              <text
+                 fill=""
+                 font-size="8pt"
+                 font-style="normal"
+                 font-weight="normal"
+                 text-decoration="normal"
+                 x="0"
+                 y="0"
+                 dominant-baseline="central"
+                 id="text1530"
+                 style="font-style:normal;font-weight:normal;font-size:10.66666698px;font-family:helvetica;dominant-baseline:central;text-anchor:end;stroke:none">0.2</text>
+              <g
+                 transform="translate(0,-22)"
+                 id="g1560">
+                <text
+                   fill=""
+                   font-size="8pt"
+                   font-style="normal"
+                   font-weight="normal"
+                   text-decoration="normal"
+                   x="0"
+                   y="0"
+                   dominant-baseline="central"
+                   id="text1532"
+                   style="font-style:normal;font-weight:normal;font-size:10.66666698px;font-family:helvetica;dominant-baseline:central;text-anchor:end;stroke:none">0.4</text>
+                <g
+                   transform="translate(0,-23)"
+                   id="g1558">
+                  <text
+                     fill=""
+                     font-size="8pt"
+                     font-style="normal"
+                     font-weight="normal"
+                     text-decoration="normal"
+                     x="0"
+                     y="0"
+                     dominant-baseline="central"
+                     id="text1534"
+                     style="font-style:normal;font-weight:normal;font-size:10.66666698px;font-family:helvetica;dominant-baseline:central;text-anchor:end;stroke:none">0.6</text>
+                  <g
+                     transform="translate(0,-22)"
+                     id="g1556">
+                    <text
+                       fill=""
+                       font-size="8pt"
+                       font-style="normal"
+                       font-weight="normal"
+                       text-decoration="normal"
+                       x="0"
+                       y="0"
+                       dominant-baseline="central"
+                       id="text1536"
+                       style="font-style:normal;font-weight:normal;font-size:10.66666698px;font-family:helvetica;dominant-baseline:central;text-anchor:end;stroke:none">0.8</text>
+                    <g
+                       transform="translate(0,-23)"
+                       id="g1554">
+                      <text
+                         fill=""
+                         font-size="8pt"
+                         font-style="normal"
+                         font-weight="normal"
+                         text-decoration="normal"
+                         x="0"
+                         y="0"
+                         dominant-baseline="central"
+                         id="text1538"
+                         style="font-style:normal;font-weight:normal;font-size:10.66666698px;font-family:helvetica;dominant-baseline:central;text-anchor:end;stroke:none">1</text>
+                      <g
+                         transform="translate(0,-22)"
+                         id="g1552">
+                        <text
+                           fill=""
+                           font-size="8pt"
+                           font-style="normal"
+                           font-weight="normal"
+                           text-decoration="normal"
+                           x="0"
+                           y="0"
+                           dominant-baseline="central"
+                           id="text1540"
+                           style="font-style:normal;font-weight:normal;font-size:10.66666698px;font-family:helvetica;dominant-baseline:central;text-anchor:end;stroke:none">1.2</text>
+                        <g
+                           transform="translate(0,-23)"
+                           id="g1550">
+                          <text
+                             fill=""
+                             font-size="8pt"
+                             font-style="normal"
+                             font-weight="normal"
+                             text-decoration="normal"
+                             x="0"
+                             y="0"
+                             dominant-baseline="central"
+                             id="text1542"
+                             style="font-style:normal;font-weight:normal;font-size:10.66666698px;font-family:helvetica;dominant-baseline:central;text-anchor:end;stroke:none">1.4</text>
+                          <g
+                             transform="rotate(-90,29.5,53.5)"
+                             id="g1548">
+                            <text
+                               fill=""
+                               font-size="10pt"
+                               font-style="italic"
+                               font-weight="normal"
+                               text-decoration="normal"
+                               x="0"
+                               y="0"
+                               dominant-baseline="alphabetic"
+                               id="text1544"
+                               style="font-style:italic;font-weight:normal;font-size:13.33333302px;font-family:helvetica;dominant-baseline:alphabetic;text-anchor:middle;stroke:none">CV</text>
+                            <g
+                               transform="rotate(90,53,35)"
+                               id="g1546" />
+                          </g>
+                        </g>
+                      </g>
+                    </g>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
