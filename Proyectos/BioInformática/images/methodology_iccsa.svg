@@ -1,0 +1,1699 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:ns1="http://www.iki.fi/pav/software/textext/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="132mm"
+   height="42mm"
+   viewBox="0 0 132 42"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="methodology_iccsa.svg"
+   inkscape:export-filename="/home/edwin/Documentos/qualify/figures/metodologia2.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6316012"
+     inkscape:cx="289.50912"
+     inkscape:cy="56.395589"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1323"
+     inkscape:window-height="713"
+     inkscape:window-x="43"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     showguides="false"
+     width="360mm"
+     units="mm" />
+  <defs
+     id="defs2">
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1230"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1227"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1224"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(1.1,0,0,1.1,1.1,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1611"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1609"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="TriangleInL"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="TriangleInL"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1339"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="scale(-0.8)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1605"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1212"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1602"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1600"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1598"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1596"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1594"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1592"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1590"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1588"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1586"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1584"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1582"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1580"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1578"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path1233"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1575"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DiamondLstart">
+      <path
+         transform="matrix(0.8,0,0,0.8,5.6,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 Z"
+         id="path1573"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1571"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DiamondLstart">
+      <path
+         transform="matrix(0.8,0,0,0.8,5.6,0)"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 Z"
+         id="path1569"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1567"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DiamondLstart">
+      <path
+         transform="matrix(0.8,0,0,0.8,5.6,0)"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 Z"
+         id="path1565"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1563"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DiamondLstart">
+      <path
+         transform="matrix(0.8,0,0,0.8,5.6,0)"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 Z"
+         id="path1561"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1559"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DiamondLstart">
+      <path
+         transform="matrix(0.8,0,0,0.8,5.6,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 Z"
+         id="path1557"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1555"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="DiamondLstart">
+      <path
+         transform="matrix(0.8,0,0,0.8,5.6,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,-7.0710768 -7.0710894,0 0,7.0710589 7.0710462,0 Z"
+         id="path1553"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1549"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1547"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1545"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1543"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1541"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1539"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1537"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1535"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1533"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1531"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1529"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1527"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1521"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1519"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1517"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1515"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1513"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1511"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1509"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1507"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1505"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1503"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1501"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1499"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1494"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1492"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1490"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1488"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1486"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1484"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1482"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1480"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1478"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1476"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1474"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1472"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1221"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker3770"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path3768"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1826"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Sstart">
+      <path
+         transform="matrix(0.2,0,0,0.2,1.2,0)"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         id="path1824"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1636"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1634"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path5559"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.4,0,0,0.4,4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5013"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send">
+      <path
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path5011"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker2748"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path2746"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker7865"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send">
+      <path
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7863"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker7795"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path7793"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#808080;fill-opacity:1;fill-rule:evenodd;stroke:#808080;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4820"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker7029"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send">
+      <path
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path7027"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <inkscape:path-effect
+       only_selected="false"
+       apply_with_weight="true"
+       apply_no_weight="true"
+       helper_size="0"
+       steps="2"
+       weight="33.333333"
+       is_visible="true"
+       id="path-effect6979"
+       effect="bspline" />
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Send"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4853"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4847"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path4829"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect4818"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect4818-9"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <inkscape:path-effect
+       effect="bspline"
+       id="path-effect4818-9-6"
+       is_visible="true"
+       weight="33.333333"
+       steps="2"
+       helper_size="0"
+       apply_no_weight="true"
+       apply_with_weight="true"
+       only_selected="false" />
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1553-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1551-2"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker2748-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path2746-7" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker2748-9-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path2746-7-1" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1375-3"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1373-5"
+         style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1375-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1373-9"
+         style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1375-27"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1373-0"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker5013-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Send">
+      <path
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#4d4d4d;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path5011-9"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1375-27-2"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path1373-0-0"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-254.99998)">
+    <g
+       transform="matrix(0.32973481,0,0,0.48779441,68.982489,86.601979)"
+       ns1:version="0.11.0"
+       ns1:texconverter="pdflatex"
+       ns1:pdfconverter="pdf2svg"
+       ns1:text="Discriminador $$D(x;\\theta_{d})$$"
+       ns1:preamble="/home/edwin/.config/inkscape/extensions/textext/default_packages.tex"
+       ns1:scale="1.0"
+       ns1:alignment="middle center"
+       ns1:jacobian_sqrt="0.352778"
+       id="g4656">
+      <g
+         id="surface1" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:4.18018293px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10450458"
+       x="200.94312"
+       y="144.60663"
+       id="text984-3-1"
+       transform="scale(0.84794275,1.1793249)"><tspan
+         sodipodi:role="line"
+         x="200.94312"
+         y="147.78259"
+         style="font-size:6.41047525px;line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.10450458"
+         id="tspan988-2-2" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot1059"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
+         id="flowRegion1061"><rect
+           id="rect1063"
+           width="32.070274"
+           height="64.140549"
+           x="213.224"
+           y="381.12103" /></flowRegion><flowPara
+         id="flowPara1065" /></flowRoot>    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="21.327816"
+       y="176.3717"
+       id="text1069"><tspan
+         sodipodi:role="line"
+         id="tspan1067"
+         x="21.327816"
+         y="185.73547"
+         style="stroke-width:0.26458332" /></text>
+    <g
+       id="g1781"
+       transform="matrix(0.66780541,0,0,0.71281516,-138.22626,105.30128)">
+      <rect
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         ry="3.6204941"
+         y="210.92853"
+         x="208.15288"
+         height="7.2409892"
+         width="68.281364"
+         id="rect5202"
+         style="opacity:1;fill:#0000ff;fill-opacity:0.16744187;stroke:#000000;stroke-width:0.40341192;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.94901961" />
+      <ellipse
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         ry="2.9699233"
+         rx="9.0391331"
+         cy="241.33597"
+         cx="224.87401"
+         id="path916-3-3"
+         style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.11383668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         y="227.44119"
+         x="215.83661"
+         height="13.921515"
+         width="18.078266"
+         id="rect914-6"
+         style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.11383668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         ry="2.9699233"
+         rx="9.0391331"
+         cy="227.686"
+         cx="224.87584"
+         id="path916-7"
+         style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.11383668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         ry="0.74155736"
+         rx="9.0101614"
+         cy="241.34613"
+         cx="224.87361"
+         id="path916-6-5"
+         style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         transform="scale(0.95758868,1.0442897)"
+         id="text984-35"
+         y="225.71304"
+         x="234.58165"
+         style="font-style:normal;font-weight:normal;font-size:3.24028587px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08100715"
+         xml:space="preserve"><tspan
+           id="tspan1038"
+           style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08100715"
+           y="225.71304"
+           x="234.58165"
+           sodipodi:role="line">Reference</tspan><tspan
+           id="tspan206"
+           style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08100715"
+           y="228.95332"
+           x="234.58165"
+           sodipodi:role="line">genes</tspan></text>
+      <rect
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         ry="3.6062043"
+         y="236.37724"
+         x="247.36391"
+         height="16.002533"
+         width="23.122526"
+         id="rect208"
+         style="opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:#0000ff;stroke-width:0.50700003;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.46511631" />
+      <text
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         transform="scale(1.0380053,0.96338622)"
+         id="text1089"
+         y="255.9547"
+         x="242.60608"
+         style="font-style:normal;font-weight:normal;font-size:6.32870817px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1582177"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.1582177"
+           y="255.9547"
+           x="242.60608"
+           id="tspan1087"
+           sodipodi:role="line">GAN</tspan></text>
+      <text
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         transform="scale(0.95387408,1.0483564)"
+         id="text984-35-3"
+         y="243.8028"
+         x="234.35394"
+         style="font-style:normal;font-weight:normal;font-size:3.81966114px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09549153"
+         xml:space="preserve"><tspan
+           id="tspan1114"
+           style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.09549153"
+           y="243.8028"
+           x="234.35394"
+           sodipodi:role="line">Gaussian</tspan><tspan
+           id="tspan1118"
+           style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.09549153"
+           y="247.62245"
+           x="234.35394"
+           sodipodi:role="line">noise vector</tspan></text>
+      <path
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:connector-curvature="0"
+         id="path1122"
+         d="m 235.59186,256.24788 h 6.02728 v -10.12275 l 5.25636,-0.0544"
+         style="fill:none;stroke:#333333;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1594)" />
+      <path
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:connector-curvature="0"
+         id="path1122-9"
+         d="m 235.24869,235.09078 h 6.13911 v 7.82245 l 5.35388,0.042"
+         style="fill:none;stroke:#333333;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1598)" />
+      <path
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:connector-curvature="0"
+         id="path5003"
+         d="m 270.6469,244.3784 c 5.51264,0 5.51264,0 5.51264,0"
+         style="fill:none;stroke:#333333;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1590)" />
+      <ellipse
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         ry="2.9699233"
+         rx="9.0391331"
+         cy="250.79086"
+         cx="285.92145"
+         id="path916-3-3-3"
+         style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.11383668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         y="236.89609"
+         x="276.88406"
+         height="13.921515"
+         width="18.078266"
+         id="rect914-6-6"
+         style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.11383668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         ry="2.9699233"
+         rx="9.0391331"
+         cy="237.1409"
+         cx="285.92331"
+         id="path916-7-0"
+         style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.11383668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         ry="0.74155736"
+         rx="9.0101614"
+         cy="250.80101"
+         cx="285.92105"
+         id="path916-6-5-6"
+         style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         transform="scale(0.95758868,1.0442897)"
+         id="text984-35-2"
+         y="234.76694"
+         x="298.33289"
+         style="font-style:normal;font-weight:normal;font-size:3.24028587px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08100715"
+         xml:space="preserve"><tspan
+           id="tspan206-8"
+           style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08100715"
+           y="234.76694"
+           x="298.33289"
+           sodipodi:role="line">Synthetic</tspan><tspan
+           id="tspan5188"
+           style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08100715"
+           y="238.00722"
+           x="298.33289"
+           sodipodi:role="line">RG</tspan></text>
+      <rect
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         ry="4.1600986"
+         y="219.71992"
+         x="208.25226"
+         height="48.549389"
+         width="94.578888"
+         id="rect5190"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:0.4632341;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3.70587253, 1.85293626;stroke-dashoffset:0;stroke-opacity:1" />
+      <ellipse
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         ry="2.8996439"
+         rx="3.1214321"
+         cy="214.53522"
+         cx="212.33418"
+         id="path5192"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.40241712;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.94883722" />
+      <text
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         transform="scale(1.0054146,0.99461457)"
+         id="text5196"
+         y="217.40788"
+         x="217.75362"
+         style="font-style:normal;font-weight:normal;font-size:4.26113462px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10652836"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.10652836"
+           y="217.40788"
+           x="217.75362"
+           id="tspan5194"
+           sodipodi:role="line">Generating synthetic RG</tspan></text>
+      <text
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         transform="scale(1.1950888,0.83675791)"
+         id="text5200"
+         y="258.0788"
+         x="176.22224"
+         style="font-style:normal;font-weight:normal;font-size:4.73807478px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.11845187"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.11845187"
+           y="258.0788"
+           x="176.22224"
+           id="tspan5198"
+           sodipodi:role="line">1</tspan></text>
+      <rect
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         ry="3.6062043"
+         y="230.86096"
+         x="349.31015"
+         height="16.002533"
+         width="23.122526"
+         id="rect208-6"
+         style="opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:#0000ff;stroke-width:0.50700003;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.46511631" />
+      <text
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         transform="scale(1.0380053,0.96338622)"
+         id="text1089-1"
+         y="250.22885"
+         x="340.81982"
+         style="font-style:normal;font-weight:normal;font-size:6.32870817px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1582177"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.1582177"
+           y="250.22885"
+           x="340.81982"
+           id="tspan1087-2"
+           sodipodi:role="line">SVM</tspan></text>
+      <text
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         transform="scale(0.95387409,1.0483564)"
+         id="text984-35-3-9-5"
+         y="223.34523"
+         x="408.02542"
+         style="font-style:normal;font-weight:normal;font-size:3.8196609px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09549153"
+         xml:space="preserve"><tspan
+           id="tspan1118-1-4"
+           style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.09549153"
+           y="223.34523"
+           x="408.02542"
+           sodipodi:role="line">Candidate</tspan></text>
+      <text
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         transform="scale(0.95387409,1.0483564)"
+         id="text984-35-3-9-5-7"
+         y="233.82111"
+         x="407.9845"
+         style="font-style:normal;font-weight:normal;font-size:3.8196609px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09549153"
+         xml:space="preserve"><tspan
+           id="tspan1118-1-4-6"
+           style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.09549153"
+           y="233.82111"
+           x="407.9845"
+           sodipodi:role="line">No</tspan><tspan
+           id="tspan5495"
+           style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.09549153"
+           y="237.64076"
+           x="407.9845"
+           sodipodi:role="line">Candidate</tspan></text>
+      <path
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:connector-curvature="0"
+         id="path5503"
+         d="m 378.31253,233.96654 c 0,0 0,0 -5.3033,5.40797 l 4.9544,4.88462"
+         style="fill:none;stroke:#333333;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart);marker-end:url(#marker1578)" />
+      <rect
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         ry="3.6204941"
+         y="210.85616"
+         x="309.53284"
+         height="7.2409897"
+         width="47.46624"
+         id="rect5202-3"
+         style="opacity:1;fill:#0000ff;fill-opacity:0.16744187;stroke:#000000;stroke-width:0.33634892;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.94901961" />
+      <ellipse
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         ry="2.8996439"
+         rx="3.1214321"
+         cy="214.46275"
+         cx="313.53656"
+         id="path5192-6"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.40241712;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.94883722" />
+      <text
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         transform="scale(1.0054146,0.99461457)"
+         id="text5196-7"
+         y="217.33528"
+         x="318.41327"
+         style="font-style:normal;font-weight:normal;font-size:4.26113462px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.10652836"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.10652836"
+           y="217.33528"
+           x="318.41327"
+           id="tspan5194-5"
+           sodipodi:role="line">One-class SVM</tspan></text>
+      <text
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         transform="scale(1.1950888,0.83675791)"
+         id="text5200-3"
+         y="257.99319"
+         x="260.90533"
+         style="font-style:normal;font-weight:normal;font-size:4.73807478px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.11845187"
+         xml:space="preserve"><tspan
+           style="stroke-width:0.11845187"
+           y="257.99319"
+           x="260.90533"
+           id="tspan5198-5"
+           sodipodi:role="line">2</tspan></text>
+      <rect
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         ry="2.6354072"
+         y="219.60629"
+         x="309.76239"
+         height="48.757973"
+         width="94.513206"
+         id="rect5190-6"
+         style="opacity:1;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:0.32460976;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:2.59687784, 1.29843893;stroke-dashoffset:0;stroke-opacity:1" />
+      <g
+         transform="translate(0,-5.8208336)"
+         id="g1192">
+        <ellipse
+           style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.11383668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path916-3-3-36"
+           cx="326.28995"
+           cy="269.58954"
+           rx="9.0391331"
+           ry="2.9699233"
+           inkscape:export-xdpi="94.445213"
+           inkscape:export-ydpi="94.445213"
+           inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png" />
+        <rect
+           style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.11383668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="rect914-6-0"
+           width="18.078266"
+           height="13.921515"
+           x="317.25259"
+           y="255.69478"
+           inkscape:export-xdpi="94.445213"
+           inkscape:export-ydpi="94.445213"
+           inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png" />
+        <ellipse
+           style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.11383668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path916-7-6"
+           cx="326.29181"
+           cy="255.93959"
+           rx="9.0391331"
+           ry="2.9699233"
+           inkscape:export-xdpi="94.445213"
+           inkscape:export-ydpi="94.445213"
+           inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png" />
+        <ellipse
+           style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+           id="path916-6-5-2"
+           cx="326.28958"
+           cy="269.5997"
+           rx="9.0101614"
+           ry="0.74155736"
+           inkscape:export-xdpi="94.445213"
+           inkscape:export-ydpi="94.445213"
+           inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png" />
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-weight:normal;font-size:3.24028587px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08100715"
+           x="340.48932"
+           y="252.76852"
+           id="text984-35-6"
+           transform="scale(0.95758868,1.0442897)"
+           inkscape:export-xdpi="94.445213"
+           inkscape:export-ydpi="94.445213"
+           inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"><tspan
+             sodipodi:role="line"
+             x="340.48932"
+             y="252.76852"
+             style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08100715"
+             id="tspan1038-1">Reference</tspan><tspan
+             sodipodi:role="line"
+             x="340.48932"
+             y="256.00882"
+             style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08100715"
+             id="tspan206-87">genes</tspan></text>
+      </g>
+      <ellipse
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         ry="2.9699233"
+         rx="9.0391331"
+         cy="237.72255"
+         cx="326.60663"
+         id="path916-3-3-3-9"
+         style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.11383668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <rect
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         y="223.8278"
+         x="317.56924"
+         height="13.921515"
+         width="18.078266"
+         id="rect914-6-6-2"
+         style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.11383668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         ry="2.9699233"
+         rx="9.0391331"
+         cy="224.07262"
+         cx="326.60846"
+         id="path916-7-0-0"
+         style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.11383668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         ry="0.74155736"
+         rx="9.0101614"
+         cy="237.73271"
+         cx="326.60623"
+         id="path916-6-5-6-2"
+         style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <text
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         transform="scale(0.95758868,1.0442897)"
+         id="text984-35-2-3"
+         y="222.25401"
+         x="340.82001"
+         style="font-style:normal;font-weight:normal;font-size:3.24028587px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08100715"
+         xml:space="preserve"><tspan
+           id="tspan206-8-7"
+           style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08100715"
+           y="222.25401"
+           x="340.82001"
+           sodipodi:role="line">Synthetic</tspan><tspan
+           id="tspan5188-5"
+           style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08100715"
+           y="225.49429"
+           x="340.82001"
+           sodipodi:role="line">RG</tspan></text>
+      <text
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         transform="scale(0.95758868,1.0442897)"
+         id="text984-35-6-2"
+         y="238.79669"
+         x="356.18741"
+         style="font-style:normal;font-weight:normal;font-size:3.24028587px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08100715"
+         xml:space="preserve"><tspan
+           id="tspan206-87-8"
+           style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08100715"
+           y="238.79669"
+           x="356.18741"
+           sodipodi:role="line">70%</tspan></text>
+      <path
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:connector-curvature="0"
+         id="path2520"
+         d="m 335.70502,255.87775 h 5.29933 v -6.0611"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:connector-curvature="0"
+         id="path2522"
+         d="m 340.98858,246.34539 v -4.61218"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <ellipse
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         ry="2.2702646"
+         rx="2.4729669"
+         cy="239.30092"
+         cx="341.0704"
+         id="path2524"
+         style="opacity:1;fill:none;fill-opacity:0.95819936;stroke:#000000;stroke-width:0.30000001;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.92282954" />
+      <path
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:connector-curvature="0"
+         id="path2526"
+         d="m 340.98238,237.89386 v 2.91891"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:connector-curvature="0"
+         id="path2530"
+         d="m 339.27911,239.26044 h 3.38264"
+         style="fill:none;stroke:#000000;stroke-width:0.26458332px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:connector-curvature="0"
+         id="path2532"
+         d="m 340.97043,236.96713 v -6.76527 h -5.21729"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:connector-curvature="0"
+         id="path2534"
+         d="m 343.68452,239.26025 h 5.24999"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1582)" />
+      <g
+         transform="translate(-3.1750001,-6.879167)"
+         id="g1202">
+        <rect
+           style="opacity:1;fill:#00cc00;fill-opacity:0.73762375;stroke:#000000;stroke-width:0.32948592;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.92282954"
+           id="rect3982"
+           width="21.818232"
+           height="5.6756859"
+           x="376.57571"
+           y="264.73041"
+           ry="2.8378429"
+           inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+           inkscape:export-xdpi="94"
+           inkscape:export-ydpi="94" />
+        <g
+           id="g1196">
+          <text
+             inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+             inkscape:export-ydpi="94.445213"
+             inkscape:export-xdpi="94.445213"
+             transform="scale(0.96155621,1.0399808)"
+             id="text984-35-6-7"
+             y="258.47076"
+             x="402.97437"
+             style="font-style:normal;font-weight:normal;font-size:3.55876184px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08896905"
+             xml:space="preserve"><tspan
+               id="tspan206-87-6"
+               style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08896905"
+               y="258.47076"
+               x="402.97437"
+               sodipodi:role="line">Evaluation</tspan></text>
+        </g>
+      </g>
+      <text
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-xdpi="94.445213"
+         transform="scale(0.95758868,1.0442897)"
+         id="text984-35-6-2-1"
+         y="250.95227"
+         x="366.53387"
+         style="font-style:normal;font-weight:normal;font-size:3.24028587px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08100715"
+         xml:space="preserve"><tspan
+           id="tspan206-87-8-2"
+           style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08100715"
+           y="250.95227"
+           x="366.53387"
+           sodipodi:role="line">30%</tspan></text>
+      <path
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:connector-curvature="0"
+         id="path3760"
+         d="m 335.73627,260.87656 h 11.12257"
+         style="fill:none;stroke:#000000;stroke-width:0.50800002;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:connector-curvature="0"
+         id="path3760-9"
+         d="m 355.35711,260.61766 h 15.53722"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1602)" />
+      <path
+         inkscape:export-ydpi="94"
+         inkscape:export-xdpi="94"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:connector-curvature="0"
+         id="path2522-3"
+         d="M 360.49226,260.39337 V 247.1596"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path1204"
+         d="m 295.09214,244.42576 h 10.89324 v -12.89988 h 11.17989"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1586)" />
+    </g>
+  </g>
+</svg>
