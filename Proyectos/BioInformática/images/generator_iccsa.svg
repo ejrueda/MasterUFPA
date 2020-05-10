@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="15mm"
-   height="18mm"
-   viewBox="0 0 15 18"
+   width="14.83887mm"
+   height="19.418665mm"
+   viewBox="0 0 14.83887 19.418665"
    version="1.1"
    id="svg6724"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -19,13 +19,74 @@
   <defs
      id="defs6718">
     <marker
+       inkscape:stockid="Arrow1Send"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Send"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path943"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.2,0,0,-0.2,-1.2,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1344"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#5564a9;fill-opacity:1;fill-rule:evenodd;stroke:#5564a9;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1342"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Mend"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path937"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;stroke-opacity:1"
+         transform="matrix(-0.4,0,0,-0.4,-4,0)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker872"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path870"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
        inkscape:stockid="Arrow2Lend"
        orient="auto"
        refY="0"
        refX="0"
        id="Arrow2Lend"
        style="overflow:visible"
-       inkscape:isstock="true">
+       inkscape:isstock="true"
+       inkscape:collect="always">
       <path
          inkscape:connector-curvature="0"
          id="path964"
@@ -41,9 +102,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.5295096"
-     inkscape:cx="31.267701"
-     inkscape:cy="41.611331"
+     inkscape:zoom="3.9099537"
+     inkscape:cx="3.8607808"
+     inkscape:cy="6.4286584"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -51,7 +112,11 @@
      inkscape:window-height="713"
      inkscape:window-x="43"
      inkscape:window-y="27"
-     inkscape:window-maximized="1" />
+     inkscape:window-maximized="1"
+     fit-margin-top="0.5"
+     fit-margin-left="0.5"
+     fit-margin-bottom="0.5"
+     fit-margin-right="0.5" />
   <metadata
      id="metadata6721">
     <rdf:RDF>
@@ -68,7 +133,7 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-279)">
+     transform="translate(-0.26799085,-279.11653)">
     <rect
        style="opacity:1;fill:#0000ff;fill-opacity:0.16862745;stroke:#000000;stroke-width:0.13198958;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.92282954"
        id="rect934-2-0"
@@ -150,15 +215,15 @@
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.28003252px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.03200081"
-       x="-309.15866"
-       y="1.5037677"
+       x="3.7819872"
+       y="281.73935"
        id="text1956-9-6"
-       transform="matrix(0,-0.94538323,1.0577721,0,0,0)"><tspan
+       transform="scale(0.94538323,1.0577721)"><tspan
          sodipodi:role="line"
          id="tspan1954-3-0"
-         x="-309.15866"
-         y="1.5037677"
-         style="stroke-width:0.03200081">Fully conected</tspan></text>
+         x="3.7819872"
+         y="281.73935"
+         style="stroke-width:0.03200081">Gene sintético</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:1.3901329px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.03475333"
@@ -204,9 +269,21 @@
          y="262.34964"
          style="stroke-width:0.03691852">tanh</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.08387826;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
-       d="m 14.181368,280.09518 v 15.56036"
+       style="fill:none;stroke:#000000;stroke-width:0.089;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow2Lend)"
+       d="m 14.181368,280.09518 v 17.40464"
        id="path941"
        inkscape:connector-curvature="0" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:1.28003252px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.03200081"
+       x="-311.68906"
+       y="1.6985704"
+       id="text1956-9-6-3"
+       transform="matrix(0,-0.94538323,1.0577721,0,0,0)"><tspan
+         sodipodi:role="line"
+         id="tspan1954-3-0-6"
+         x="-311.68906"
+         y="1.6985704"
+         style="stroke-width:0.03200081">Totalmente conectada</tspan></text>
   </g>
 </svg>
