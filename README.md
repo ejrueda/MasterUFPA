@@ -9,15 +9,28 @@ UFPA(http://ppgcc.propesp.ufpa.br/index.php/br/), também contém projeitos na �
 <br>
 Matérias:
 <ul>
-<li> Aprendizado de Máquina 
+<li> Aprendizado de Máquina
 <ul>
 <li> Recognition of genre of music (4th): https://www.kaggle.com/c/music4ed </li>
 <li> GAN's aplicado à BionInformática</li>
 </ul>
 <li> Teoria da Computação </li>
-<li>Visualização da informação 
+<li>Visualização da informação
 <ul> <li> Vast Challenge 2019: https://vast-challenge.github.io/2019/ </li></ul></li>
 <li> Projeto e Analise de algoritmos </li>
 <li> Metodologia científica </li>
 </ul>
 <br>
+
+cite:
+
+@misc{edwin_rueda_2020,
+    author       = {Edwin Rueda},
+    title        = {{Identification of reference genes with deep learning}},
+    month        = may,
+    year         = 2020,
+    doi          = {10.5281/zenodo.3843381},
+    version      = {1.0},
+    publisher    = {Zenodo},
+    url          = {https://zenodo.org/badge/latestdoi/171334765}
+    }
