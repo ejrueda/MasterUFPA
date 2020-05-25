@@ -24,13 +24,13 @@ Matérias:
 
 cite:
 
-@misc{edwin_rueda_2020,
-    author       = {Edwin Rueda},
-    title        = {{Identification of reference genes with deep learning}},
-    month        = may,
-    year         = 2020,
-    doi          = {10.5281/zenodo.3843381},
-    version      = {1.0},
-    publisher    = {Zenodo},
-    url          = {https://zenodo.org/badge/latestdoi/171334765}
+@misc{edwin_rueda_2020, <br>
+    author       = {Edwin Rueda},<br>
+    title        = {{Identification of reference genes with deep learning}},<br>
+    month        = may,<br>
+    year         = 2020,<br>
+    doi          = {10.5281/zenodo.3843381},<br>
+    version      = {1.0},<br>
+    publisher    = {Zenodo},<br>
+    url          = {https://zenodo.org/badge/latestdoi/171334765}<br>
     }
