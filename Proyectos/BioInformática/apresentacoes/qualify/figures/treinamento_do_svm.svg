@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="92.62252mm"
+   height="53.457287mm"
+   viewBox="0 0 92.62252 53.457287"
+   version="1.1"
+   id="svg1453"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="treinamento_do_svm.svg">
+  <defs
+     id="defs1447">
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1602"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1600"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker1582"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mend">
+      <path
+         transform="scale(-0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path1580"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mstart"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow2Mstart"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         id="path1230"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker1578"
+       style="overflow:visible"
+       inkscape:isstock="true"
+       inkscape:collect="always">
+      <path
+         id="path1233"
+         style="fill:#333333;fill-opacity:1;fill-rule:evenodd;stroke:#333333;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6)"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="216.14221"
+     inkscape:cy="110.13278"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0.1"
+     fit-margin-left="0.1"
+     fit-margin-bottom="0.1"
+     fit-margin-right="0.1"
+     inkscape:window-width="1323"
+     inkscape:window-height="713"
+     inkscape:window-x="43"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata1450">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Capa 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-13.488194,-113.95722)">
+    <rect
+       inkscape:export-ydpi="94"
+       inkscape:export-xdpi="94"
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       ry="3.9038482"
+       y="126.4783"
+       x="52.29987"
+       height="17.323326"
+       width="22.494835"
+       id="rect208-6"
+       style="opacity:1;fill:#f9f9f9;fill-opacity:1;stroke:#0000ff;stroke-width:0.52029908;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.46511631" />
+    <text
+       inkscape:export-ydpi="94"
+       inkscape:export-xdpi="94"
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       transform="scale(0.98401584,1.0162438)"
+       id="text1089-1"
+       y="135.32848"
+       x="57.561409"
+       style="font-style:normal;font-weight:normal;font-size:6.49471521px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.16236788"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.16236788"
+         y="135.32848"
+         x="57.561409"
+         id="tspan1087-2"
+         sodipodi:role="line">SVM</tspan></text>
+    <text
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:export-ydpi="94.445213"
+       inkscape:export-xdpi="94.445213"
+       transform="scale(0.90426052,1.105876)"
+       id="text984-35-3-9-5"
+       y="117.58445"
+       x="101.34336"
+       style="font-style:normal;font-weight:normal;font-size:3.91985393px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09799635"
+       xml:space="preserve"><tspan
+         id="tspan1118-1-4"
+         style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.09799635"
+         y="117.58445"
+         x="101.34336"
+         sodipodi:role="line">Candidatos</tspan></text>
+    <text
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:export-ydpi="94.445213"
+       inkscape:export-xdpi="94.445213"
+       transform="scale(0.90426051,1.105876)"
+       id="text984-35-3-9-5-7"
+       y="128.33511"
+       x="100.71617"
+       style="font-style:normal;font-weight:normal;font-size:3.91985369px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.09799635"
+       xml:space="preserve"><tspan
+         id="tspan1118-1-4-6"
+         style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.09799635"
+         y="128.33511"
+         x="100.71617"
+         sodipodi:role="line">Não</tspan><tspan
+         id="tspan5495"
+         style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.09799635"
+         y="132.25497"
+         x="100.71617"
+         sodipodi:role="line">Candidatos</tspan></text>
+    <path
+       inkscape:export-ydpi="94"
+       inkscape:export-xdpi="94"
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:connector-curvature="0"
+       id="path5503"
+       d="m 80.514944,129.8402 c 0,0 0,0 -5.159338,5.85433 l 4.819906,5.28777"
+       style="fill:none;stroke:#333333;stroke-width:0.51311541;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#Arrow2Mstart);marker-end:url(#marker1578)" />
+    <rect
+       inkscape:export-ydpi="94"
+       inkscape:export-xdpi="94"
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       ry="2.8529246"
+       y="114.29472"
+       x="13.825694"
+       height="52.782288"
+       width="91.947517"
+       id="rect5190-6"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#4d4d4d;stroke-width:0.47499999;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:3.80000001, 1.9;stroke-dashoffset:0;stroke-opacity:1" />
+    <g
+       transform="matrix(0.97285379,0,0,1.0825366,-287.52782,-129.73839)"
+       id="g1192">
+      <ellipse
+         style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.11383668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path916-3-3-36"
+         cx="326.28995"
+         cy="269.58954"
+         rx="9.0391331"
+         ry="2.9699233"
+         inkscape:export-xdpi="94.445213"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png" />
+      <rect
+         style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.11383668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="rect914-6-0"
+         width="18.078266"
+         height="13.921515"
+         x="317.25259"
+         y="255.69478"
+         inkscape:export-xdpi="94.445213"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png" />
+      <ellipse
+         style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.11383668;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path916-7-6"
+         cx="326.29181"
+         cy="255.93959"
+         rx="9.0391331"
+         ry="2.9699233"
+         inkscape:export-xdpi="94.445213"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png" />
+      <ellipse
+         style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         id="path916-6-5-2"
+         cx="326.28958"
+         cy="269.5997"
+         rx="9.0101614"
+         ry="0.74155736"
+         inkscape:export-xdpi="94.445213"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-weight:normal;font-size:3.24028587px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08100715"
+         x="340.48932"
+         y="252.76852"
+         id="text984-35-6"
+         transform="scale(0.95758868,1.0442897)"
+         inkscape:export-xdpi="94.445213"
+         inkscape:export-ydpi="94.445213"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"><tspan
+           sodipodi:role="line"
+           x="340.48932"
+           y="252.76852"
+           style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08100715"
+           id="tspan1418">Genes de</tspan><tspan
+           sodipodi:role="line"
+           x="340.48932"
+           y="256.00882"
+           style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08100715"
+           id="tspan1422">Referência</tspan></text>
+    </g>
+    <ellipse
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:export-ydpi="94.445213"
+       inkscape:export-xdpi="94.445213"
+       ry="3.2150507"
+       rx="8.7937555"
+       cy="133.90622"
+       cx="30.212666"
+       id="path916-3-3-3-9"
+       style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.1168227;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <rect
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:export-ydpi="94.445213"
+       inkscape:export-xdpi="94.445213"
+       y="118.86465"
+       x="21.420635"
+       height="15.070548"
+       width="17.587509"
+       id="rect914-6-6-2"
+       style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.1168227;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:export-ydpi="94.445213"
+       inkscape:export-xdpi="94.445213"
+       ry="3.2150507"
+       rx="8.7937555"
+       cy="119.12968"
+       cx="30.214436"
+       id="path916-7-0-0"
+       style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0.1168227;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:export-ydpi="94.445213"
+       inkscape:export-xdpi="94.445213"
+       ry="0.80276299"
+       rx="8.7655697"
+       cy="133.91721"
+       cx="30.212261"
+       id="path916-6-5-6-2"
+       style="fill:#dbe2e3;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:export-ydpi="94.445213"
+       inkscape:export-xdpi="94.445213"
+       transform="scale(0.90778188,1.1015862)"
+       id="text984-35-2-3"
+       y="116.02995"
+       x="33.023327"
+       style="font-style:normal;font-weight:normal;font-size:3.32528114px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08313204"
+       xml:space="preserve"><tspan
+         id="tspan5188-5"
+         style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08313204"
+         y="116.02995"
+         x="33.023327"
+         sodipodi:role="line">GR</tspan><tspan
+         style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08313204"
+         y="119.35523"
+         x="33.023327"
+         sodipodi:role="line"
+         id="tspan1414">sintéticos</tspan></text>
+    <text
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:export-ydpi="94.445213"
+       inkscape:export-xdpi="94.445213"
+       transform="scale(0.90778188,1.1015862)"
+       id="text984-35-6-2"
+       y="133.00655"
+       x="48.793819"
+       style="font-style:normal;font-weight:normal;font-size:3.32528114px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08313204"
+       xml:space="preserve"><tspan
+         id="tspan206-87-8"
+         style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08313204"
+         y="133.00655"
+         x="48.793819"
+         sodipodi:role="line">70%</tspan></text>
+    <path
+       inkscape:export-ydpi="94"
+       inkscape:export-xdpi="94"
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:connector-curvature="0"
+       id="path2520"
+       d="m 39.064068,153.55989 h 5.155471 v -6.56136"
+       style="fill:none;stroke:#000000;stroke-width:0.51311541;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="94"
+       inkscape:export-xdpi="94"
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:connector-curvature="0"
+       id="path2522"
+       d="M 44.204199,143.24076 V 138.2479"
+       style="fill:none;stroke:#000000;stroke-width:0.51311541;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
+       inkscape:export-ydpi="94"
+       inkscape:export-xdpi="94"
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       ry="2.4576442"
+       rx="2.4058352"
+       cy="135.61485"
+       cx="44.283821"
+       id="path2524"
+       style="opacity:1;fill:none;fill-opacity:0.95819936;stroke:#000000;stroke-width:0.30786926;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.92282954" />
+    <path
+       inkscape:export-ydpi="94"
+       inkscape:export-xdpi="94"
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:connector-curvature="0"
+       id="path2526"
+       d="m 44.198164,134.09167 v 3.15983"
+       style="fill:none;stroke:#000000;stroke-width:0.27152357px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="94"
+       inkscape:export-xdpi="94"
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:connector-curvature="0"
+       id="path2530"
+       d="m 42.541137,135.57104 h 3.29081"
+       style="fill:none;stroke:#000000;stroke-width:0.27152357px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="94"
+       inkscape:export-xdpi="94"
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:connector-curvature="0"
+       id="path2532"
+       d="M 44.186535,133.08845 V 125.7648 H 39.110881"
+       style="fill:none;stroke:#000000;stroke-width:0.51311541;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="94"
+       inkscape:export-xdpi="94"
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:connector-curvature="0"
+       id="path2534"
+       d="m 46.826945,135.57083 h 5.10749"
+       style="fill:none;stroke:#000000;stroke-width:0.51311541;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1582)" />
+    <g
+       transform="matrix(0.97285379,0,0,1.0825366,-290.61664,-130.88407)"
+       id="g1202">
+      <rect
+         style="opacity:1;fill:#00cc00;fill-opacity:0.73762375;stroke:#000000;stroke-width:0.32948592;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:0.92282954"
+         id="rect3982"
+         width="21.818232"
+         height="5.6756859"
+         x="376.57571"
+         y="264.73041"
+         ry="2.8378429"
+         inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+         inkscape:export-xdpi="94"
+         inkscape:export-ydpi="94" />
+      <g
+         id="g1196">
+        <text
+           inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+           inkscape:export-ydpi="94.445213"
+           inkscape:export-xdpi="94.445213"
+           transform="scale(0.96155621,1.0399808)"
+           id="text984-35-6-7"
+           y="258.47076"
+           x="402.97437"
+           style="font-style:normal;font-weight:normal;font-size:3.55876184px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08896905"
+           xml:space="preserve"><tspan
+             id="tspan206-87-6"
+             style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08896905"
+             y="258.47076"
+             x="402.97437"
+             sodipodi:role="line">Evaluation</tspan></text>
+      </g>
+    </g>
+    <text
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:export-ydpi="94.445213"
+       inkscape:export-xdpi="94.445213"
+       transform="scale(0.90778188,1.1015862)"
+       id="text984-35-6-2-1"
+       y="145.48099"
+       x="59.411655"
+       style="font-style:normal;font-weight:normal;font-size:3.32528114px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.08313204"
+       xml:space="preserve"><tspan
+         id="tspan206-87-8-2"
+         style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.08313204"
+         y="145.48099"
+         x="59.411655"
+         sodipodi:role="line">30%</tspan></text>
+    <path
+       inkscape:export-ydpi="94"
+       inkscape:export-xdpi="94"
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:connector-curvature="0"
+       id="path3760"
+       d="M 39.094473,158.97128 H 49.915106"
+       style="fill:none;stroke:#000000;stroke-width:0.52132523;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
+       inkscape:export-ydpi="94"
+       inkscape:export-xdpi="94"
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:connector-curvature="0"
+       id="path3760-9"
+       d="M 58.182681,158.69102 H 73.298118"
+       style="fill:none;stroke:#000000;stroke-width:0.51311541;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker1602)" />
+    <path
+       inkscape:export-ydpi="94"
+       inkscape:export-xdpi="94"
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:connector-curvature="0"
+       id="path2522-3"
+       d="M 63.178422,158.44821 V 144.12217"
+       style="fill:none;stroke:#000000;stroke-width:0.51311541;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+  </g>
+</svg>

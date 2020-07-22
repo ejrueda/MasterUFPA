@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="126.06803mm"
-   height="67.344299mm"
-   viewBox="0 0 126.06803 67.344299"
+   width="124.26803mm"
+   height="65.544296mm"
+   viewBox="0 0 124.26803 65.544296"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
@@ -270,9 +270,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.8958318"
-     inkscape:cx="290.83435"
-     inkscape:cy="147.65176"
+     inkscape:zoom="0.9479159"
+     inkscape:cx="221.03423"
+     inkscape:cy="66.299638"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -281,10 +281,10 @@
      inkscape:window-x="43"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     fit-margin-top="1"
-     fit-margin-left="1"
-     fit-margin-right="1"
-     fit-margin-bottom="1" />
+     fit-margin-top="0.1"
+     fit-margin-left="0.1"
+     fit-margin-right="0.1"
+     fit-margin-bottom="0.1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -293,7 +293,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -301,7 +301,7 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-5.1641975,-91.748496)">
+     transform="translate(-6.0641971,-92.648497)">
     <g
        id="g2889"
        transform="translate(-53.684212,-115.26316)">
@@ -554,7 +554,7 @@
          id="tspan1501-5-7">Arquitetura</tspan><tspan
          sodipodi:role="line"
          x="70.502022"
-         y="116.84066"
+         y="116.84065"
          style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.07850111"
          id="tspan3575">GAN</tspan></text>
     <g
@@ -612,7 +612,7 @@
          id="tspan206-5-8">Processamento</tspan><tspan
          sodipodi:role="line"
          x="17.721292"
-         y="124.85894"
+         y="124.85893"
          style="line-height:1;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke-width:0.07850111"
          id="tspan1501-5-4">dos dados</tspan></text>
     <g
@@ -970,9 +970,10 @@
        sodipodi:nodetypes="ccccc" />
     <path
        style="fill:none;stroke:#000000;stroke-width:0.551;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 98.980268,122.82236 v 5.13158 h -29.01316 l -8e-4,10.03067"
+       d="m 98.980268,122.82236 v 3.35526 l -28.914476,-0.19736 -0.09948,12.00435"
        id="path1646"
-       inkscape:connector-curvature="0" />
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:2.46944451px;line-height:1;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.07850111"
@@ -1092,5 +1093,71 @@
        d="m 102.5329,140.6842 v 14.60527"
        id="path10928"
        inkscape:connector-curvature="0" />
+    <ellipse
+       style="opacity:1;fill:#8585fc;fill-opacity:0.3658537;stroke:#8585fc;stroke-width:0.52499998;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2524-3-8-6"
+       cx="18.549786"
+       cy="113.7017"
+       rx="2.6324668"
+       ry="2.5026243"
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.91692972px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0.92156863;stroke:none;stroke-width:0.24480811"
+       x="15.937198"
+       y="124.32753"
+       id="text1102"
+       transform="scale(1.0807784,0.92525905)"><tspan
+         sodipodi:role="line"
+         id="tspan1100"
+         x="15.937198"
+         y="124.32753"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.91692972px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:0.92156863;stroke-width:0.24480811">1</tspan></text>
+    <ellipse
+       style="opacity:1;fill:#8585fc;fill-opacity:0.3658537;stroke:#8585fc;stroke-width:0.52499998;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2524-3-8-6-9"
+       cx="71.176338"
+       cy="101.73341"
+       rx="2.6324668"
+       ry="2.5026243"
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.91692972px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0.92156863;stroke:none;stroke-width:0.24480811"
+       x="64.630394"
+       y="111.39246"
+       id="text1102-0"
+       transform="scale(1.0807784,0.92525906)"><tspan
+         sodipodi:role="line"
+         id="tspan1100-7"
+         x="64.630394"
+         y="111.39246"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.91692972px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:0.92156863;stroke-width:0.24480811">2</tspan></text>
+    <ellipse
+       style="opacity:1;fill:#8585fc;fill-opacity:0.3658537;stroke:#8585fc;stroke-width:0.52499998;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+       id="path2524-3-8-6-9-6"
+       cx="89.040092"
+       cy="130.54771"
+       rx="2.6324668"
+       ry="2.5026243"
+       inkscape:export-filename="/home/edwin/Documentos/Maestria UFPA/Proyectos/BioInformática/images/metodology.png"
+       inkscape:export-xdpi="94"
+       inkscape:export-ydpi="94" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.91692972px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:0.92156863;stroke:none;stroke-width:0.24480811"
+       x="81.158989"
+       y="142.53432"
+       id="text1102-0-1"
+       transform="scale(1.0807784,0.92525906)"><tspan
+         sodipodi:role="line"
+         id="tspan1100-7-5"
+         x="81.158989"
+         y="142.53432"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:3.91692972px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#000000;fill-opacity:0.92156863;stroke-width:0.24480811">3</tspan></text>
   </g>
 </svg>

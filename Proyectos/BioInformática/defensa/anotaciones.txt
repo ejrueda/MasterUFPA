@@ -1,0 +1,44 @@
+El análisis de la expresión génica es uno de los estudios más comúnes e importantes en biología y biomedicina.
+No importa el análisis de transferencia tradicional o la estrategia de PCR utilizada comúnmente en la actualidad, 
+todos necesitan un gen de referencia estable para normalizar la expresión génica. Para seleccionar y seleccionar
+genes de mantenimiento como los genes de referencia más estables, se empleó PCR cuantitativa en tiempo real (qRT-PCR)
+para analizar la expresión de dieciséis genes de referencia comúnmente utilizados (IbelF, Ibα-tubulin, IbHIS, IbCOX,
+IbGAPDH, IbH2B1, IbARF, IbCYC, Ibβ-tubulina, IbACT, IbEFl-a, IbG14, IbPLD, IbRPL2, IbUBQ, IbUBI) en cinco tejidos
+diferentes bajo dos tensiones de temperatura diferentes en la batata. El análisis de datos realizado por los programas
+Delta CT, geNorm, NormFinder y BestKeeper reveló que IbelF es el gen más estable e IbUBI es el gen menos estable como
+referencia. Nuestro estudio también muestra que la combinación de dos o más genes como referencia es una mejor opción,
+lo que hace que los datos de expresión más justificados para la comparación. Este estudio proporciona evidencia para
+seleccionar genes de referencia en el análisis de expresión génica de batata.
+(https://www.sciencedirect.com/science/article/pii/S0890850820302309?casa_token=iaDmlVcX3NcAAAAA:StwjpbhQuF8VKJMDGdUEjrFeRZlbBb20nZEJI78-XCWqHGu4ccIc2EGkclF6dx4fJUpn2TacgZ0e)
+
+#################################
+
+Although real-time RT-PCR is widely used to quantitate biologically relevant changes in mRNA levels, there remain a number of problems
+associated with its use. These include the inherent variability of RNA, variability of extraction protocols that may copurify inhibitors,
+and different reverse transcription and PCR efficiencies.4 Consequently, it is important that an accurate method of normalisation is chosen
+to control for this error. Unfortunately, normalisation remains one of real-time RT-PCRs most difficult problems.5
+
+Several strategies have been proposed for normalising real-time RT-PCR data. These range from ensuring that a similar sample size is chosen
+to using an internal housekeeping or reference gene (Table 1). These approaches are not mutually exclusive and can be incorporated into a
+protocol at many stages (Figure 1). Here we discuss the respective advantages and disadvantages of each technique.
+
+Normalising to a reference gene is a simple and popular method for internally controlling for error in real-time RT-PCR. This strategy targets
+RNAs encoded by genes, which have been collectively called housekeeping genes and benefits from the fact that all the steps required to obtain
+the final PCR measurement are controlled for. The procedure is simplified as both the gene of interest and the reference gene are measured using
+real-time RT-PCR. Reference genes can also control for different input RNA amounts used in the reverse transcription step (Figure 5); however,
+because this can vary with reverse transcriptase type7 it must be validated.
+(https://www.nature.com/articles/6364190)
+
+Genes de referência:
+The most important is its expression level unaffected by experimental factors. Also, it should show minimal variability in its expression
+between tissues and physiological states of the organism. It is desirable to pick such reference that would show a similar threshold cycle
+with gene of interest. Reference gene must in turn demonstrate the variability resulting from imperfections of the technology used and
+preparatory procedures—this ensures that any variation in the amount of genetic material will relate to the same extent as the object of
+research and control.  (https://link.springer.com/article/10.1007/s13353-013-0173-x)
+
+
+normalizar la expresión génica
+-Los genes de referencia en Quantitative RT-PCR sirven para normalizar los datos, debido a que los GR tienen un minimo cambio de su expresión
+genética en diferentes condiciones de estrés. El gen de referencia a su vez debe demostrar la variabilidad resultante de las imperfecciones
+de la tecnología utilizada y los procedimientos preparatorios, esto asegura que cualquier variación en la cantidad de material genético
+se relacione en la misma medida que el objeto de investigación y el de control (gen de referencia).
