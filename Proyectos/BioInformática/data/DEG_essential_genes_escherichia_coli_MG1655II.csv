@@ -1,0 +1,301 @@
+No,DEG ID, Gene Name, Function, Organism
+1	DEG10190001	ribF	bifunctional riboflavin kinase/FAD synthetase	Escherichia coli MG1655 II
+2	DEG10190002	lspA	prolipoprotein signal peptidase (signal peptidase II)	Escherichia coli MG1655 II
+3	DEG10190003	ispH	4-hydroxy-3-methylbut-2-enyl diphosphate reductase* 4Fe-4S protein	Escherichia coli MG1655 II
+4	DEG10190004	dapB	dihydrodipicolinate reductase	Escherichia coli MG1655 II
+5	DEG10190005	folA	dihydrofolate reductase	Escherichia coli MG1655 II
+6	DEG10190006	imp/lptD	LPS assembly OM complex LptDE* beta-barrel component	Escherichia coli MG1655 II
+7	DEG10190007	ftsL	membrane bound cell division protein at septum containing leucine zipper motif	Escherichia coli MG1655 II
+8	DEG10190008	ftsI	transpeptidase involved in septal peptidoglycan synthesis (penicillin-binding protein 3)	Escherichia coli MG1655 II
+9	DEG10190009	murE	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:meso-diaminopimelate ligase	Escherichia coli MG1655 II
+10	DEG10190010	murF	UDP-N-acetylmuramoyl-tripeptide:D-alanyl-D-alanine ligase	Escherichia coli MG1655 II
+11	DEG10190011	mraY	phospho-N-acetylmuramoyl-pentapeptide transferase	Escherichia coli MG1655 II
+12	DEG10190012	murD	UDP-N-acetylmuramoyl-L-alanine:D-glutamate ligase	Escherichia coli MG1655 II
+13	DEG10190013	ftsW	integral membrane protein involved in stabilizing FstZ ring during cell division	Escherichia coli MG1655 II
+14	DEG10190014	murG	N-acetylglucosaminyl transferase	Escherichia coli MG1655 II
+15	DEG10190015	murC	UDP-N-acetylmuramate:L-alanine ligase	Escherichia coli MG1655 II
+16	DEG10190016	ftsQ	Divisome assembly protein* membrane anchored protein involved in growth of wall at septum	Escherichia coli MG1655 II
+17	DEG10190017	ftsA	ATP-binding cell division protein involved in recruitment of FtsK to Z ring	Escherichia coli MG1655 II
+18	DEG10190018	ftsZ	GTP-binding tubulin-like cell division protein	Escherichia coli MG1655 II
+19	DEG10190019	lpxC	UDP-3-O-acyl N-acetylglucosamine deacetylase	Escherichia coli MG1655 II
+20	DEG10190020	secM	regulator of secA translation	Escherichia coli MG1655 II
+21	DEG10190021	secA	preprotein translocase subunit* ATPase	Escherichia coli MG1655 II
+22	DEG10190022	can	carbonic anhydrase	Escherichia coli MG1655 II
+23	DEG10190023	folK	2-amino-4-hydroxy-6-hydroxymethyldihyropteridine pyrophosphokinase	Escherichia coli MG1655 II
+24	DEG10190024	hemL	glutamate-1-semialdehyde aminotransferase (aminomutase)	Escherichia coli MG1655 II
+25	DEG10190025	yadR/erpA	iron-sulfur cluster insertion protein	Escherichia coli MG1655 II
+26	DEG10190026	dapD	2*3*4*5-tetrahydropyridine-2-carboxylate N-succinyltransferase	Escherichia coli MG1655 II
+27	DEG10190027	map	methionine aminopeptidase	Escherichia coli MG1655 II
+28	DEG10190028	rpsB	30S ribosomal subunit protein S2	Escherichia coli MG1655 II
+29	DEG10190029	tsf	protein chain elongation factor EF-Ts	Escherichia coli MG1655 II
+30	DEG10190030	pyrH	uridylate kinase	Escherichia coli MG1655 II
+31	DEG10190031	frr	ribosome recycling factor	Escherichia coli MG1655 II
+32	DEG10190032	dxr	1-deoxy-D-xylulose 5-phosphate reductoisomerase	Escherichia coli MG1655 II
+33	DEG10190033	ispU	undecaprenyl pyrophosphate synthase	Escherichia coli MG1655 II
+34	DEG10190034	cdsA	CDP-diglyceride synthase	Escherichia coli MG1655 II
+35	DEG10190035	yaeL/rseP	inner membrane zinc RIP metalloprotease; RpoE activator* by degrading RseA	Escherichia coli MG1655 II
+36	DEG10190036	yaeT/bamA	outer membrane protein assembly factor* forms pores; required for OM biogenesis; in BamABCD OM protein complex	Escherichia coli MG1655 II
+37	DEG10190037	lpxD	UDP-3-O-(3-hydroxymyristoyl)-glucosamine N-acyltransferase	Escherichia coli MG1655 II
+38	DEG10190038	fabZ	(3R)-hydroxymyristol acyl carrier protein dehydratase	Escherichia coli MG1655 II
+39	DEG10190039	lpxA	UDP-N-acetylglucosamine acetyltransferase	Escherichia coli MG1655 II
+40	DEG10190040	lpxB	tetraacyldisaccharide-1-P synthase	Escherichia coli MG1655 II
+41	DEG10190041	dnaE	DNA polymerase III alpha subunit	Escherichia coli MG1655 II
+42	DEG10190042	accA	acetyl-CoA carboxylase* carboxytransferase* alpha subunit	Escherichia coli MG1655 II
+43	DEG10190043	tilS	tRNA(Ile)-lysidine synthetase	Escherichia coli MG1655 II
+44	DEG10190044	proS	prolyl-tRNA synthetase	Escherichia coli MG1655 II
+45	DEG10190045	yagG	CP4-6 prophage; predicted sugar transporter	Escherichia coli MG1655 II
+46	DEG10190046	hemB	5-aminolevulinate dehydratase (porphobilinogen synthase)	Escherichia coli MG1655 II
+47	DEG10190047	secD	SecYEG protein translocase auxillary subunit	Escherichia coli MG1655 II
+48	DEG10190048	secF	SecYEG protein translocase auxillary subunit	Escherichia coli MG1655 II
+49	DEG10190049	ribD	fused diaminohydroxyphosphoribosylaminopyrimidine deaminase and 5-amino-6-(5-phosphoribosylamino) uracil reductase	Escherichia coli MG1655 II
+50	DEG10190050	ribE	riboflavin synthase beta chain	Escherichia coli MG1655 II
+51	DEG10190051	thiL	thiamin-monophosphate kinase	Escherichia coli MG1655 II
+52	DEG10190052	dxs	1-deoxyxylulose-5-phosphate synthase* thiamine-requiring* FAD-requiring	Escherichia coli MG1655 II
+53	DEG10190053	ispA	geranyltranstransferase	Escherichia coli MG1655 II
+54	DEG10190054	dnaX	DNA polymerase III/DNA elongation factor III* tau and gamma subunits	Escherichia coli MG1655 II
+55	DEG10190055	adk	adenylate kinase	Escherichia coli MG1655 II
+56	DEG10190056	hemH	ferrochelatase	Escherichia coli MG1655 II
+57	DEG10190057	lpxH	UDP-2*3-diacylglucosamine pyrophosphatase	Escherichia coli MG1655 II
+58	DEG10190058	cysS	cysteinyl-tRNA synthetase	Escherichia coli MG1655 II
+59	DEG10190059	folD	bifunctional 5*10-methylene-tetrahydrofolate dehydrogenase/ 5*10-methylene-tetrahydrofolate cyclohydrolase	Escherichia coli MG1655 II
+60	DEG10190060	entD	phosphopantetheinyltransferase component of enterobactin synthase multienzyme complex	Escherichia coli MG1655 II
+1	DEG10190001	ribF	bifunctional riboflavin kinase/FAD synthetase	Escherichia coli MG1655 II
+2	DEG10190002	lspA	prolipoprotein signal peptidase (signal peptidase II)	Escherichia coli MG1655 II
+3	DEG10190003	ispH	4-hydroxy-3-methylbut-2-enyl diphosphate reductase* 4Fe-4S protein	Escherichia coli MG1655 II
+4	DEG10190004	dapB	dihydrodipicolinate reductase	Escherichia coli MG1655 II
+5	DEG10190005	folA	dihydrofolate reductase	Escherichia coli MG1655 II
+6	DEG10190006	imp/lptD	LPS assembly OM complex LptDE* beta-barrel component	Escherichia coli MG1655 II
+7	DEG10190007	ftsL	membrane bound cell division protein at septum containing leucine zipper motif	Escherichia coli MG1655 II
+8	DEG10190008	ftsI	transpeptidase involved in septal peptidoglycan synthesis (penicillin-binding protein 3)	Escherichia coli MG1655 II
+9	DEG10190009	murE	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:meso-diaminopimelate ligase	Escherichia coli MG1655 II
+10	DEG10190010	murF	UDP-N-acetylmuramoyl-tripeptide:D-alanyl-D-alanine ligase	Escherichia coli MG1655 II
+11	DEG10190011	mraY	phospho-N-acetylmuramoyl-pentapeptide transferase	Escherichia coli MG1655 II
+12	DEG10190012	murD	UDP-N-acetylmuramoyl-L-alanine:D-glutamate ligase	Escherichia coli MG1655 II
+13	DEG10190013	ftsW	integral membrane protein involved in stabilizing FstZ ring during cell division	Escherichia coli MG1655 II
+14	DEG10190014	murG	N-acetylglucosaminyl transferase	Escherichia coli MG1655 II
+15	DEG10190015	murC	UDP-N-acetylmuramate:L-alanine ligase	Escherichia coli MG1655 II
+16	DEG10190016	ftsQ	Divisome assembly protein* membrane anchored protein involved in growth of wall at septum	Escherichia coli MG1655 II
+17	DEG10190017	ftsA	ATP-binding cell division protein involved in recruitment of FtsK to Z ring	Escherichia coli MG1655 II
+18	DEG10190018	ftsZ	GTP-binding tubulin-like cell division protein	Escherichia coli MG1655 II
+19	DEG10190019	lpxC	UDP-3-O-acyl N-acetylglucosamine deacetylase	Escherichia coli MG1655 II
+20	DEG10190020	secM	regulator of secA translation	Escherichia coli MG1655 II
+21	DEG10190021	secA	preprotein translocase subunit* ATPase	Escherichia coli MG1655 II
+22	DEG10190022	can	carbonic anhydrase	Escherichia coli MG1655 II
+23	DEG10190023	folK	2-amino-4-hydroxy-6-hydroxymethyldihyropteridine pyrophosphokinase	Escherichia coli MG1655 II
+24	DEG10190024	hemL	glutamate-1-semialdehyde aminotransferase (aminomutase)	Escherichia coli MG1655 II
+25	DEG10190025	yadR/erpA	iron-sulfur cluster insertion protein	Escherichia coli MG1655 II
+26	DEG10190026	dapD	2*3*4*5-tetrahydropyridine-2-carboxylate N-succinyltransferase	Escherichia coli MG1655 II
+27	DEG10190027	map	methionine aminopeptidase	Escherichia coli MG1655 II
+28	DEG10190028	rpsB	30S ribosomal subunit protein S2	Escherichia coli MG1655 II
+29	DEG10190029	tsf	protein chain elongation factor EF-Ts	Escherichia coli MG1655 II
+30	DEG10190030	pyrH	uridylate kinase	Escherichia coli MG1655 II
+31	DEG10190031	frr	ribosome recycling factor	Escherichia coli MG1655 II
+32	DEG10190032	dxr	1-deoxy-D-xylulose 5-phosphate reductoisomerase	Escherichia coli MG1655 II
+33	DEG10190033	ispU	undecaprenyl pyrophosphate synthase	Escherichia coli MG1655 II
+34	DEG10190034	cdsA	CDP-diglyceride synthase	Escherichia coli MG1655 II
+35	DEG10190035	yaeL/rseP	inner membrane zinc RIP metalloprotease; RpoE activator* by degrading RseA	Escherichia coli MG1655 II
+36	DEG10190036	yaeT/bamA	outer membrane protein assembly factor* forms pores; required for OM biogenesis; in BamABCD OM protein complex	Escherichia coli MG1655 II
+37	DEG10190037	lpxD	UDP-3-O-(3-hydroxymyristoyl)-glucosamine N-acyltransferase	Escherichia coli MG1655 II
+38	DEG10190038	fabZ	(3R)-hydroxymyristol acyl carrier protein dehydratase	Escherichia coli MG1655 II
+39	DEG10190039	lpxA	UDP-N-acetylglucosamine acetyltransferase	Escherichia coli MG1655 II
+40	DEG10190040	lpxB	tetraacyldisaccharide-1-P synthase	Escherichia coli MG1655 II
+41	DEG10190041	dnaE	DNA polymerase III alpha subunit	Escherichia coli MG1655 II
+42	DEG10190042	accA	acetyl-CoA carboxylase* carboxytransferase* alpha subunit	Escherichia coli MG1655 II
+43	DEG10190043	tilS	tRNA(Ile)-lysidine synthetase	Escherichia coli MG1655 II
+44	DEG10190044	proS	prolyl-tRNA synthetase	Escherichia coli MG1655 II
+45	DEG10190045	yagG	CP4-6 prophage; predicted sugar transporter	Escherichia coli MG1655 II
+46	DEG10190046	hemB	5-aminolevulinate dehydratase (porphobilinogen synthase)	Escherichia coli MG1655 II
+47	DEG10190047	secD	SecYEG protein translocase auxillary subunit	Escherichia coli MG1655 II
+48	DEG10190048	secF	SecYEG protein translocase auxillary subunit	Escherichia coli MG1655 II
+49	DEG10190049	ribD	fused diaminohydroxyphosphoribosylaminopyrimidine deaminase and 5-amino-6-(5-phosphoribosylamino) uracil reductase	Escherichia coli MG1655 II
+50	DEG10190050	ribE	riboflavin synthase beta chain	Escherichia coli MG1655 II
+51	DEG10190051	thiL	thiamin-monophosphate kinase	Escherichia coli MG1655 II
+52	DEG10190052	dxs	1-deoxyxylulose-5-phosphate synthase* thiamine-requiring* FAD-requiring	Escherichia coli MG1655 II
+53	DEG10190053	ispA	geranyltranstransferase	Escherichia coli MG1655 II
+54	DEG10190054	dnaX	DNA polymerase III/DNA elongation factor III* tau and gamma subunits	Escherichia coli MG1655 II
+55	DEG10190055	adk	adenylate kinase	Escherichia coli MG1655 II
+56	DEG10190056	hemH	ferrochelatase	Escherichia coli MG1655 II
+57	DEG10190057	lpxH	UDP-2*3-diacylglucosamine pyrophosphatase	Escherichia coli MG1655 II
+58	DEG10190058	cysS	cysteinyl-tRNA synthetase	Escherichia coli MG1655 II
+59	DEG10190059	folD	bifunctional 5*10-methylene-tetrahydrofolate dehydrogenase/ 5*10-methylene-tetrahydrofolate cyclohydrolase	Escherichia coli MG1655 II
+60	DEG10190060	entD	phosphopantetheinyltransferase component of enterobactin synthase multienzyme complex	Escherichia coli MG1655 II
+1	DEG10190001	ribF	bifunctional riboflavin kinase/FAD synthetase	Escherichia coli MG1655 II
+2	DEG10190002	lspA	prolipoprotein signal peptidase (signal peptidase II)	Escherichia coli MG1655 II
+3	DEG10190003	ispH	4-hydroxy-3-methylbut-2-enyl diphosphate reductase* 4Fe-4S protein	Escherichia coli MG1655 II
+4	DEG10190004	dapB	dihydrodipicolinate reductase	Escherichia coli MG1655 II
+5	DEG10190005	folA	dihydrofolate reductase	Escherichia coli MG1655 II
+6	DEG10190006	imp/lptD	LPS assembly OM complex LptDE* beta-barrel component	Escherichia coli MG1655 II
+7	DEG10190007	ftsL	membrane bound cell division protein at septum containing leucine zipper motif	Escherichia coli MG1655 II
+8	DEG10190008	ftsI	transpeptidase involved in septal peptidoglycan synthesis (penicillin-binding protein 3)	Escherichia coli MG1655 II
+9	DEG10190009	murE	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:meso-diaminopimelate ligase	Escherichia coli MG1655 II
+10	DEG10190010	murF	UDP-N-acetylmuramoyl-tripeptide:D-alanyl-D-alanine ligase	Escherichia coli MG1655 II
+11	DEG10190011	mraY	phospho-N-acetylmuramoyl-pentapeptide transferase	Escherichia coli MG1655 II
+12	DEG10190012	murD	UDP-N-acetylmuramoyl-L-alanine:D-glutamate ligase	Escherichia coli MG1655 II
+13	DEG10190013	ftsW	integral membrane protein involved in stabilizing FstZ ring during cell division	Escherichia coli MG1655 II
+14	DEG10190014	murG	N-acetylglucosaminyl transferase	Escherichia coli MG1655 II
+15	DEG10190015	murC	UDP-N-acetylmuramate:L-alanine ligase	Escherichia coli MG1655 II
+16	DEG10190016	ftsQ	Divisome assembly protein* membrane anchored protein involved in growth of wall at septum	Escherichia coli MG1655 II
+17	DEG10190017	ftsA	ATP-binding cell division protein involved in recruitment of FtsK to Z ring	Escherichia coli MG1655 II
+18	DEG10190018	ftsZ	GTP-binding tubulin-like cell division protein	Escherichia coli MG1655 II
+19	DEG10190019	lpxC	UDP-3-O-acyl N-acetylglucosamine deacetylase	Escherichia coli MG1655 II
+20	DEG10190020	secM	regulator of secA translation	Escherichia coli MG1655 II
+21	DEG10190021	secA	preprotein translocase subunit* ATPase	Escherichia coli MG1655 II
+22	DEG10190022	can	carbonic anhydrase	Escherichia coli MG1655 II
+23	DEG10190023	folK	2-amino-4-hydroxy-6-hydroxymethyldihyropteridine pyrophosphokinase	Escherichia coli MG1655 II
+24	DEG10190024	hemL	glutamate-1-semialdehyde aminotransferase (aminomutase)	Escherichia coli MG1655 II
+25	DEG10190025	yadR/erpA	iron-sulfur cluster insertion protein	Escherichia coli MG1655 II
+26	DEG10190026	dapD	2*3*4*5-tetrahydropyridine-2-carboxylate N-succinyltransferase	Escherichia coli MG1655 II
+27	DEG10190027	map	methionine aminopeptidase	Escherichia coli MG1655 II
+28	DEG10190028	rpsB	30S ribosomal subunit protein S2	Escherichia coli MG1655 II
+29	DEG10190029	tsf	protein chain elongation factor EF-Ts	Escherichia coli MG1655 II
+30	DEG10190030	pyrH	uridylate kinase	Escherichia coli MG1655 II
+31	DEG10190031	frr	ribosome recycling factor	Escherichia coli MG1655 II
+32	DEG10190032	dxr	1-deoxy-D-xylulose 5-phosphate reductoisomerase	Escherichia coli MG1655 II
+33	DEG10190033	ispU	undecaprenyl pyrophosphate synthase	Escherichia coli MG1655 II
+34	DEG10190034	cdsA	CDP-diglyceride synthase	Escherichia coli MG1655 II
+35	DEG10190035	yaeL/rseP	inner membrane zinc RIP metalloprotease; RpoE activator* by degrading RseA	Escherichia coli MG1655 II
+36	DEG10190036	yaeT/bamA	outer membrane protein assembly factor* forms pores; required for OM biogenesis; in BamABCD OM protein complex	Escherichia coli MG1655 II
+37	DEG10190037	lpxD	UDP-3-O-(3-hydroxymyristoyl)-glucosamine N-acyltransferase	Escherichia coli MG1655 II
+38	DEG10190038	fabZ	(3R)-hydroxymyristol acyl carrier protein dehydratase	Escherichia coli MG1655 II
+39	DEG10190039	lpxA	UDP-N-acetylglucosamine acetyltransferase	Escherichia coli MG1655 II
+40	DEG10190040	lpxB	tetraacyldisaccharide-1-P synthase	Escherichia coli MG1655 II
+41	DEG10190041	dnaE	DNA polymerase III alpha subunit	Escherichia coli MG1655 II
+42	DEG10190042	accA	acetyl-CoA carboxylase* carboxytransferase* alpha subunit	Escherichia coli MG1655 II
+43	DEG10190043	tilS	tRNA(Ile)-lysidine synthetase	Escherichia coli MG1655 II
+44	DEG10190044	proS	prolyl-tRNA synthetase	Escherichia coli MG1655 II
+45	DEG10190045	yagG	CP4-6 prophage; predicted sugar transporter	Escherichia coli MG1655 II
+46	DEG10190046	hemB	5-aminolevulinate dehydratase (porphobilinogen synthase)	Escherichia coli MG1655 II
+47	DEG10190047	secD	SecYEG protein translocase auxillary subunit	Escherichia coli MG1655 II
+48	DEG10190048	secF	SecYEG protein translocase auxillary subunit	Escherichia coli MG1655 II
+49	DEG10190049	ribD	fused diaminohydroxyphosphoribosylaminopyrimidine deaminase and 5-amino-6-(5-phosphoribosylamino) uracil reductase	Escherichia coli MG1655 II
+50	DEG10190050	ribE	riboflavin synthase beta chain	Escherichia coli MG1655 II
+51	DEG10190051	thiL	thiamin-monophosphate kinase	Escherichia coli MG1655 II
+52	DEG10190052	dxs	1-deoxyxylulose-5-phosphate synthase* thiamine-requiring* FAD-requiring	Escherichia coli MG1655 II
+53	DEG10190053	ispA	geranyltranstransferase	Escherichia coli MG1655 II
+54	DEG10190054	dnaX	DNA polymerase III/DNA elongation factor III* tau and gamma subunits	Escherichia coli MG1655 II
+55	DEG10190055	adk	adenylate kinase	Escherichia coli MG1655 II
+56	DEG10190056	hemH	ferrochelatase	Escherichia coli MG1655 II
+57	DEG10190057	lpxH	UDP-2*3-diacylglucosamine pyrophosphatase	Escherichia coli MG1655 II
+58	DEG10190058	cysS	cysteinyl-tRNA synthetase	Escherichia coli MG1655 II
+59	DEG10190059	folD	bifunctional 5*10-methylene-tetrahydrofolate dehydrogenase/ 5*10-methylene-tetrahydrofolate cyclohydrolase	Escherichia coli MG1655 II
+60	DEG10190060	entD	phosphopantetheinyltransferase component of enterobactin synthase multienzyme complex	Escherichia coli MG1655 II
+1	DEG10190001	ribF	bifunctional riboflavin kinase/FAD synthetase	Escherichia coli MG1655 II
+2	DEG10190002	lspA	prolipoprotein signal peptidase (signal peptidase II)	Escherichia coli MG1655 II
+3	DEG10190003	ispH	4-hydroxy-3-methylbut-2-enyl diphosphate reductase* 4Fe-4S protein	Escherichia coli MG1655 II
+4	DEG10190004	dapB	dihydrodipicolinate reductase	Escherichia coli MG1655 II
+5	DEG10190005	folA	dihydrofolate reductase	Escherichia coli MG1655 II
+6	DEG10190006	imp/lptD	LPS assembly OM complex LptDE* beta-barrel component	Escherichia coli MG1655 II
+7	DEG10190007	ftsL	membrane bound cell division protein at septum containing leucine zipper motif	Escherichia coli MG1655 II
+8	DEG10190008	ftsI	transpeptidase involved in septal peptidoglycan synthesis (penicillin-binding protein 3)	Escherichia coli MG1655 II
+9	DEG10190009	murE	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:meso-diaminopimelate ligase	Escherichia coli MG1655 II
+10	DEG10190010	murF	UDP-N-acetylmuramoyl-tripeptide:D-alanyl-D-alanine ligase	Escherichia coli MG1655 II
+11	DEG10190011	mraY	phospho-N-acetylmuramoyl-pentapeptide transferase	Escherichia coli MG1655 II
+12	DEG10190012	murD	UDP-N-acetylmuramoyl-L-alanine:D-glutamate ligase	Escherichia coli MG1655 II
+13	DEG10190013	ftsW	integral membrane protein involved in stabilizing FstZ ring during cell division	Escherichia coli MG1655 II
+14	DEG10190014	murG	N-acetylglucosaminyl transferase	Escherichia coli MG1655 II
+15	DEG10190015	murC	UDP-N-acetylmuramate:L-alanine ligase	Escherichia coli MG1655 II
+16	DEG10190016	ftsQ	Divisome assembly protein* membrane anchored protein involved in growth of wall at septum	Escherichia coli MG1655 II
+17	DEG10190017	ftsA	ATP-binding cell division protein involved in recruitment of FtsK to Z ring	Escherichia coli MG1655 II
+18	DEG10190018	ftsZ	GTP-binding tubulin-like cell division protein	Escherichia coli MG1655 II
+19	DEG10190019	lpxC	UDP-3-O-acyl N-acetylglucosamine deacetylase	Escherichia coli MG1655 II
+20	DEG10190020	secM	regulator of secA translation	Escherichia coli MG1655 II
+21	DEG10190021	secA	preprotein translocase subunit* ATPase	Escherichia coli MG1655 II
+22	DEG10190022	can	carbonic anhydrase	Escherichia coli MG1655 II
+23	DEG10190023	folK	2-amino-4-hydroxy-6-hydroxymethyldihyropteridine pyrophosphokinase	Escherichia coli MG1655 II
+24	DEG10190024	hemL	glutamate-1-semialdehyde aminotransferase (aminomutase)	Escherichia coli MG1655 II
+25	DEG10190025	yadR/erpA	iron-sulfur cluster insertion protein	Escherichia coli MG1655 II
+26	DEG10190026	dapD	2*3*4*5-tetrahydropyridine-2-carboxylate N-succinyltransferase	Escherichia coli MG1655 II
+27	DEG10190027	map	methionine aminopeptidase	Escherichia coli MG1655 II
+28	DEG10190028	rpsB	30S ribosomal subunit protein S2	Escherichia coli MG1655 II
+29	DEG10190029	tsf	protein chain elongation factor EF-Ts	Escherichia coli MG1655 II
+30	DEG10190030	pyrH	uridylate kinase	Escherichia coli MG1655 II
+31	DEG10190031	frr	ribosome recycling factor	Escherichia coli MG1655 II
+32	DEG10190032	dxr	1-deoxy-D-xylulose 5-phosphate reductoisomerase	Escherichia coli MG1655 II
+33	DEG10190033	ispU	undecaprenyl pyrophosphate synthase	Escherichia coli MG1655 II
+34	DEG10190034	cdsA	CDP-diglyceride synthase	Escherichia coli MG1655 II
+35	DEG10190035	yaeL/rseP	inner membrane zinc RIP metalloprotease; RpoE activator* by degrading RseA	Escherichia coli MG1655 II
+36	DEG10190036	yaeT/bamA	outer membrane protein assembly factor* forms pores; required for OM biogenesis; in BamABCD OM protein complex	Escherichia coli MG1655 II
+37	DEG10190037	lpxD	UDP-3-O-(3-hydroxymyristoyl)-glucosamine N-acyltransferase	Escherichia coli MG1655 II
+38	DEG10190038	fabZ	(3R)-hydroxymyristol acyl carrier protein dehydratase	Escherichia coli MG1655 II
+39	DEG10190039	lpxA	UDP-N-acetylglucosamine acetyltransferase	Escherichia coli MG1655 II
+40	DEG10190040	lpxB	tetraacyldisaccharide-1-P synthase	Escherichia coli MG1655 II
+41	DEG10190041	dnaE	DNA polymerase III alpha subunit	Escherichia coli MG1655 II
+42	DEG10190042	accA	acetyl-CoA carboxylase* carboxytransferase* alpha subunit	Escherichia coli MG1655 II
+43	DEG10190043	tilS	tRNA(Ile)-lysidine synthetase	Escherichia coli MG1655 II
+44	DEG10190044	proS	prolyl-tRNA synthetase	Escherichia coli MG1655 II
+45	DEG10190045	yagG	CP4-6 prophage; predicted sugar transporter	Escherichia coli MG1655 II
+46	DEG10190046	hemB	5-aminolevulinate dehydratase (porphobilinogen synthase)	Escherichia coli MG1655 II
+47	DEG10190047	secD	SecYEG protein translocase auxillary subunit	Escherichia coli MG1655 II
+48	DEG10190048	secF	SecYEG protein translocase auxillary subunit	Escherichia coli MG1655 II
+49	DEG10190049	ribD	fused diaminohydroxyphosphoribosylaminopyrimidine deaminase and 5-amino-6-(5-phosphoribosylamino) uracil reductase	Escherichia coli MG1655 II
+50	DEG10190050	ribE	riboflavin synthase beta chain	Escherichia coli MG1655 II
+51	DEG10190051	thiL	thiamin-monophosphate kinase	Escherichia coli MG1655 II
+52	DEG10190052	dxs	1-deoxyxylulose-5-phosphate synthase* thiamine-requiring* FAD-requiring	Escherichia coli MG1655 II
+53	DEG10190053	ispA	geranyltranstransferase	Escherichia coli MG1655 II
+54	DEG10190054	dnaX	DNA polymerase III/DNA elongation factor III* tau and gamma subunits	Escherichia coli MG1655 II
+55	DEG10190055	adk	adenylate kinase	Escherichia coli MG1655 II
+56	DEG10190056	hemH	ferrochelatase	Escherichia coli MG1655 II
+57	DEG10190057	lpxH	UDP-2*3-diacylglucosamine pyrophosphatase	Escherichia coli MG1655 II
+58	DEG10190058	cysS	cysteinyl-tRNA synthetase	Escherichia coli MG1655 II
+59	DEG10190059	folD	bifunctional 5*10-methylene-tetrahydrofolate dehydrogenase/ 5*10-methylene-tetrahydrofolate cyclohydrolase	Escherichia coli MG1655 II
+60	DEG10190060	entD	phosphopantetheinyltransferase component of enterobactin synthase multienzyme complex	Escherichia coli MG1655 II
+1	DEG10190001	ribF	bifunctional riboflavin kinase/FAD synthetase	Escherichia coli MG1655 II
+2	DEG10190002	lspA	prolipoprotein signal peptidase (signal peptidase II)	Escherichia coli MG1655 II
+3	DEG10190003	ispH	4-hydroxy-3-methylbut-2-enyl diphosphate reductase* 4Fe-4S protein	Escherichia coli MG1655 II
+4	DEG10190004	dapB	dihydrodipicolinate reductase	Escherichia coli MG1655 II
+5	DEG10190005	folA	dihydrofolate reductase	Escherichia coli MG1655 II
+6	DEG10190006	imp/lptD	LPS assembly OM complex LptDE* beta-barrel component	Escherichia coli MG1655 II
+7	DEG10190007	ftsL	membrane bound cell division protein at septum containing leucine zipper motif	Escherichia coli MG1655 II
+8	DEG10190008	ftsI	transpeptidase involved in septal peptidoglycan synthesis (penicillin-binding protein 3)	Escherichia coli MG1655 II
+9	DEG10190009	murE	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate:meso-diaminopimelate ligase	Escherichia coli MG1655 II
+10	DEG10190010	murF	UDP-N-acetylmuramoyl-tripeptide:D-alanyl-D-alanine ligase	Escherichia coli MG1655 II
+11	DEG10190011	mraY	phospho-N-acetylmuramoyl-pentapeptide transferase	Escherichia coli MG1655 II
+12	DEG10190012	murD	UDP-N-acetylmuramoyl-L-alanine:D-glutamate ligase	Escherichia coli MG1655 II
+13	DEG10190013	ftsW	integral membrane protein involved in stabilizing FstZ ring during cell division	Escherichia coli MG1655 II
+14	DEG10190014	murG	N-acetylglucosaminyl transferase	Escherichia coli MG1655 II
+15	DEG10190015	murC	UDP-N-acetylmuramate:L-alanine ligase	Escherichia coli MG1655 II
+16	DEG10190016	ftsQ	Divisome assembly protein* membrane anchored protein involved in growth of wall at septum	Escherichia coli MG1655 II
+17	DEG10190017	ftsA	ATP-binding cell division protein involved in recruitment of FtsK to Z ring	Escherichia coli MG1655 II
+18	DEG10190018	ftsZ	GTP-binding tubulin-like cell division protein	Escherichia coli MG1655 II
+19	DEG10190019	lpxC	UDP-3-O-acyl N-acetylglucosamine deacetylase	Escherichia coli MG1655 II
+20	DEG10190020	secM	regulator of secA translation	Escherichia coli MG1655 II
+21	DEG10190021	secA	preprotein translocase subunit* ATPase	Escherichia coli MG1655 II
+22	DEG10190022	can	carbonic anhydrase	Escherichia coli MG1655 II
+23	DEG10190023	folK	2-amino-4-hydroxy-6-hydroxymethyldihyropteridine pyrophosphokinase	Escherichia coli MG1655 II
+24	DEG10190024	hemL	glutamate-1-semialdehyde aminotransferase (aminomutase)	Escherichia coli MG1655 II
+25	DEG10190025	yadR/erpA	iron-sulfur cluster insertion protein	Escherichia coli MG1655 II
+26	DEG10190026	dapD	2*3*4*5-tetrahydropyridine-2-carboxylate N-succinyltransferase	Escherichia coli MG1655 II
+27	DEG10190027	map	methionine aminopeptidase	Escherichia coli MG1655 II
+28	DEG10190028	rpsB	30S ribosomal subunit protein S2	Escherichia coli MG1655 II
+29	DEG10190029	tsf	protein chain elongation factor EF-Ts	Escherichia coli MG1655 II
+30	DEG10190030	pyrH	uridylate kinase	Escherichia coli MG1655 II
+31	DEG10190031	frr	ribosome recycling factor	Escherichia coli MG1655 II
+32	DEG10190032	dxr	1-deoxy-D-xylulose 5-phosphate reductoisomerase	Escherichia coli MG1655 II
+33	DEG10190033	ispU	undecaprenyl pyrophosphate synthase	Escherichia coli MG1655 II
+34	DEG10190034	cdsA	CDP-diglyceride synthase	Escherichia coli MG1655 II
+35	DEG10190035	yaeL/rseP	inner membrane zinc RIP metalloprotease; RpoE activator* by degrading RseA	Escherichia coli MG1655 II
+36	DEG10190036	yaeT/bamA	outer membrane protein assembly factor* forms pores; required for OM biogenesis; in BamABCD OM protein complex	Escherichia coli MG1655 II
+37	DEG10190037	lpxD	UDP-3-O-(3-hydroxymyristoyl)-glucosamine N-acyltransferase	Escherichia coli MG1655 II
+38	DEG10190038	fabZ	(3R)-hydroxymyristol acyl carrier protein dehydratase	Escherichia coli MG1655 II
+39	DEG10190039	lpxA	UDP-N-acetylglucosamine acetyltransferase	Escherichia coli MG1655 II
+40	DEG10190040	lpxB	tetraacyldisaccharide-1-P synthase	Escherichia coli MG1655 II
+41	DEG10190041	dnaE	DNA polymerase III alpha subunit	Escherichia coli MG1655 II
+42	DEG10190042	accA	acetyl-CoA carboxylase* carboxytransferase* alpha subunit	Escherichia coli MG1655 II
+43	DEG10190043	tilS	tRNA(Ile)-lysidine synthetase	Escherichia coli MG1655 II
+44	DEG10190044	proS	prolyl-tRNA synthetase	Escherichia coli MG1655 II
+45	DEG10190045	yagG	CP4-6 prophage; predicted sugar transporter	Escherichia coli MG1655 II
+46	DEG10190046	hemB	5-aminolevulinate dehydratase (porphobilinogen synthase)	Escherichia coli MG1655 II
+47	DEG10190047	secD	SecYEG protein translocase auxillary subunit	Escherichia coli MG1655 II
+48	DEG10190048	secF	SecYEG protein translocase auxillary subunit	Escherichia coli MG1655 II
+49	DEG10190049	ribD	fused diaminohydroxyphosphoribosylaminopyrimidine deaminase and 5-amino-6-(5-phosphoribosylamino) uracil reductase	Escherichia coli MG1655 II
+50	DEG10190050	ribE	riboflavin synthase beta chain	Escherichia coli MG1655 II
+51	DEG10190051	thiL	thiamin-monophosphate kinase	Escherichia coli MG1655 II
+52	DEG10190052	dxs	1-deoxyxylulose-5-phosphate synthase* thiamine-requiring* FAD-requiring	Escherichia coli MG1655 II
+53	DEG10190053	ispA	geranyltranstransferase	Escherichia coli MG1655 II
+54	DEG10190054	dnaX	DNA polymerase III/DNA elongation factor III* tau and gamma subunits	Escherichia coli MG1655 II
+55	DEG10190055	adk	adenylate kinase	Escherichia coli MG1655 II
+56	DEG10190056	hemH	ferrochelatase	Escherichia coli MG1655 II
+57	DEG10190057	lpxH	UDP-2*3-diacylglucosamine pyrophosphatase	Escherichia coli MG1655 II
+58	DEG10190058	cysS	cysteinyl-tRNA synthetase	Escherichia coli MG1655 II
+59	DEG10190059	folD	bifunctional 5*10-methylene-tetrahydrofolate dehydrogenase/ 5*10-methylene-tetrahydrofolate cyclohydrolase	Escherichia coli MG1655 II
+60	DEG10190060	entD	phosphopantetheinyltransferase component of enterobactin synthase multienzyme complex	Escherichia coli MG1655 II
