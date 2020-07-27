@@ -1,3 +1,8 @@
+function sleep(delay) {
+        var start = new Date().getTime();
+        while (new Date().getTime() < start + delay);
+      }
+
 function download_csv(data, colunm_names, file_name) {
     // this function allows you to download a js array in csv format
     var csv = colunm_names
@@ -22,12 +27,14 @@ var info_genes = [];
 for (i=0; i<num_subpages; i++){
     link_subpage = link_DEG + String(i+1);
     //to navigate to the subpage
-    window.location.assign(link_subpage);
+    var html = (await (await fetch("http://origin.tubic.org/deg/public/index.php/organism/bacteria/DEG1018.html?lineage=bacteria&id=DEG1018&page="+String(i+1))).text());
+    var doc = new DOMParser().parseFromString(html, 'text/html');
     // to get the table of genes
-    var genes_table = document.getElementsByTagName('table')[1];
+    var genes_table = doc.getElementsByTagName('table')[1];
     for (g=0; g<genes_table.rows.length-1; g++){
         info_genes[info_genes.length+g] = genes_table.rows[g+1].innerText.trim().replace(/,/g, "*").split("\n");
     }
+    sleep(3000);
 }
 columns = 'No,DEG ID, Gene Name, Function, Organism\n'
-download_csv(info_genes, columns, "test.csv");
+download_csv(info_genes, columns, "DEG_essential_genes_Ecoli:MG1655I.csv");

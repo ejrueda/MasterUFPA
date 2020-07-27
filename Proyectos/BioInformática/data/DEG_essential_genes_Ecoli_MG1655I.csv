@@ -1,0 +1,610 @@
+No,DEG ID, Gene Name, Function, Organism
+1,                DEG10180001,                mog,                Molybdopterin biosynthesis mog protein,                Escherichia coli MG1655 I
+2,                DEG10180002,                dnaK,                Chaperone protein dnaK,                Escherichia coli MG1655 I
+3,                DEG10180003,                insA,                Insertion element IS1 1/2/3/5/6 protein insA,                Escherichia coli MG1655 I
+4,                DEG10180004,                rpsT,                30S ribosomal protein S20,                Escherichia coli MG1655 I
+5,                DEG10180005,                ribF,                Riboflavin biosynthesis protein ribF,                Escherichia coli MG1655 I
+6,                DEG10180006,                ileS,                Isoleucyl-tRNA synthetase (EC 6.1.1.5),                Escherichia coli MG1655 I
+7,                DEG10180007,                lspA,                Lipoprotein signal peptidase (EC 3.4.23.36),                Escherichia coli MG1655 I
+8,                DEG10180008,                ispH,                IspH protein (lytB),                Escherichia coli MG1655 I
+9,                DEG10180009,                dapB,                Dihydrodipicolinate reductase (EC 1.3.1.26),                Escherichia coli MG1655 I
+10,                DEG10180010,                folA,                Dihydrofolate reductase (EC 1.5.1.3),                Escherichia coli MG1655 I
+11,                DEG10180011,                imp/lptD,                Organic solvent tolerance protein precursor,                Escherichia coli MG1655 I
+12,                DEG10180012,                rluA,                Ribosomal large subunit pseudouridine synthase A (EC 4.2.1.70),                Escherichia coli MG1655 I
+13,                DEG10180013,                mraW/rsmH,                S-adenosyl-methyltransferase mraW (EC 2.1.1.-),                Escherichia coli MG1655 I
+14,                DEG10180014,                ftsL,                Cell division protein ftsL,                Escherichia coli MG1655 I
+15,                DEG10180015,                ftsI,                Peptidoglycan synthetase ftsI precursor,                Escherichia coli MG1655 I
+16,                DEG10180016,                murE,                UDP-N-acetylmuramoylalanyl-D-glutamate--2*6-diaminopimelate ligase (EC 6.3.2.13),                Escherichia coli MG1655 I
+17,                DEG10180017,                murD,                UDP-N-acetylmuramoylalanine--D-glutamate ligase (EC 6.3.2.9),                Escherichia coli MG1655 I
+18,                DEG10180018,                ftsW,                Cell division protein ftsW,                Escherichia coli MG1655 I
+19,                DEG10180019,                murG,                UDP-N-acetylglucosamine--N-acetylmuramyl-(Pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase (EC 2.4.1.-),                Escherichia coli MG1655 I
+20,                DEG10180020,                murC,                UDP-N-acetylmuramate--alanine ligase (EC 6.3.2.8),                Escherichia coli MG1655 I
+21,                DEG10180021,                ddlB,                D-alanine--D-alanine ligase B (EC 6.3.2.4),                Escherichia coli MG1655 I
+22,                DEG10180022,                ftsQ,                Cell division protein ftsQ,                Escherichia coli MG1655 I
+23,                DEG10180023,                ftsA,                Cell division protein ftsA,                Escherichia coli MG1655 I
+24,                DEG10180024,                ftsZ,                Cell division protein ftsZ,                Escherichia coli MG1655 I
+25,                DEG10180025,                secM,                Secretion monitor precursor,                Escherichia coli MG1655 I
+26,                DEG10180026,                secA,                Preprotein translocase secA subunit,                Escherichia coli MG1655 I
+27,                DEG10180027,                coaE,                Dephospho-CoA kinase (EC 2.7.1.24),                Escherichia coli MG1655 I
+28,                DEG10180028,                aceF,                Dihydrolipoamide acetyltransferase component of pyruvate dehydrogenase complex (EC 2.3.1.12),                Escherichia coli MG1655 I
+29,                DEG10180029,                lpdA/lpd,                Dihydrolipoamide dehydrogenase (EC 1.8.1.4),                Escherichia coli MG1655 I
+30,                DEG10180030,                yacC,                Hypothetical protein yacC precursor,                Escherichia coli MG1655 I
+31,                DEG10180031,                yadF/can,                Protein yadF,                Escherichia coli MG1655 I
+32,                DEG10180032,                yadI,                Putative PTS system IIA component yadI (EC 2.7.1.69),                Escherichia coli MG1655 I
+33,                DEG10180033,                folK,                2-amino-4-hydroxy-6-hydroxymethyldihydropteridine pyrophosphokinase (EC 2.7.6.3),                Escherichia coli MG1655 I
+34,                DEG10180034,                hemL,                Glutamate-1-semialdehyde 2*1-aminomutase (EC 5.4.3.8),                Escherichia coli MG1655 I
+35,                DEG10180035,                mtn,                MTA/SAH nucleosidase,                Escherichia coli MG1655 I
+36,                DEG10180036,                dapD,                2*3*4*5-tetrahydropyridine-2-carboxylate N-succinyltransferase (EC 2.3.1.117),                Escherichia coli MG1655 I
+37,                DEG10180037,                glnD,                [Protein-PII] uridylyltransferase (EC 2.7.7.59),                Escherichia coli MG1655 I
+38,                DEG10180038,                map,                Methionine aminopeptidase (EC 3.4.11.18),                Escherichia coli MG1655 I
+39,                DEG10180039,                rpsB,                30S ribosomal protein S2,                Escherichia coli MG1655 I
+40,                DEG10180040,                tsf,                Elongation factor Ts,                Escherichia coli MG1655 I
+41,                DEG10180041,                pyrH,                Uridylate kinase (EC 2.7.4.-),                Escherichia coli MG1655 I
+42,                DEG10180042,                frr,                Ribosome recycling factor,                Escherichia coli MG1655 I
+43,                DEG10180043,                dxr,                1-deoxy-D-xylulose 5-phosphate reductoisomerase (EC 1.1.1.267),                Escherichia coli MG1655 I
+44,                DEG10180044,                uppS/ispU,                Undecaprenyl pyrophosphate synthetase (EC 2.5.1.31),                Escherichia coli MG1655 I
+45,                DEG10180045,                cdsA,                Phosphatidate cytidylyltransferase (EC 2.7.7.41),                Escherichia coli MG1655 I
+46,                DEG10180046,                yaeT/bamA,                Unknown protein from 2D-page spots M62/M63/O3/O9/T35 precursor,                Escherichia coli MG1655 I
+47,                DEG10180047,                fabZ,                (3R)-hydroxymyristoyl-[acyl carrier protein] dehydratase (EC 4.2.1.-),                Escherichia coli MG1655 I
+48,                DEG10180048,                lpxA,                Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase (EC 2.3.1.129),                Escherichia coli MG1655 I
+49,                DEG10180049,                lpxB,                Lipid-A-disaccharide synthase (EC 2.4.1.182),                Escherichia coli MG1655 I
+50,                DEG10180050,                rnhB,                Ribonuclease HII (EC 3.1.26.4),                Escherichia coli MG1655 I
+51,                DEG10180051,                dnaE,                DNA polymerase III alpha subunit (EC 2.7.7.7),                Escherichia coli MG1655 I
+52,                DEG10180052,                accA,                Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha (EC 6.4.1.2),                Escherichia coli MG1655 I
+53,                DEG10180053,                mesJ/tilS,                Putative cell cycle protein mesJ,                Escherichia coli MG1655 I
+54,                DEG10180054,                proS,                Prolyl-tRNA synthetase (EC 6.1.1.15),                Escherichia coli MG1655 I
+55,                DEG10180055,                yafE,                Hypothetical protein yafE,                Escherichia coli MG1655 I
+56,                DEG10180056,                rnhA,                Ribonuclease HI (EC 3.1.26.4),                Escherichia coli MG1655 I
+57,                DEG10180057,                dnaQ,                DNA polymerase III* epsilon chain (EC 2.7.7.7),                Escherichia coli MG1655 I
+58,                DEG10180058,                ykfI,                Hypothetical protein ykfI,                Escherichia coli MG1655 I
+59,                DEG10180059,                insA,                Insertion element IS1 1/2/3/5/6 protein insA,                Escherichia coli MG1655 I
+60,                DEG10180060,                yagG,                Hypothetical symporter yagG,                Escherichia coli MG1655 I
+61,                DEG10180061,                yagH,                Putative beta-xylosidase (EC 3.2.1.37),                Escherichia coli MG1655 I
+62,                DEG10180062,                yagS/paoB,                Putative xanthine dehydrogenase yagS* FAD binding subunit (EC 1.1.1.204),                Escherichia coli MG1655 I
+63,                DEG10180063,                yagV,                Hypothetical protein yagV precursor,                Escherichia coli MG1655 I
+64,                DEG10180064,                insE1/insE,                Transposase insE for insertion sequence IS3A/B/C/D/E/fA/fB,                Escherichia coli MG1655 I
+65,                DEG10180065,                yahF,                Hypothetical protein yahF,                Escherichia coli MG1655 I
+66,                DEG10180066,                cynS,                Cyanate hydratase (EC 4.2.1.104),                Escherichia coli MG1655 I
+67,                DEG10180067,                yaiN/frmR,                Hypothetical protein yaiN,                Escherichia coli MG1655 I
+68,                DEG10180068,                yaiS,                Hypothetical protein yaiS,                Escherichia coli MG1655 I
+69,                DEG10180069,                hemB,                Delta-aminolevulinic acid dehydratase (EC 4.2.1.24),                Escherichia coli MG1655 I
+70,                DEG10180070,                insE5/insE,                Transposase insE for insertion sequence IS3A/B/C/D/E/fA/fB,                Escherichia coli MG1655 I
+71,                DEG10180071,                yaiY,                Hypothetical protein yaiY,                Escherichia coli MG1655 I
+72,                DEG10180072,                proC,                Pyrroline-5-carboxylate reductase (EC 1.5.1.2),                Escherichia coli MG1655 I
+73,                DEG10180073,                secD,                Protein-export membrane protein secD,                Escherichia coli MG1655 I
+74,                DEG10180074,                secF,                Protein-export membrane protein secF,                Escherichia coli MG1655 I
+75,                DEG10180075,                ribD,                Riboflavin biosynthesis protein ribD,                Escherichia coli MG1655 I
+76,                DEG10180076,                ribH/ribE,                6*7-dimethyl-8-ribityllumazine synthase (EC 2.5.1.9),                Escherichia coli MG1655 I
+77,                DEG10180077,                nusB,                N utilization substance protein B,                Escherichia coli MG1655 I
+78,                DEG10180078,                thiL,                Thiamine-monophosphate kinase (EC 2.7.4.16),                Escherichia coli MG1655 I
+79,                DEG10180079,                pgpA,                Phosphatidylglycerophosphatase A (EC 3.1.3.27),                Escherichia coli MG1655 I
+80,                DEG10180080,                dxs,                1-deoxy-D-xylulose 5-phosphate synthase (EC 4.1.3.37),                Escherichia coli MG1655 I
+81,                DEG10180081,                ispA,                Geranyltranstransferase (EC 2.5.1.10),                Escherichia coli MG1655 I
+82,                DEG10180082,                cyoD,                Cytochrome O ubiquinol oxidase protein cyoD,                Escherichia coli MG1655 I
+83,                DEG10180083,                ybaV,                Hypothetical protein ybaV precursor,                Escherichia coli MG1655 I
+84,                DEG10180084,                ybaA,                Hypothetical protein ybaA,                Escherichia coli MG1655 I
+85,                DEG10180085,                priC,                Primosomal replication protein N",                Escherichia coli MG1655 I
+86,                DEG10180086,                ybaN,                Hypothetical protein ybaN,                Escherichia coli MG1655 I
+87,                DEG10180087,                apt,                Adenine phosphoribosyltransferase (EC 2.4.2.7),                Escherichia coli MG1655 I
+88,                DEG10180088,                dnaX,                DNA polymerase III subunit tau (EC 2.7.7.7),                Escherichia coli MG1655 I
+89,                DEG10180089,                adk,                Adenylate kinase (EC 2.7.4.3),                Escherichia coli MG1655 I
+90,                DEG10180090,                hemH,                Ferrochelatase (EC 4.99.1.1),                Escherichia coli MG1655 I
+91,                DEG10180091,                ybaP,                Hypothetical protein ybaP,                Escherichia coli MG1655 I
+92,                DEG10180092,                ybaQ,                Hypothetical protein ybaQ,                Escherichia coli MG1655 I
+93,                DEG10180093,                ybbC,                Hypothetical protein ybbC precursor,                Escherichia coli MG1655 I
+94,                DEG10180094,                allA,                Ureidoglycolate hydrolase (EC 3.5.3.19),                Escherichia coli MG1655 I
+95,                DEG10180095,                ylbF,                Hypothetical protein ylbF,                Escherichia coli MG1655 I
+96,                DEG10180096,                arcC/ybcF,                Carbamate kinase (EC 2.7.2.2),                Escherichia coli MG1655 I
+97,                DEG10180097,                lpxH,                UDP-2*3-diacylglucosamine hydrolase (EC 3.6.1.-),                Escherichia coli MG1655 I
+98,                DEG10180098,                ppiB,                Peptidyl-prolyl cis-trans isomerase B (EC 5.2.1.8),                Escherichia coli MG1655 I
+99,                DEG10180099,                cysS,                Cysteinyl-tRNA synthetase (EC 6.1.1.16),                Escherichia coli MG1655 I
+100,                DEG10180100,                insE3/insE,                Transposase insE for insertion sequence IS3A/B/C/D/E/fA/fB,                Escherichia coli MG1655 I
+101,                DEG10180101,                ybcN,                Hypothetical protein ybcN in lambdoid DLP12 prophage region,                Escherichia coli MG1655 I
+102,                DEG10180102,                ybcO,                Hypothetical protein ybcO in lambdoid DLP12 prophage region,                Escherichia coli MG1655 I
+103,                DEG10180103,                rusA,                Crossover junction endodeoxyribonuclease rusA (EC 3.1.22.-),                Escherichia coli MG1655 I
+104,                DEG10180104,                ybcV,                Hypothetical protein ybcV,                Escherichia coli MG1655 I
+105,                DEG10180105,                appY,                AppY protein,                Escherichia coli MG1655 I
+106,                DEG10180106,                fepB,                Ferrienterobactin-binding periplasmic protein precursor,                Escherichia coli MG1655 I
+107,                DEG10180107,                crcB,                Protein crcB,                Escherichia coli MG1655 I
+108,                DEG10180108,                mrdB,                Rod shape-determining protein rodA,                Escherichia coli MG1655 I
+109,                DEG10180109,                mrdA,                Penicillin-binding protein 2,                Escherichia coli MG1655 I
+110,                DEG10180110,                ybeA/rlmH,                Hypothetical protein ybeA,                Escherichia coli MG1655 I
+111,                DEG10180111,                holA,                DNA polymerase III* delta subunit (EC 2.7.7.7),                Escherichia coli MG1655 I
+112,                DEG10180112,                rlpB/lptE,                Rare lipoprotein B precursor,                Escherichia coli MG1655 I
+113,                DEG10180113,                leuS,                Leucyl-tRNA synthetase (EC 6.1.1.4),                Escherichia coli MG1655 I
+114,                DEG10180114,                gltL,                Glutamate/aspartate transport ATP-binding protein gltL,                Escherichia coli MG1655 I
+115,                DEG10180115,                gltK,                Glutamate/aspartate transport system permease protein gltK,                Escherichia coli MG1655 I
+116,                DEG10180116,                ybeY,                Hypothetical protein ybeY,                Escherichia coli MG1655 I
+117,                DEG10180117,                glnS,                Glutaminyl-tRNA synthetase (EC 6.1.1.18),                Escherichia coli MG1655 I
+118,                DEG10180118,                ybfN/chiQ,                Hypothetical lipoprotein ybfN precursor,                Escherichia coli MG1655 I
+119,                DEG10180119,                seqA,                SeqA protein,                Escherichia coli MG1655 I
+120,                DEG10180120,                ybfB,                Hypothetical protein ybfB,                Escherichia coli MG1655 I
+121,                DEG10180121,                ybfC,                Hypothetical protein ybfC precursor,                Escherichia coli MG1655 I
+122,                DEG10180122,                phrB/phr,                Deoxyribodipyrimidine photolyase (EC 4.1.99.3),                Escherichia coli MG1655 I
+123,                DEG10180123,                ybgP,                Hypothetical fimbrial chaperone ybgP precursor,                Escherichia coli MG1655 I
+124,                DEG10180124,                sucA,                2-oxoglutarate dehydrogenase E1 component (EC 1.2.4.2),                Escherichia coli MG1655 I
+125,                DEG10180125,                sucB,                Dihydrolipoamide succinyltransferase component of 2-oxoglutarate dehydrogenase complex (EC 2.3.1.61),                Escherichia coli MG1655 I
+126,                DEG10180126,                cydA,                Cytochrome D ubiquinol oxidase subunit I (EC 1.10.3.-),                Escherichia coli MG1655 I
+127,                DEG10180127,                cydB,                Cytochrome D ubiquinol oxidase subunit II (EC 1.10.3.-),                Escherichia coli MG1655 I
+128,                DEG10180128,                ybgC,                Protein ybgC,                Escherichia coli MG1655 I
+129,                DEG10180129,                ybhA,                Hypothetical protein ybhA,                Escherichia coli MG1655 I
+130,                DEG10180130,                ybhN,                Hypothetical protein ybhN,                Escherichia coli MG1655 I
+131,                DEG10180131,                ybhQ,                Hypothetical protein ybhQ,                Escherichia coli MG1655 I
+132,                DEG10180132,                ybiA,                Hypothetical protein ybiA,                Escherichia coli MG1655 I
+133,                DEG10180133,                glnP,                Glutamine transport system permease protein glnP,                Escherichia coli MG1655 I
+134,                DEG10180134,                mntR,                Transcriptional regulator mntR,                Escherichia coli MG1655 I
+135,                DEG10180135,                yliG/rimO,                Hypothetical protein yliG,                Escherichia coli MG1655 I
+136,                DEG10180136,                ybjK,                Hypothetical protein ybjK,                Escherichia coli MG1655 I
+137,                DEG10180137,                ybjC,                Hypothetical protein ybjC,                Escherichia coli MG1655 I
+138,                DEG10180138,                ybjP,                Putative lipoprotein ybjP precursor,                Escherichia coli MG1655 I
+139,                DEG10180139,                ybjQ,                Hypothetical protein ybjQ,                Escherichia coli MG1655 I
+140,                DEG10180140,                ybjR/amiD,                Probable N-acetylmuramoyl-L-alanine amidase ybjR (EC 3.5.1.28),                Escherichia coli MG1655 I
+141,                DEG10180141,                ybjS,                Hypothetical protein ybjS,                Escherichia coli MG1655 I
+142,                DEG10180142,                yljA/clpS,                Protein yljA,                Escherichia coli MG1655 I
+143,                DEG10180143,                cydC,                Transport ATP-binding protein cydC,                Escherichia coli MG1655 I
+144,                DEG10180144,                cydD,                Transport ATP-binding protein cydD,                Escherichia coli MG1655 I
+145,                DEG10180145,                serS,                Seryl-tRNA synthetase (EC 6.1.1.11),                Escherichia coli MG1655 I
+146,                DEG10180146,                ycaC,                Protein ycaC,                Escherichia coli MG1655 I
+147,                DEG10180147,                cmk,                Cytidylate kinase (EC 2.7.4.14),                Escherichia coli MG1655 I
+148,                DEG10180148,                msbA,                Probable transport ATP-binding protein msbA,                Escherichia coli MG1655 I
+149,                DEG10180149,                lpxK,                Tetraacyldisaccharide 4'-kinase (EC 2.7.1.130),                Escherichia coli MG1655 I
+150,                DEG10180150,                kdsB,                3-deoxy-manno-octulosonate cytidylyltransferase (EC 2.7.7.38),                Escherichia coli MG1655 I
+151,                DEG10180151,                mukF,                MukF protein,                Escherichia coli MG1655 I
+152,                DEG10180152,                mukE,                MukE protein,                Escherichia coli MG1655 I
+153,                DEG10180153,                mukB,                Cell division protein mukB,                Escherichia coli MG1655 I
+154,                DEG10180154,                ycbK,                Hypothetical protein ycbK,                Escherichia coli MG1655 I
+155,                DEG10180155,                asnS,                Asparaginyl-tRNA synthetase (EC 6.1.1.22),                Escherichia coli MG1655 I
+156,                DEG10180156,                fabA,                3-hydroxydecanoyl-[acyl-carrier-protein] dehydratase (EC 4.2.1.60),                Escherichia coli MG1655 I
+157,                DEG10180157,                mgsA,                Methylglyoxal synthase (EC 4.2.3.3),                Escherichia coli MG1655 I
+158,                DEG10180158,                yccU,                Protein yccU,                Escherichia coli MG1655 I
+159,                DEG10180159,                hyaA,                Hydrogenase-1 small chain precursor (EC 1.18.99.1),                Escherichia coli MG1655 I
+160,                DEG10180160,                hyaC,                Probable Ni/Fe-hydrogenase 1 B-type cytochrome subunit,                Escherichia coli MG1655 I
+161,                DEG10180161,                hyaD,                Hydrogenase 1 maturation protease (EC 3.4.24.-),                Escherichia coli MG1655 I
+162,                DEG10180162,                ymcD/gfcA,                Hypothetical protein ymcD,                Escherichia coli MG1655 I
+163,                DEG10180163,                insB4/insB,                Insertion element IS1 4 protein insB,                Escherichia coli MG1655 I
+164,                DEG10180164,                torR,                TorCAD operon transcriptional regulatory protein torR,                Escherichia coli MG1655 I
+165,                DEG10180165,                torD,                Chaperone protein torD,                Escherichia coli MG1655 I
+166,                DEG10180166,                yccD/cbpM,                Hypothetical protein yccD,                Escherichia coli MG1655 I
+167,                DEG10180167,                ycdK/rutC,                Hypothetical protein ycdK,                Escherichia coli MG1655 I
+168,                DEG10180168,                ycdL/rutB,                Hypothetical isochorismatase family protein ycdL,                Escherichia coli MG1655 I
+169,                DEG10180169,                insE4/insE,                Transposase insE for insertion sequence IS3A/B/C/D/E/fA/fB,                Escherichia coli MG1655 I
+170,                DEG10180170,                ycdW/ghrA,                Putative 2-hydroxyacid dehydrogenase ycdW,                Escherichia coli MG1655 I
+171,                DEG10180171,                ycdX,                Hypothetical protein ycdX precursor,                Escherichia coli MG1655 I
+172,                DEG10180172,                ycdZ,                Hypothetical protein ycdZ,                Escherichia coli MG1655 I
+173,                DEG10180173,                csgE,                Curli production assembly/transport component csgE precursor,                Escherichia coli MG1655 I
+174,                DEG10180174,                msyB,                Acidic protein msyB,                Escherichia coli MG1655 I
+175,                DEG10180175,                mviN/murJ,                Virulence factor mviN homolog,                Escherichia coli MG1655 I
+176,                DEG10180176,                rne,                Ribonuclease E (EC 3.1.4.-),                Escherichia coli MG1655 I
+177,                DEG10180177,                yceQ,                FROM BASES 1137539 TO 1147976 (SECTION 99 OF 400) OF THE COMPLETE GENOME,                Escherichia coli MG1655 I
+178,                DEG10180178,                fabH,                3-oxoacyl-[acyl-carrier-protein] synthase III (EC 2.3.1.41),                Escherichia coli MG1655 I
+179,                DEG10180179,                fabD,                Malonyl CoA-acyl carrier protein transacylase (EC 2.3.1.39),                Escherichia coli MG1655 I
+180,                DEG10180180,                fabG,                3-oxoacyl-[acyl-carrier protein] reductase (EC 1.1.1.100),                Escherichia coli MG1655 I
+181,                DEG10180181,                tmk,                Thymidylate kinase (EC 2.7.4.9),                Escherichia coli MG1655 I
+182,                DEG10180182,                holB,                DNA polymerase III* delta' subunit (EC 2.7.7.7),                Escherichia coli MG1655 I
+183,                DEG10180183,                ycfP,                Hypothetical protein ycfP,                Escherichia coli MG1655 I
+184,                DEG10180184,                lolC,                Lipoprotein releasing system transmembrane protein lolC,                Escherichia coli MG1655 I
+185,                DEG10180185,                lolD,                Lipoprotein releasing system ATP-binding protein lolD,                Escherichia coli MG1655 I
+186,                DEG10180186,                lolE,                Lipoprotein releasing system transmembrane protein lolE,                Escherichia coli MG1655 I
+187,                DEG10180187,                potD,                Spermidine/putrescine-binding periplasmic protein precursor,                Escherichia coli MG1655 I
+188,                DEG10180188,                potC,                Spermidine/putrescine transport system permease protein potC,                Escherichia coli MG1655 I
+189,                DEG10180189,                ycfD,                Hypothetical protein ycfD,                Escherichia coli MG1655 I
+190,                DEG10180190,                trmU/mnmA,                tRNA (5-methylaminomethyl-2-thiouridylate)-methyltransferase (EC 2.1.1.61),                Escherichia coli MG1655 I
+191,                DEG10180191,                ymfI,                Hypothetical protein ymfI,                Escherichia coli MG1655 I
+192,                DEG10180192,                ymfJ,                Hypothetical protein ymfF,                Escherichia coli MG1655 I
+193,                DEG10180193,                croE,                FROM BASES 1195814 TO 1209543 (SECTION 104 OF 400) OF THE COMPLETE GENOME,                Escherichia coli MG1655 I
+194,                DEG10180194,                ymfK/cohE,                Putative lambdoid prophage e14 repressor protein C2,                Escherichia coli MG1655 I
+195,                DEG10180195,                elbA/iraM,                Enhancing lycopene biosynthesis protein 1,                Escherichia coli MG1655 I
+196,                DEG10180196,                ycgX,                Hypothetical protein ycgX,                Escherichia coli MG1655 I
+197,                DEG10180197,                minD,                Septum site-determining protein minD,                Escherichia coli MG1655 I
+198,                DEG10180198,                ycgM,                Protein ycgM,                Escherichia coli MG1655 I
+199,                DEG10180199,                dadA,                D-amino acid dehydrogenase small subunit (EC 1.4.99.1),                Escherichia coli MG1655 I
+200,                DEG10180200,                ycgS/dhaL,                Protein ycgS,                Escherichia coli MG1655 I
+201,                DEG10180201,                ychF,                Probable GTP-binding protein ychF,                Escherichia coli MG1655 I
+202,                DEG10180202,                pth,                Peptidyl-tRNA hydrolase (EC 3.1.1.29),                Escherichia coli MG1655 I
+203,                DEG10180203,                ychH,                Hypothetical protein ychH,                Escherichia coli MG1655 I
+204,                DEG10180204,                prsA/prs,                Ribose-phosphate pyrophosphokinase (EC 2.7.6.1),                Escherichia coli MG1655 I
+205,                DEG10180205,                ispE,                4-diphosphocytidyl-2-C-methyl-D-erythritol kinase (EC 2.7.1.148),                Escherichia coli MG1655 I
+206,                DEG10180206,                hemK/prmC,                Protein methyltranferase hemK (EC 2.1.1.-),                Escherichia coli MG1655 I
+207,                DEG10180207,                ychQ,                Hypothetical protein ychQ,                Escherichia coli MG1655 I
+208,                DEG10180208,                purU,                Formyltetrahydrofolate deformylase (EC 3.5.1.10),                Escherichia coli MG1655 I
+209,                DEG10180209,                hnr/rssB,                Hnr protein,                Escherichia coli MG1655 I
+210,                DEG10180210,                galU,                UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9),                Escherichia coli MG1655 I
+211,                DEG10180211,                hns,                DNA-binding protein H-NS,                Escherichia coli MG1655 I
+212,                DEG10180212,                tdk,                Thymidine kinase (EC 2.7.1.21),                Escherichia coli MG1655 I
+213,                DEG10180213,                oppC,                Oligopeptide transport system permease protein oppC,                Escherichia coli MG1655 I
+214,                DEG10180214,                oppD,                Oligopeptide transport ATP-binding protein oppD,                Escherichia coli MG1655 I
+215,                DEG10180215,                tonB,                TonB protein,                Escherichia coli MG1655 I
+216,                DEG10180216,                yciA,                Putative acyl-CoA thioester hydrolase yciA (EC 3.1.2.-),                Escherichia coli MG1655 I
+217,                DEG10180217,                ispZ/yciB,                Probable intracellular septation protein,                Escherichia coli MG1655 I
+218,                DEG10180218,                yciL/rluB,                Hypothetical protein yciL,                Escherichia coli MG1655 I
+219,                DEG10180219,                btuR,                COB(I)alamin adenosyltransferase (EC 2.5.1.17),                Escherichia coli MG1655 I
+220,                DEG10180220,                yciK,                Hypothetical oxidoreductase yciK (EC 1.-.-.-),                Escherichia coli MG1655 I
+221,                DEG10180221,                topA,                DNA topoisomerase I (EC 5.99.1.2),                Escherichia coli MG1655 I
+222,                DEG10180222,                ribA,                GTP cyclohydrolase II (EC 3.5.4.25),                Escherichia coli MG1655 I
+223,                DEG10180223,                yciS,                Hypothetical protein yciS,                Escherichia coli MG1655 I
+224,                DEG10180224,                pyrF,                Orotidine 5'-phosphate decarboxylase (EC 4.1.1.23),                Escherichia coli MG1655 I
+225,                DEG10180225,                fabI,                Enoyl-[acyl-carrier-protein] reductase [NADH] (EC 1.3.1.9),                Escherichia coli MG1655 I
+226,                DEG10180226,                pspC,                Phage shock protein C,                Escherichia coli MG1655 I
+227,                DEG10180227,                pspE,                Phage shock protein E precursor,                Escherichia coli MG1655 I
+228,                DEG10180228,                ycjF,                Hypothetical protein ycjF,                Escherichia coli MG1655 I
+229,                DEG10180229,                ycjI/mpaA,                Hypothetical protein ycjI,                Escherichia coli MG1655 I
+230,                DEG10180230,                ynaJ,                Hypothetical protein ynaJ,                Escherichia coli MG1655 I
+231,                DEG10180231,                ydaL,                Hypothetical protein ydaL,                Escherichia coli MG1655 I
+232,                DEG10180232,                racR,                Rac prophage repressor,                Escherichia coli MG1655 I
+233,                DEG10180233,                ydaS,                Hypothetical protein ydaS precursor,                Escherichia coli MG1655 I
+234,                DEG10180234,                ydaT,                Hypothetical protein ydaT,                Escherichia coli MG1655 I
+235,                DEG10180235,                ydaU,                Hypothetical protein ydaU,                Escherichia coli MG1655 I
+236,                DEG10180236,                insH5/insH,                Transposase insH for insertion sequence element IS5Y,                Escherichia coli MG1655 I
+237,                DEG10180237,                hslJ,                Heat shock protein hslJ,                Escherichia coli MG1655 I
+238,                DEG10180238,                paaC,                Phenylacetic acid degradation protein paaC,                Escherichia coli MG1655 I
+239,                DEG10180239,                paaX,                Phenylacetic acid degradation operon negative regulatory protein paaX,                Escherichia coli MG1655 I
+240,                DEG10180240,                paaY,                Phenylacetic acid degradation protein paaY,                Escherichia coli MG1655 I
+241,                DEG10180241,                acpD/azoR,                Acyl carrier protein phosphodiesterase (EC 3.1.4.14),                Escherichia coli MG1655 I
+242,                DEG10180242,                trg,                Methyl-accepting chemotaxis protein III,                Escherichia coli MG1655 I
+243,                DEG10180243,                rimL,                Ribosomal-protein-serine acetyltransferase (EC 2.3.1.-),                Escherichia coli MG1655 I
+244,                DEG10180244,                ydcN,                Hypothetical protein ydcN,                Escherichia coli MG1655 I
+245,                DEG10180245,                ydcQ/hicB,                Hypothetical protein ydcQ,                Escherichia coli MG1655 I
+246,                DEG10180246,                ydcT,                Hypothetical ABC transporter ATP-binding protein ydcT,                Escherichia coli MG1655 I
+247,                DEG10180247,                ydcU,                Hypothetical ABC transporter permease protein ydcU,                Escherichia coli MG1655 I
+248,                DEG10180248,                ydcV,                Hypothetical ABC transporter permease protein ydcV,                Escherichia coli MG1655 I
+249,                DEG10180249,                ydcZ,                Hypothetical protein ydcZ,                Escherichia coli MG1655 I
+250,                DEG10180250,                yncA,                Hypothetical acetyltransferase yncA (EC 2.3.1.-),                Escherichia coli MG1655 I
+251,                DEG10180251,                yncE,                Hypothetical protein yncE precursor,                Escherichia coli MG1655 I
+252,                DEG10180252,                nhoA,                N-hydroxyarylamine O-acetyltransferase (EC 2.3.1.118),                Escherichia coli MG1655 I
+253,                DEG10180253,                yddE,                Hypothetical protein yddE,                Escherichia coli MG1655 I
+254,                DEG10180254,                yddM,                Hypothetical protein yddM,                Escherichia coli MG1655 I
+255,                DEG10180255,                yddQ/ddpC,                Hypothetical ABC transporter permease protein yddQ,                Escherichia coli MG1655 I
+256,                DEG10180256,                yneG,                Hypothetical protein yneG,                Escherichia coli MG1655 I
+257,                DEG10180257,                marA,                Multiple antibiotic resistance protein marA,                Escherichia coli MG1655 I
+258,                DEG10180258,                ydeE,                Hypothetical protein ydeE,                Escherichia coli MG1655 I
+259,                DEG10180259,                ydfR,                Hypothetical protein ydfR,                Escherichia coli MG1655 I
+260,                DEG10180260,                essQ,                Lysis protein S homolog from lambdoid prophage Qin,                Escherichia coli MG1655 I
+261,                DEG10180261,                relE,                Hypothetical relE protein,                Escherichia coli MG1655 I
+262,                DEG10180262,                ydfV,                Hypothetical protein ydfV,                Escherichia coli MG1655 I
+263,                DEG10180263,                dicA,                Repressor protein of division inhibition gene dicB,                Escherichia coli MG1655 I
+264,                DEG10180264,                ynfA,                Hypothetical protein ynfA,                Escherichia coli MG1655 I
+265,                DEG10180265,                ynfD,                Hypothetical protein ynfD precursor,                Escherichia coli MG1655 I
+266,                DEG10180266,                ynfG,                Probable anaerobic dimethyl sulfoxide reductase chain ynfG,                Escherichia coli MG1655 I
+267,                DEG10180267,                ydgE/mdtI,                Hypothetical protein ydgE,                Escherichia coli MG1655 I
+268,                DEG10180268,                rstB,                Sensor protein rstB (EC 2.7.3.-),                Escherichia coli MG1655 I
+269,                DEG10180269,                tus,                DNA replication terminus site-binding protein,                Escherichia coli MG1655 I
+270,                DEG10180270,                ydgA,                Hypothetical protein ydgA,                Escherichia coli MG1655 I
+271,                DEG10180271,                uidR,                Uid operon repressor,                Escherichia coli MG1655 I
+272,                DEG10180272,                ydgR/dtpA,                Hypothetical transporter ydgR,                Escherichia coli MG1655 I
+273,                DEG10180273,                tyrS,                Tyrosyl-tRNA synthetase (EC 6.1.1.1),                Escherichia coli MG1655 I
+274,                DEG10180274,                ydhL,                Hypothetical protein ydhL precursor,                Escherichia coli MG1655 I
+275,                DEG10180275,                rnt,                Ribonuclease T (EC 3.1.13.-),                Escherichia coli MG1655 I
+276,                DEG10180276,                ydhD/grxD,                Protein ydhD,                Escherichia coli MG1655 I
+277,                DEG10180277,                ribE/ribC,                Riboflavin synthase alpha chain (EC 2.5.1.9),                Escherichia coli MG1655 I
+278,                DEG10180278,                ydhR,                Protein ydhR precursor,                Escherichia coli MG1655 I
+279,                DEG10180279,                ydhX,                Putative ferredoxin-like protein ydhX,                Escherichia coli MG1655 I
+280,                DEG10180280,                sufA,                SufA protein,                Escherichia coli MG1655 I
+281,                DEG10180281,                ydiI,                Hypothetical protein ydiI,                Escherichia coli MG1655 I
+282,                DEG10180282,                ydiO,                Hypothetical protein ydiO,                Escherichia coli MG1655 I
+283,                DEG10180283,                ydiR,                Putative electron transfer flavoprotein subunit ydiR,                Escherichia coli MG1655 I
+284,                DEG10180284,                ydiT,                Ferredoxin-like protein ydiT,                Escherichia coli MG1655 I
+285,                DEG10180285,                aroH,                Phospho-2-dehydro-3-deoxyheptonate aldolase* Trp-sensitive (EC 4.1.2.15),                Escherichia coli MG1655 I
+286,                DEG10180286,                btuE,                Vitamin B12 transport periplasmic protein btuE,                Escherichia coli MG1655 I
+287,                DEG10180287,                rplT,                50S ribosomal protein L20,                Escherichia coli MG1655 I
+288,                DEG10180288,                infC,                Translation initiation factor IF-3,                Escherichia coli MG1655 I
+289,                DEG10180289,                thrS,                Threonyl-tRNA synthetase (EC 6.1.1.3),                Escherichia coli MG1655 I
+290,                DEG10180290,                ydiY,                Hypothetical protein ydiY precursor,                Escherichia coli MG1655 I
+291,                DEG10180291,                ydiZ,                Hypothetical protein ydiZ,                Escherichia coli MG1655 I
+292,                DEG10180292,                celC/chbA,                PTS system* cellobiose-specific IIA component (EC 2.7.1.69),                Escherichia coli MG1655 I
+293,                DEG10180293,                celA/chbB,                PTS system* cellobiose-specific IIB component (EC 2.7.1.69),                Escherichia coli MG1655 I
+294,                DEG10180294,                nadE,                NH(3)-dependent NAD(+) synthetase (EC 6.3.5.1),                Escherichia coli MG1655 I
+295,                DEG10180295,                ydjQ/cho,                Hypothetical protein ydjQ,                Escherichia coli MG1655 I
+296,                DEG10180296,                ydjR/ves,                Hypothetical protein ydjR,                Escherichia coli MG1655 I
+297,                DEG10180297,                astB,                Succinylarginine dihydrolase (EC 3.-.-.-),                Escherichia coli MG1655 I
+298,                DEG10180298,                astA,                Arginine N-succinyltransferase (EC 2.3.1.109),                Escherichia coli MG1655 I
+299,                DEG10180299,                ynjA,                Hypothetical protein ynjA,                Escherichia coli MG1655 I
+300,                DEG10180300,                ynjD,                Hypothetical ABC transporter ATP-binding protein ynjD,                Escherichia coli MG1655 I
+301,                DEG10180301,                selD,                Selenide*water dikinase (EC 2.7.9.3),                Escherichia coli MG1655 I
+302,                DEG10180302,                ydjA,                Protein ydjA,                Escherichia coli MG1655 I
+303,                DEG10180303,                gapA,                Glyceraldehyde 3-phosphate dehydrogenase A (EC 1.2.1.12),                Escherichia coli MG1655 I
+304,                DEG10180304,                yeaN,                Hypothetical transport protein yeaN,                Escherichia coli MG1655 I
+305,                DEG10180305,                yeaO,                Hypothetical protein yeaO,                Escherichia coli MG1655 I
+306,                DEG10180306,                yeaZ,                Hypothetical protease yeaZ (EC 3.4.-.-),                Escherichia coli MG1655 I
+307,                DEG10180307,                yoaB,                Hypothetical protein yoaB,                Escherichia coli MG1655 I
+308,                DEG10180308,                yebY,                Hypothetical protein yebY precursor,                Escherichia coli MG1655 I
+309,                DEG10180309,                yebE,                Hypothetical protein yebE,                Escherichia coli MG1655 I
+310,                DEG10180310,                yebG,                Hypothetical protein yebG,                Escherichia coli MG1655 I
+311,                DEG10180311,                zwf,                Glucose-6-phosphate 1-dehydrogenase (EC 1.1.1.49),                Escherichia coli MG1655 I
+312,                DEG10180312,                ruvC,                Crossover junction endodeoxyribonuclease ruvC (EC 3.1.22.4),                Escherichia coli MG1655 I
+313,                DEG10180313,                yebC,                Protein yebC,                Escherichia coli MG1655 I
+314,                DEG10180314,                nudB,                dATP pyrophosphohydrolase (EC 3.6.1.-),                Escherichia coli MG1655 I
+315,                DEG10180315,                aspS,                Aspartyl-tRNA synthetase (EC 6.1.1.12),                Escherichia coli MG1655 I
+316,                DEG10180316,                yecP/cmoB,                Hypothetical protein yecP,                Escherichia coli MG1655 I
+317,                DEG10180317,                cutC,                Copper homeostasis protein cutC,                Escherichia coli MG1655 I
+318,                DEG10180318,                argS,                Arginyl-tRNA synthetase (EC 6.1.1.19),                Escherichia coli MG1655 I
+319,                DEG10180319,                cheR,                Chemotaxis protein methyltransferase (EC 2.1.1.80),                Escherichia coli MG1655 I
+320,                DEG10180320,                cheW,                Chemotaxis protein cheW,                Escherichia coli MG1655 I
+321,                DEG10180321,                motA,                Chemotaxis motA protein,                Escherichia coli MG1655 I
+322,                DEG10180322,                yecG/uspC,                Hypothetical protein yecG,                Escherichia coli MG1655 I
+323,                DEG10180323,                araG,                L-arabinose transport ATP-binding protein araG,                Escherichia coli MG1655 I
+324,                DEG10180324,                araF,                L-arabinose-binding periplasmic protein precursor,                Escherichia coli MG1655 I
+325,                DEG10180325,                pgsA,                CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase (EC 2.7.8.5),                Escherichia coli MG1655 I
+326,                DEG10180326,                yedE,                Hypothetical protein yedE,                Escherichia coli MG1655 I
+327,                DEG10180327,                fliJ,                Flagellar fliJ protein,                Escherichia coli MG1655 I
+328,                DEG10180328,                fliL,                Flagellar fliL protein,                Escherichia coli MG1655 I
+329,                DEG10180329,                fliN,                Flagellar motor switch protein fliN,                Escherichia coli MG1655 I
+330,                DEG10180330,                dcm,                DNA-cytosine methyltransferase (EC 2.1.1.73),                Escherichia coli MG1655 I
+331,                DEG10180331,                yeeI/mtfA,                Hypothetical protein yeeI,                Escherichia coli MG1655 I
+332,                DEG10180332,                yeeV,                Hypothetical protein yeeV,                Escherichia coli MG1655 I
+333,                DEG10180333,                gyrI/sbmC,                DNA gyrase inhibitory protein,                Escherichia coli MG1655 I
+334,                DEG10180334,                galF,                UTP--glucose-1-phosphate uridylyltransferase (EC 2.7.7.9),                Escherichia coli MG1655 I
+335,                DEG10180335,                wzb,                Low molecular weight protein-tyrosine-phosphatase wzb (EC 3.1.3.48),                Escherichia coli MG1655 I
+336,                DEG10180336,                yegL,                Hypothetical protein yegL,                Escherichia coli MG1655 I
+337,                DEG10180337,                yegP,                Hypothetical protein yegP,                Escherichia coli MG1655 I
+338,                DEG10180338,                gatD,                Galactitol-1-phosphate 5-dehydrogenase (EC 1.1.1.251),                Escherichia coli MG1655 I
+339,                DEG10180339,                yohL/rcnR,                Hypothetical protein yohL,                Escherichia coli MG1655 I
+340,                DEG10180340,                yehC,                Hypothetical fimbrial chaperone yehC precursor,                Escherichia coli MG1655 I
+341,                DEG10180341,                yehD,                Hypothetical protein yehD precursor,                Escherichia coli MG1655 I
+342,                DEG10180342,                metG,                Methionyl-tRNA synthetase (EC 6.1.1.10),                Escherichia coli MG1655 I
+343,                DEG10180343,                mglB,                D-galactose-binding periplasmic protein precursor,                Escherichia coli MG1655 I
+344,                DEG10180344,                folE,                GTP cyclohydrolase I (EC 3.5.4.16),                Escherichia coli MG1655 I
+345,                DEG10180345,                yeiJ/nupX,                Hypothetical transport protein yeiJ,                Escherichia coli MG1655 I
+346,                DEG10180346,                yeiL,                Hypothetical protein yeiL,                Escherichia coli MG1655 I
+347,                DEG10180347,                yeiM/psuT,                Hypothetical transport protein yeiM,                Escherichia coli MG1655 I
+348,                DEG10180348,                yejE,                Hypothetical ABC transporter permease protein yejE,                Escherichia coli MG1655 I
+349,                DEG10180349,                rplY,                50S ribosomal protein L25,                Escherichia coli MG1655 I
+350,                DEG10180350,                ccmE,                Cytochrome c-type biogenesis protein ccmE,                Escherichia coli MG1655 I
+351,                DEG10180351,                gyrA,                DNA gyrase subunit A (EC 5.99.1.3),                Escherichia coli MG1655 I
+352,                DEG10180352,                ubiG,                3-demethylubiquinone-9 3-methyltransferase (EC 2.1.1.64),                Escherichia coli MG1655 I
+353,                DEG10180353,                nrdA,                Ribonucleoside-diphosphate reductase 1 alpha chain (EC 1.17.4.1),                Escherichia coli MG1655 I
+354,                DEG10180354,                nrdB,                Ribonucleoside-diphosphate reductase 1 beta chain (EC 1.17.4.1),                Escherichia coli MG1655 I
+355,                DEG10180355,                yfaD,                Hypothetical protein yfaD,                Escherichia coli MG1655 I
+356,                DEG10180356,                yfaV/rhmT,                Hypothetical transport protein yfaV,                Escherichia coli MG1655 I
+357,                DEG10180357,                menE,                O-succinylbenzoic acid--CoA ligase (EC 6.2.1.26),                Escherichia coli MG1655 I
+358,                DEG10180358,                elaA,                Protein elaA,                Escherichia coli MG1655 I
+359,                DEG10180359,                ackA,                Acetate kinase (EC 2.7.2.1),                Escherichia coli MG1655 I
+360,                DEG10180360,                yfcH,                Hypothetical protein yfcH,                Escherichia coli MG1655 I
+361,                DEG10180361,                ubiX,                3-octaprenyl-4-hydroxybenzoate carboxy-lyase (EC 4.1.1.-),                Escherichia coli MG1655 I
+362,                DEG10180362,                cvpA,                Colicin V production protein,                Escherichia coli MG1655 I
+363,                DEG10180363,                fabB,                3-oxoacyl-[acyl-carrier-protein] synthase I (EC 2.3.1.41),                Escherichia coli MG1655 I
+364,                DEG10180364,                yfdX,                YfdX protein precursor,                Escherichia coli MG1655 I
+365,                DEG10180365,                ypdH/fryB,                Putative PTS system IIB component ypdH (EC 2.7.1.69),                Escherichia coli MG1655 I
+366,                DEG10180366,                gltX,                Glutamyl-tRNA synthetase (EC 6.1.1.17),                Escherichia coli MG1655 I
+367,                DEG10180367,                ligA,                DNA ligase (EC 6.5.1.2),                Escherichia coli MG1655 I
+368,                DEG10180368,                zipA,                Cell division protein zipA,                Escherichia coli MG1655 I
+369,                DEG10180369,                cysW,                Sulfate transport system permease protein cysW,                Escherichia coli MG1655 I
+370,                DEG10180370,                eutL,                Ethanolamine utilization protein eutL,                Escherichia coli MG1655 I
+371,                DEG10180371,                yffM,                Hypothetical protein yffM,                Escherichia coli MG1655 I
+372,                DEG10180372,                yffO,                Hypothetical protein yffO,                Escherichia coli MG1655 I
+373,                DEG10180373,                yffS,                Hypothetical protein yffS,                Escherichia coli MG1655 I
+374,                DEG10180374,                eutN,                Ethanolamine utilization protein eutN,                Escherichia coli MG1655 I
+375,                DEG10180375,                yffB,                Protein yffB,                Escherichia coli MG1655 I
+376,                DEG10180376,                dapE,                Succinyl-diaminopimelate desuccinylase (EC 3.5.1.18),                Escherichia coli MG1655 I
+377,                DEG10180377,                dapA,                Dihydrodipicolinate synthase (EC 4.2.1.52),                Escherichia coli MG1655 I
+378,                DEG10180378,                gcvR,                Glycine cleavage system transcriptional repressor,                Escherichia coli MG1655 I
+379,                DEG10180379,                yfgE/hda,                Hypothetical protein yfgE,                Escherichia coli MG1655 I
+380,                DEG10180380,                engA/der,                Probable GTP-binding protein engA,                Escherichia coli MG1655 I
+381,                DEG10180381,                hisS,                Histidyl-tRNA synthetase (EC 6.1.1.21),                Escherichia coli MG1655 I
+382,                DEG10180382,                ispG,                1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate synthase (gcpE),                Escherichia coli MG1655 I
+383,                DEG10180383,                ndk,                Nucleoside diphosphate kinase (EC 2.7.4.6),                Escherichia coli MG1655 I
+384,                DEG10180384,                fdx,                Ferredoxin* 2Fe-2S,                Escherichia coli MG1655 I
+385,                DEG10180385,                hscA,                Chaperone protein hscA,                Escherichia coli MG1655 I
+386,                DEG10180386,                hscB,                Chaperone protein hscB,                Escherichia coli MG1655 I
+387,                DEG10180387,                nifU/iscU,                NifU-like protein,                Escherichia coli MG1655 I
+388,                DEG10180388,                iscS,                Cysteine desulfurase (EC 4.4.1.-),                Escherichia coli MG1655 I
+389,                DEG10180389,                suhB,                Inositol-1-monophosphatase (EC 3.1.3.25),                Escherichia coli MG1655 I
+390,                DEG10180390,                hcaF,                3-phenylpropionate dioxygenase beta subunit (EC 1.14.1.-),                Escherichia coli MG1655 I
+391,                DEG10180391,                hcaC,                3-phenylpropionate dioxygenase ferredoxin subunit,                Escherichia coli MG1655 I
+392,                DEG10180392,                glyA,                Serine hydroxymethyltransferase (EC 2.1.2.1),                Escherichia coli MG1655 I
+393,                DEG10180393,                yfhC/tadA,                Hypothetical protein yfhC,                Escherichia coli MG1655 I
+394,                DEG10180394,                acpS,                Holo-[acyl-carrier protein] synthase (EC 2.7.8.7),                Escherichia coli MG1655 I
+395,                DEG10180395,                pdxJ,                Pyridoxal phosphate biosynthetic protein pdxJ,                Escherichia coli MG1655 I
+396,                DEG10180396,                era,                GTP-binding protein era,                Escherichia coli MG1655 I
+397,                DEG10180397,                rnc,                Ribonuclease III (EC 3.1.26.3),                Escherichia coli MG1655 I
+398,                DEG10180398,                lepB,                Signal peptidase I (EC 3.4.21.89),                Escherichia coli MG1655 I
+399,                DEG10180399,                yfiD,                Protein yfiD,                Escherichia coli MG1655 I
+400,                DEG10180400,                trxC,                Thioredoxin 2,                Escherichia coli MG1655 I
+401,                DEG10180401,                pssA,                CDP-diacylglycerol--serine O-phosphatidyltransferase (EC 2.7.8.8),                Escherichia coli MG1655 I
+402,                DEG10180402,                rluD,                Ribosomal large subunit pseudouridine synthase D (EC 4.2.1.70),                Escherichia coli MG1655 I
+403,                DEG10180403,                rplS,                50S ribosomal protein L19,                Escherichia coli MG1655 I
+404,                DEG10180404,                trmD,                tRNA (Guanine-N(1)-)-methyltransferase (EC 2.1.1.31),                Escherichia coli MG1655 I
+405,                DEG10180405,                rimM,                16S rRNA processing protein rimM,                Escherichia coli MG1655 I
+406,                DEG10180406,                rpsP,                30S ribosomal protein S16,                Escherichia coli MG1655 I
+407,                DEG10180407,                ffh,                Signal recognition particle protein,                Escherichia coli MG1655 I
+408,                DEG10180408,                yfjD,                Hypothetical protein yfjD,                Escherichia coli MG1655 I
+409,                DEG10180409,                grpE,                GrpE protein,                Escherichia coli MG1655 I
+410,                DEG10180410,                ppnK/nadK,                Probable inorganic polyphosphate/ATP-NAD kinase (EC 2.7.1.23),                Escherichia coli MG1655 I
+411,                DEG10180411,                yfjF,                Protein yfjF,                Escherichia coli MG1655 I
+412,                DEG10180412,                yfjG,                Hypothetical protein yfjG,                Escherichia coli MG1655 I
+413,                DEG10180413,                ypjF,                Hypothetical protein ypjF,                Escherichia coli MG1655 I
+414,                DEG10180414,                ygaU,                Unknown protein from 2D-page,                Escherichia coli MG1655 I
+415,                DEG10180415,                ygaP,                Hypothetical protein ygaP,                Escherichia coli MG1655 I
+416,                DEG10180416,                nrdH,                Glutaredoxin-like protein nrdH,                Escherichia coli MG1655 I
+417,                DEG10180417,                nrdI,                NrdI protein,                Escherichia coli MG1655 I
+418,                DEG10180418,                alaS,                Alanyl-tRNA synthetase (EC 6.1.1.7),                Escherichia coli MG1655 I
+419,                DEG10180419,                hycI,                Hydrogenase 3 maturation protease (EC 3.4.-.-),                Escherichia coli MG1655 I
+420,                DEG10180420,                hycF,                Formate hydrogenlyase subunit 6,                Escherichia coli MG1655 I
+421,                DEG10180421,                ygbA,                Hypothetical protein ygbA,                Escherichia coli MG1655 I
+422,                DEG10180422,                ygbK,                Hypothetical protein ygbK,                Escherichia coli MG1655 I
+423,                DEG10180423,                ispF,                2-C-methyl-D-erythritol 2*4-cyclodiphosphate synthase (EC 4.6.1.12),                Escherichia coli MG1655 I
+424,                DEG10180424,                ispD,                2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase (EC 2.7.7.60),                Escherichia coli MG1655 I
+425,                DEG10180425,                ygbQ/ftsB,                Hypothetical protein ygbQ,                Escherichia coli MG1655 I
+426,                DEG10180426,                pyrG,                CTP synthase (EC 6.3.4.2),                Escherichia coli MG1655 I
+427,                DEG10180427,                ygdK/csdE,                Hypothetical protein ygdK,                Escherichia coli MG1655 I
+428,                DEG10180428,                thyA,                Thymidylate synthase (EC 2.1.1.45),                Escherichia coli MG1655 I
+429,                DEG10180429,                lgt,                Prolipoprotein diacylglyceryl transferase (EC 2.4.99.-),                Escherichia coli MG1655 I
+430,                DEG10180430,                ygfM,                Hypothetical protein ygfM,                Escherichia coli MG1655 I
+431,                DEG10180431,                ygfY,                Hypothetical protein ygfY,                Escherichia coli MG1655 I
+432,                DEG10180432,                yqfB,                Hypothetical protein yqfB,                Escherichia coli MG1655 I
+433,                DEG10180433,                ubiH,                2-octaprenyl-6-methoxyphenol hydroxylase (EC 1.14.13.-),                Escherichia coli MG1655 I
+434,                DEG10180434,                ygfB,                Hypothetical protein ygfB,                Escherichia coli MG1655 I
+435,                DEG10180435,                yggA/argO,                Hypothetical protein yggA,                Escherichia coli MG1655 I
+436,                DEG10180436,                fbaA,                Fructose-bisphosphate aldolase class II (EC 4.1.2.13),                Escherichia coli MG1655 I
+437,                DEG10180437,                pgk,                Phosphoglycerate kinase (EC 2.7.2.3),                Escherichia coli MG1655 I
+438,                DEG10180438,                tktA,                Transketolase 1 (EC 2.2.1.1),                Escherichia coli MG1655 I
+439,                DEG10180439,                metK,                S-adenosylmethionine synthetase (EC 2.5.1.6),                Escherichia coli MG1655 I
+440,                DEG10180440,                gshB,                Glutathione synthetase (EC 6.3.2.3),                Escherichia coli MG1655 I
+441,                DEG10180441,                yqgE,                Protein yqgE,                Escherichia coli MG1655 I
+442,                DEG10180442,                yqgF,                Hypothetical protein yqgF,                Escherichia coli MG1655 I
+443,                DEG10180443,                ansB,                L-asparaginase II precursor (EC 3.5.1.1),                Escherichia coli MG1655 I
+444,                DEG10180444,                yggL,                Hypothetical protein yggL,                Escherichia coli MG1655 I
+445,                DEG10180445,                hybG,                Hydrogenase-2 operon protein hybG,                Escherichia coli MG1655 I
+446,                DEG10180446,                hybD,                Hydrogenase 2 maturation protease (EC 3.4.24.-),                Escherichia coli MG1655 I
+447,                DEG10180447,                yqhA,                Hypothetical protein yqhA,                Escherichia coli MG1655 I
+448,                DEG10180448,                plsC,                1-acyl-sn-glycerol-3-phosphate acyltransferase (EC 2.3.1.51),                Escherichia coli MG1655 I
+449,                DEG10180449,                parC,                Topoisomerase IV subunit A (EC 5.99.1.-),                Escherichia coli MG1655 I
+450,                DEG10180450,                ygiT/mqsA,                Hypothetical protein ygiT,                Escherichia coli MG1655 I
+451,                DEG10180451,                ygiZ,                Hypothetical protein ygiZ,                Escherichia coli MG1655 I
+452,                DEG10180452,                parE,                Topoisomerase IV subunit B (EC 5.99.1.-),                Escherichia coli MG1655 I
+453,                DEG10180453,                yqiB,                Hypothetical protein yqiB,                Escherichia coli MG1655 I
+454,                DEG10180454,                ribB,                3*4-dihydroxy-2-butanone 4-phosphate synthase,                Escherichia coli MG1655 I
+455,                DEG10180455,                cca,                tRNA nucleotidyltransferase (EC 2.7.7.25),                Escherichia coli MG1655 I
+456,                DEG10180456,                dnaG,                DNA primase (EC 2.7.7.-),                Escherichia coli MG1655 I
+457,                DEG10180457,                rpoD,                RNA polymerase sigma factor rpoD,                Escherichia coli MG1655 I
+458,                DEG10180458,                ygjQ,                Hypothetical protein ygjQ,                Escherichia coli MG1655 I
+459,                DEG10180459,                yqjA,                Hypothetical protein yqjA,                Escherichia coli MG1655 I
+460,                DEG10180460,                yqjB/mzrA,                Hypothetical protein yqjB,                Escherichia coli MG1655 I
+461,                DEG10180461,                yqjK,                Hypothetical protein yqjK,                Escherichia coli MG1655 I
+462,                DEG10180462,                tdcG,                L-serine dehydratase tdcG (EC 4.2.1.13),                Escherichia coli MG1655 I
+463,                DEG10180463,                tdcR,                Threonine dehydratase operon activator protein,                Escherichia coli MG1655 I
+464,                DEG10180464,                agaV,                PTS system* N-acetylgalactosamine-specific IIB component 2 (EC 2.7.1.69),                Escherichia coli MG1655 I
+465,                DEG10180465,                yraR,                Hypothetical protein yraR,                Escherichia coli MG1655 I
+466,                DEG10180466,                yhbP,                Hypothetical protein yhbP,                Escherichia coli MG1655 I
+467,                DEG10180467,                yhbQ,                Hypothetical protein yhbQ,                Escherichia coli MG1655 I
+468,                DEG10180468,                yhbS,                Hypothetical acetyltransferase yhbS (EC 2.3.1.-),                Escherichia coli MG1655 I
+469,                DEG10180469,                pnp,                Polyribonucleotide nucleotidyltransferase (EC 2.7.7.8),                Escherichia coli MG1655 I
+470,                DEG10180470,                rpsO,                30S ribosomal protein S15,                Escherichia coli MG1655 I
+471,                DEG10180471,                infB,                Translation initiation factor IF-2,                Escherichia coli MG1655 I
+472,                DEG10180472,                yhbC/rimP,                Hypothetical protein yhbC,                Escherichia coli MG1655 I
+473,                DEG10180473,                yhbZ/obgE,                Hypothetical GTP-binding protein yhbZ,                Escherichia coli MG1655 I
+474,                DEG10180474,                ispB,                Octaprenyl-diphosphate synthase (EC 2.5.1.-),                Escherichia coli MG1655 I
+475,                DEG10180475,                yhbG/lptB,                Probable ABC transporter ATP-binding protein yhbG,                Escherichia coli MG1655 I
+476,                DEG10180476,                rpoN,                RNA polymerase sigma-54 factor,                Escherichia coli MG1655 I
+477,                DEG10180477,                ptsN,                Nitrogen regulatory IIA protein (EC 2.7.1.69),                Escherichia coli MG1655 I
+478,                DEG10180478,                yhcF,                Hypothetical protein yhcF precursor,                Escherichia coli MG1655 I
+479,                DEG10180479,                yhcK/nanR,                Hypothetical transcriptional regulator yhcK,                Escherichia coli MG1655 I
+480,                DEG10180480,                rpsI,                30S ribosomal protein S9,                Escherichia coli MG1655 I
+481,                DEG10180481,                rplM,                50S ribosomal protein L13,                Escherichia coli MG1655 I
+482,                DEG10180482,                degQ,                Protease degQ precursor (EC 3.4.21.-),                Escherichia coli MG1655 I
+483,                DEG10180483,                argR,                Arginine repressor,                Escherichia coli MG1655 I
+484,                DEG10180484,                yhcO,                Hypothetical protein yhcO,                Escherichia coli MG1655 I
+485,                DEG10180485,                mreC,                Rod shape-determining protein mreC,                Escherichia coli MG1655 I
+486,                DEG10180486,                mreB,                Rod shape-determining protein mreB,                Escherichia coli MG1655 I
+487,                DEG10180487,                fis,                DNA-binding protein fis,                Escherichia coli MG1655 I
+488,                DEG10180488,                def,                Peptide deformylase (EC 3.5.1.88),                Escherichia coli MG1655 I
+489,                DEG10180489,                fmt,                Methionyl-tRNA formyltransferase (EC 2.1.2.9),                Escherichia coli MG1655 I
+490,                DEG10180490,                mscL,                Large-conductance mechanosensitive channel,                Escherichia coli MG1655 I
+491,                DEG10180491,                rpsM,                30S ribosomal protein S13,                Escherichia coli MG1655 I
+492,                DEG10180492,                secY,                Preprotein translocase secY subunit,                Escherichia coli MG1655 I
+493,                DEG10180493,                rplO,                50S ribosomal protein L15,                Escherichia coli MG1655 I
+494,                DEG10180494,                rpsE,                30S ribosomal protein S5,                Escherichia coli MG1655 I
+495,                DEG10180495,                rplR,                50S ribosomal protein L18,                Escherichia coli MG1655 I
+496,                DEG10180496,                rplF,                50S ribosomal protein L6,                Escherichia coli MG1655 I
+497,                DEG10180497,                rpsH,                30S ribosomal protein S8,                Escherichia coli MG1655 I
+498,                DEG10180498,                rpsN,                30S ribosomal protein S14,                Escherichia coli MG1655 I
+499,                DEG10180499,                rplX,                50S ribosomal protein L24,                Escherichia coli MG1655 I
+500,                DEG10180500,                rplN,                50S ribosomal protein L14,                Escherichia coli MG1655 I
+501,                DEG10180501,                rpsQ,                30S ribosomal protein S17,                Escherichia coli MG1655 I
+502,                DEG10180502,                rpsS,                30S ribosomal protein S19,                Escherichia coli MG1655 I
+503,                DEG10180503,                rplB,                50S ribosomal protein L2,                Escherichia coli MG1655 I
+504,                DEG10180504,                rplW,                50S ribosomal protein L23,                Escherichia coli MG1655 I
+505,                DEG10180505,                rplD,                50S ribosomal protein L4,                Escherichia coli MG1655 I
+506,                DEG10180506,                rplC,                50S ribosomal protein L3,                Escherichia coli MG1655 I
+507,                DEG10180507,                rpsJ,                30S ribosomal protein S10,                Escherichia coli MG1655 I
+508,                DEG10180508,                tufA,                Elongation factor Tu,                Escherichia coli MG1655 I
+509,                DEG10180509,                fusA,                Elongation factor G,                Escherichia coli MG1655 I
+510,                DEG10180510,                rpsL,                30S ribosomal protein S12,                Escherichia coli MG1655 I
+511,                DEG10180511,                yheL,                Hypothetical protein yheL,                Escherichia coli MG1655 I
+512,                DEG10180512,                yheM,                Hypothetical protein yheM,                Escherichia coli MG1655 I
+513,                DEG10180513,                yheN,                Hypothetical protein yheN,                Escherichia coli MG1655 I
+514,                DEG10180514,                slyD,                FKBP-type peptidyl-prolyl cis-trans isomerase slyD (EC 5.2.1.8),                Escherichia coli MG1655 I
+515,                DEG10180515,                yhfQ/frlD,                Hypothetical sugar kinase yhfQ,                Escherichia coli MG1655 I
+516,                DEG10180516,                trpS,                Tryptophanyl-tRNA synthetase (EC 6.1.1.2),                Escherichia coli MG1655 I
+517,                DEG10180517,                rpe,                Ribulose-phosphate 3-epimerase (EC 5.1.3.1),                Escherichia coli MG1655 I
+518,                DEG10180518,                aroK,                Shikimate kinase I (EC 2.7.1.71),                Escherichia coli MG1655 I
+519,                DEG10180519,                asd,                Aspartate-semialdehyde dehydrogenase (EC 1.2.1.11),                Escherichia coli MG1655 I
+520,                DEG10180520,                insA,                Insertion element IS1 1/2/3/5/6 protein insA,                Escherichia coli MG1655 I
+521,                DEG10180521,                rpoH,                RNA polymerase sigma-32 factor,                Escherichia coli MG1655 I
+522,                DEG10180522,                ftsE,                Cell division ATP-binding protein ftsE,                Escherichia coli MG1655 I
+523,                DEG10180523,                ftsY,                Cell division protein ftsY,                Escherichia coli MG1655 I
+524,                DEG10180524,                yhhF/rsmD,                Putative methylase yhhF (EC 2.1.1.-),                Escherichia coli MG1655 I
+525,                DEG10180525,                yhhL,                Hypothetical protein yhhL,                Escherichia coli MG1655 I
+526,                DEG10180526,                yhhM,                Hypothetical protein yhhM,                Escherichia coli MG1655 I
+527,                DEG10180527,                gor,                Glutathione reductase (EC 1.6.4.2),                Escherichia coli MG1655 I
+528,                DEG10180528,                slp,                Outer membrane protein slp precursor,                Escherichia coli MG1655 I
+529,                DEG10180529,                glyS,                Glycyl-tRNA synthetase beta chain (EC 6.1.1.14),                Escherichia coli MG1655 I
+530,                DEG10180530,                glyQ,                Glycyl-tRNA synthetase alpha chain (EC 6.1.1.14),                Escherichia coli MG1655 I
+531,                DEG10180531,                yibA,                Hypothetical protein yibA,                Escherichia coli MG1655 I
+532,                DEG10180532,                yibG,                Hypothetical protein yibG precursor,                Escherichia coli MG1655 I
+533,                DEG10180533,                cysE,                Serine acetyltransferase (EC 2.3.1.30),                Escherichia coli MG1655 I
+534,                DEG10180534,                secB,                Protein-export protein secB,                Escherichia coli MG1655 I
+535,                DEG10180535,                rfaC,                Lipopolysaccharide heptosyltransferase-1 (EC 2.-.-.-),                Escherichia coli MG1655 I
+536,                DEG10180536,                kdtA/waaA,                3-deoxy-D-manno-octulosonic-acid transferase (EC 2.-.-.-),                Escherichia coli MG1655 I
+537,                DEG10180537,                coaD,                Phosphopantetheine adenylyltransferase (EC 2.7.7.3),                Escherichia coli MG1655 I
+538,                DEG10180538,                dfp,                DNA/pantothenate metabolism flavoprotein,                Escherichia coli MG1655 I
+539,                DEG10180539,                dut,                Deoxyuridine 5'-triphosphate nucleotidohydrolase (EC 3.6.1.23),                Escherichia coli MG1655 I
+540,                DEG10180540,                gmk,                Guanylate kinase (EC 2.7.4.8),                Escherichia coli MG1655 I
+541,                DEG10180541,                yidP,                Hypothetical transcriptional regulator yidP,                Escherichia coli MG1655 I
+542,                DEG10180542,                dnaA,                Chromosomal replication initiator protein dnaA,                Escherichia coli MG1655 I
+543,                DEG10180543,                trmE/mnmE,                Probable tRNA modification GTPase trmE,                Escherichia coli MG1655 I
+544,                DEG10180544,                yieL,                Hypothetical protein yieL,                Escherichia coli MG1655 I
+545,                DEG10180545,                glmS,                Glucosamine--fructose-6-phosphate aminotransferase [isomerizing] (EC 2.6.1.16),                Escherichia coli MG1655 I
+546,                DEG10180546,                glmU,                Bifunctional glmU protein,                Escherichia coli MG1655 I
+547,                DEG10180547,                atpC,                ATP synthase epsilon chain (EC 3.6.3.14),                Escherichia coli MG1655 I
+548,                DEG10180548,                atpF,                ATP synthase B chain (EC 3.6.3.14),                Escherichia coli MG1655 I
+549,                DEG10180549,                rep,                ATP-dependent DNA helicase rep (EC 3.6.1.-),                Escherichia coli MG1655 I
+550,                DEG10180550,                wzyE,                Putative ECA polymerase,                Escherichia coli MG1655 I
+551,                DEG10180551,                hemD,                Uroporphyrinogen-III synthase (EC 4.2.1.75),                Escherichia coli MG1655 I
+552,                DEG10180552,                hemC,                Porphobilinogen deaminase (EC 4.3.1.8),                Escherichia coli MG1655 I
+553,                DEG10180553,                dapF,                Diaminopimelate epimerase (EC 5.1.1.7),                Escherichia coli MG1655 I
+554,                DEG10180554,                xerC,                Integrase/recombinase xerC,                Escherichia coli MG1655 I
+555,                DEG10180555,                corA,                Magnesium and cobalt transport protein corA,                Escherichia coli MG1655 I
+556,                DEG10180556,                ubiE,                Ubiquinone/menaquinone biosynthesis methyltransferase ubiE (EC 2.1.1.-),                Escherichia coli MG1655 I
+557,                DEG10180557,                ubiB,                Probable ubiquinone biosynthesis protein ubiB,                Escherichia coli MG1655 I
+558,                DEG10180558,                hemG,                Protoporphyrinogen oxidase (EC 1.3.3.4),                Escherichia coli MG1655 I
+559,                DEG10180559,                dsbA,                Thiol:disulfide interchange protein dsbA precursor,                Escherichia coli MG1655 I
+560,                DEG10180560,                engB/yihA,                Probable GTP-binding protein engB,                Escherichia coli MG1655 I
+561,                DEG10180561,                rhaD,                Rhamnulose-1-phosphate aldolase (EC 4.1.2.19),                Escherichia coli MG1655 I
+562,                DEG10180562,                yiiU/zapB,                Hypothetical protein yiiU,                Escherichia coli MG1655 I
+563,                DEG10180563,                priA,                Primosomal protein N',                Escherichia coli MG1655 I
+564,                DEG10180564,                argC,                N-acetyl-gamma-glutamyl-phosphate reductase (EC 1.2.1.38),                Escherichia coli MG1655 I
+565,                DEG10180565,                murI,                Glutamate racemase (EC 5.1.1.3),                Escherichia coli MG1655 I
+566,                DEG10180566,                birA,                BirA bifunctional protein,                Escherichia coli MG1655 I
+567,                DEG10180567,                coaA,                Pantothenate kinase (EC 2.7.1.33),                Escherichia coli MG1655 I
+568,                DEG10180568,                tufB,                Elongation factor Tu,                Escherichia coli MG1655 I
+569,                DEG10180569,                rplJ,                50S ribosomal protein L10,                Escherichia coli MG1655 I
+570,                DEG10180570,                rplL,                50S ribosomal protein L7/L12,                Escherichia coli MG1655 I
+571,                DEG10180571,                rpoB,                DNA-directed RNA polymerase beta chain (EC 2.7.7.6),                Escherichia coli MG1655 I
+572,                DEG10180572,                rpoC,                DNA-directed RNA polymerase beta' chain (EC 2.7.7.6),                Escherichia coli MG1655 I
+573,                DEG10180573,                rsd,                Regulator of sigma D,                Escherichia coli MG1655 I
+574,                DEG10180574,                hemE,                Uroporphyrinogen decarboxylase (EC 4.1.1.37),                Escherichia coli MG1655 I
+575,                DEG10180575,                zraP,                Zinc resistance-associated protein precursor,                Escherichia coli MG1655 I
+576,                DEG10180576,                yjbA/psiE,                Hypothetical protein yjbA,                Escherichia coli MG1655 I
+577,                DEG10180577,                yjbL,                Hypothetical protein yjbL,                Escherichia coli MG1655 I
+578,                DEG10180578,                yjbM,                Hypothetical protein yjbM,                Escherichia coli MG1655 I
+579,                DEG10180579,                yjbO/pspG,                Hypothetical protein yjbO,                Escherichia coli MG1655 I
+580,                DEG10180580,                dnaB,                Replicative DNA helicase (EC 3.6.1.-),                Escherichia coli MG1655 I
+581,                DEG10180581,                tyrB,                Aromatic-amino-acid aminotransferase (EC 2.6.1.57),                Escherichia coli MG1655 I
+582,                DEG10180582,                yjbS,                Hypothetical protein yjbS,                Escherichia coli MG1655 I
+583,                DEG10180583,                groS,                10 kDa chaperonin,                Escherichia coli MG1655 I
+584,                DEG10180584,                groL,                60 kDa chaperonin,                Escherichia coli MG1655 I
+585,                DEG10180585,                efp,                Elongation factor P,                Escherichia coli MG1655 I
+586,                DEG10180586,                poxA/yjeA,                Putative lysyl-tRNA synthetase (EC 6.1.1.6),                Escherichia coli MG1655 I
+587,                DEG10180587,                yjeO,                Hypothetical protein yjeO,                Escherichia coli MG1655 I
+588,                DEG10180588,                yjeE,                Hypothetical protein yjeE,                Escherichia coli MG1655 I
+589,                DEG10180589,                miaA,                tRNA delta(2)-isopentenylpyrophosphate transferase (EC 2.5.1.8),                Escherichia coli MG1655 I
+590,                DEG10180590,                hfq,                Hfq protein,                Escherichia coli MG1655 I
+591,                DEG10180591,                rpsF,                30S ribosomal protein S6,                Escherichia coli MG1655 I
+592,                DEG10180592,                priB,                Primosomal replication protein N,                Escherichia coli MG1655 I
+593,                DEG10180593,                ytfI,                Hypothetical protein ytfI,                Escherichia coli MG1655 I
+594,                DEG10180594,                chpS,                PemI-like protein 2,                Escherichia coli MG1655 I
+595,                DEG10180595,                ppa,                Inorganic pyrophosphatase (EC 3.6.1.1),                Escherichia coli MG1655 I
+596,                DEG10180596,                ytfS/ytfR,                Hypothetical ABC transporter ATP-binding protein ytfR,                Escherichia coli MG1655 I
+597,                DEG10180597,                yjgF,                Protein yjgF,                Escherichia coli MG1655 I
+598,                DEG10180598,                yjgJ,                Hypothetical protein yjgJ,                Escherichia coli MG1655 I
+599,                DEG10180599,                valS,                Valyl-tRNA synthetase (EC 6.1.1.9),                Escherichia coli MG1655 I
+600,                DEG10180600,                holC,                DNA polymerase III* chi subunit (EC 2.7.7.7),                Escherichia coli MG1655 I
+601,                DEG10180601,                yjgP/lptF,                Hypothetical protein yjgP,                Escherichia coli MG1655 I
+602,                DEG10180602,                yjgQ/lptG,                Hypothetical protein yjgQ,                Escherichia coli MG1655 I
+603,                DEG10180603,                sgcA,                Putative phosphotransferase enzyme II* A component sgcA (EC 2.7.1.69),                Escherichia coli MG1655 I
+604,                DEG10180604,                sgcB,                Putative phosphotransferase enzyme II* B component sgcB (EC 2.7.1.69),                Escherichia coli MG1655 I
+605,                DEG10180605,                dnaC,                DNA replication protein dnaC,                Escherichia coli MG1655 I
+606,                DEG10180606,                dnaT,                Primosomal protein I,                Escherichia coli MG1655 I
+607,                DEG10180607,                rimI,                Ribosomal-protein-alanine acetyltransferase (EC 2.3.1.128),                Escherichia coli MG1655 I
+608,                DEG10180608,                yjjV,                Putative deoxyribonuclease yjjV (EC 3.1.21.-),                Escherichia coli MG1655 I
+609,                DEG10180609,                lplA,                Lipoate-protein ligase A (EC 6.-.-.-),                Escherichia coli MG1655 I
