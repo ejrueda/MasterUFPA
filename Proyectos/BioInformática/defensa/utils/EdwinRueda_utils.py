@@ -10,6 +10,9 @@ from tensorflow.keras.layers import Dense
 from tensorflow.keras.models import Sequential
 
 class scaler:
+    """
+    Scaler class allows scaler a dataframe without losing the dataframe index
+    """
     def __init__(self, xmin, xmax):
         """
         minmax scaler from dataframe
@@ -38,7 +41,9 @@ class scaler:
         return X_r
 
 class gan_utils:
-    
+    """
+    gan_utils allows train a Generative Adversarial Network and shows its result
+    """
     def __init__(self):
         self.accumulated_gloss = []
         self.accumulated_dloss = []
@@ -52,6 +57,10 @@ class gan_utils:
     
     @tf.function
     def kl_divergence(self, probability):
+        """
+        this function computes the kullback-leibler divergence from the probability
+        of a discriminator network
+        """
         probability = tf.clip_by_value(probability, 1e-5, 1-1e-5)
         return tf.reduce_mean(probability*tf.math.log(probability/(1-probability)))
     
@@ -59,12 +68,26 @@ class gan_utils:
     def binary_cross_entropy(self, prediction, target):
         """
         compute the loss for binary clasification problems
+        inputs:
+            prediction: predicted class
+            target: target class
         """
         prediction = tf.clip_by_value(prediction, 1e-5, 1-1e-5)
         return -tf.reduce_mean(target*tf.math.log(prediction) + (1-target)*tf.math.log(1-prediction))
 
     @tf.function
     def train_step(self, sample, batch_size, noise_input, optimizerG, optimizerD):
+        """
+        this function train a GAN architecture from a batch
+        inputs:
+            sample: batch from a tensorflow dataset
+            batch_size: size of the batch
+            noise_input: size of the noise vector to train de generator network
+            optimizerG: an optimizer of tensorflow, this optimizer is used to update the gradients
+                        of the Generator network.
+            optimizerD: an optimizer of tensorflow, this optimizer is used to update the gradients
+                        of the Discriminator network.
+        """
         noise = tf.random.normal([batch_size, noise_input])
         with tf.GradientTape() as gG, tf.GradientTape() as gD:
             synthetic_data = self.G(noise, training=True)
@@ -160,3 +183,33 @@ class gan_utils:
                 plt.scatter(X_real_pca[:,0], X_real_pca[:,1], label="real", marker="*", s=80, color="green",
                             edgecolors="black");
         return fig
+    
+    def get_metrics(self, num_iter):
+        """
+        this function returns the metrics obtained after
+        training the architecture
+        num_iter: number of iterations to compute the boxplot
+        return: precision of the discriminator network, Kullback-Leibler divergence
+                loss of the generator network, loss of the discriminator network
+        """
+        precision_d = []
+        kld_divergence = []
+        g_loss = []
+        d_loss = []
+        for i in range(num_iter):
+            noise = tf.random.normal([self.X_train.shape[0], self.noise_input])
+            synthetic_samples = self.G(noise)
+            X_comb = tf.concat([self.X_train, synthetic_samples], axis=0)
+            y_comb = tf.concat([tf.ones((self.X_train.shape[0],1), dtype=tf.float64),
+                                tf.zeros((synthetic_samples.shape[0],1), dtype=tf.float64)], axis=0)
+            y_proba = self.D(X_comb)
+            y_predict = tf.reshape((tf.greater(y_proba, .5).numpy()*1), [-1])
+            precision_d.append(precision_score(y_comb.numpy(), y_predict))
+            kld_divergence.append(self.kl_divergence(y_proba).numpy())
+            g_loss.append(self.binary_cross_entropy(self.D(synthetic_samples),
+                                                    tf.zeros(synthetic_samples.shape[0], dtype=tf.float64)).numpy())
+            d_loss.append(self.binary_cross_entropy(y_proba, y_comb).numpy())
+            
+        return precision_d, kld_divergence, g_loss, d_loss
+    
+
