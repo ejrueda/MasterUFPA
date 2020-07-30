@@ -1,4 +1,8 @@
 ### for more documentation, you can read the "creating utils" notebook.
+#data: 30/07/2020
+#author: Edwin Jahir Rueda Rojas
+#page: https://github.com/ejrueda
+#email: ejrueda95g@gmail.com
 import tensorflow as tf
 import numpy as np
 from time import time
@@ -9,6 +13,9 @@ tf.keras.backend.set_floatx('float64')
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.models import Sequential
 
+#----------------------------------------------------------
+#-------------- Scaler class ------------------------------
+#----------------------------------------------------------
 class scaler:
     """
     Scaler class allows scaler a dataframe without losing the dataframe index
@@ -39,7 +46,10 @@ class scaler:
         X_r = X.copy()
         X_r = ((X_r - self.xmin)*(self.max_data - self.min_data)/(self.xmax - self.xmin)) + self.min_data
         return X_r
-
+    
+#----------------------------------------------------------
+#-------------- gan_utils class ---------------------------
+#----------------------------------------------------------
 class gan_utils:
     """
     gan_utils allows train a Generative Adversarial Network and shows its result
@@ -107,6 +117,20 @@ class gan_utils:
         return gen_loss, dis_loss
     
     def train(self, dataset, G, D, noise_input, epochs, batch_size, optimizerG, optimizerD):
+        """
+        This function train a GAN architecture.
+        inputs:
+            dataset: pandas dataframe to train the architecture.
+            G: a generator network to build the architecture
+            D: a discriminator network to build the architecture.
+            noise_input: size of the noise vector.
+            epochs: number of epochs to train the architecture.
+            batch_size: size of the batch to train the architecture in each epoch.
+            optimizerG: an optimizer of tensorflow, this optimizer is used to update the gradients
+                        of the Generator network.
+            optimizerD: an optimizer of tensorflow, this optimizer is used to update the gradients
+                        of the Discriminator network.
+        """
         #reset metrics
         self.accumulated_gloss = []
         self.accumulated_dloss = []
@@ -145,6 +169,15 @@ class gan_utils:
         return self.accumulated_gloss, self.accumulated_dloss
         
     def plot_results(self, syn_size):
+        """
+        this function shows a figure with the principal metrics to see the convergence process
+        of the architecture
+        input:
+            syn_size: number of synthetic genes to be generated
+        return:
+            fig: a matplotlib figure with the main metrics to see the convergence process
+                 of the architecture
+        """
         fig = plt.figure(figsize=(15,10))
         for i in range(4):
             plt.subplot(2,2, i+1)
@@ -189,7 +222,7 @@ class gan_utils:
         this function returns the metrics obtained after
         training the architecture
         num_iter: number of iterations to compute the boxplot
-        return: precision of the discriminator network, Kullback-Leibler divergence
+        return: precision of the discriminator network, Kullback-Leibler divergence,
                 loss of the generator network, loss of the discriminator network
         """
         precision_d = []
@@ -212,4 +245,29 @@ class gan_utils:
             
         return precision_d, kld_divergence, g_loss, d_loss
     
+#----------------------------------------------------------
+#-------------- bokeh_utils class -------------------------
+#----------------------------------------------------------
+class bokeh_utils:
+    """
+    this class contains functions to facilitate the use of the bokeh library
+    """
+    def __init__(self):
+        pass
+    
+    def boxtplot_values(self, v):  
+        """
+        This function returns the values to plot a boxplot in the bokeh library
+        parameters: 
+            v: array with the values to make a boxplot
+        return: [lower, quantile25, quantile50, quantile75, upper] and outliers
+        """
+        q25 = np.quantile(v, q=.25, interpolation="midpoint")
+        q50 = np.quantile(v, q=.5, interpolation="midpoint")
+        q75 = np.quantile(v, q=.75, interpolation="midpoint")
+        lower = q25 - 1.5*(q75-q25)
+        upper = q75 + 1.5*(q75-q25)
+        #outliers
+        outliers = v[(v<lower)|(v>upper)]
 
+        return [lower, q25, q50, q75, upper], outliers
