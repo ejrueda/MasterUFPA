@@ -9,6 +9,7 @@ from time import time
 import matplotlib.pyplot as plt
 from sklearn.metrics import precision_score, recall_score
 from sklearn.decomposition import PCA
+from sklearn.neighbors import NearestNeighbors
 tf.keras.backend.set_floatx('float64')
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.models import Sequential
@@ -271,3 +272,53 @@ class bokeh_utils:
         outliers = v[(v<lower)|(v>upper)]
 
         return [lower, q25, q50, q75, upper], outliers
+    
+#----------------------------------------------------------
+#-------------------- SMOTE class -------------------------
+#----------------------------------------------------------
+
+class smote:
+    """
+    SMOTE: Synthetic Minority Over-sampling Technique
+    """
+    def __init__(self):
+        self.neigh = None
+    
+    def get_syn_samples(self, T, N, k):
+        """
+        get synthetic samples with the SMOTE algorithm.
+        Inputs:
+            T: 2D-data array to be increase
+            N: Amount of SMOTE N%. between (0, 100]
+            k: Number of nearest neighbors
+        Ouput:
+            (N/100)*T synthetic minority class samples
+            (∗ If N is less than 100%, randomize the minority class samples as only a random
+               percent of them will be SMOTEd. ∗)
+        """
+        if N < 100:
+            idxs = np.random.choice(range(len(T)), size=int(len(T)*(N/100)), replace=False)
+            T = T[idxs, :]
+            N = 100
+        
+        N = int(N/100)*len(T)
+        synthetic = np.ones((N, T.shape[1]))
+        self.neigh = NearestNeighbors(n_neighbors = k)
+        self.neigh.fit(T)
+        #generating synthetic samples
+        for i in range(N):
+            #print(i)
+            idx = np.random.randint(low=0, high=T.shape[0])
+            T_sample = T[idx] #x_i random sample
+            #print(T_sample.shape)
+            #getting the k-nearest neighbors
+            nn = self.neigh.kneighbors(T_sample.reshape(1,T.shape[1]), return_distance=False)
+            #getting random k-neighbors index
+            nn_index = np.random.choice(nn[0])
+            while (T_sample == T[nn_index]).all():
+                nn_index = np.random.choice(nn[0])
+            dif = T_sample - T[nn_index]
+            gap = np.random.normal()
+            synthetic[i] = T_sample + gap*dif
+    
+        return synthetic

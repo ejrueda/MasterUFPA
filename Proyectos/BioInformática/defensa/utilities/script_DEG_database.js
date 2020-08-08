@@ -1,3 +1,9 @@
+//Autor: Edwin Rueda
+//email: ejrueda95g@gmail.com
+//github: https://github.com/ejrueda
+//website: http://edwinrueda.com/
+//Note: this script is used to download the essential genes from the DEG public dataset
+
 function sleep(delay) {
         var start = new Date().getTime();
         while (new Date().getTime() < start + delay);
