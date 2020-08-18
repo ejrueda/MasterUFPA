@@ -262,11 +262,15 @@ class bokeh_utils:
     def __init__(self):
         pass
     
-    def boxtplot_values(self, v):  
+    def boxtplot_values(self, v, min_value= False, max_value=False):  
         """
         This function returns the values to plot a boxplot in the bokeh library
         parameters: 
             v: array with the values to make a boxplot
+            min_value: Bolean, default False. if the min_value is True, the min value of the boxplot
+            would be the min value of the v.
+            max_value: Bolean, default False. if the max_value is True, the max value of the boxplot
+            would be the max value of the v.
         return: [lower, quantile25, quantile50, quantile75, upper] and outliers
         """
         q25 = np.quantile(v, q=.25, interpolation="midpoint")
@@ -276,7 +280,12 @@ class bokeh_utils:
         upper = q75 + 1.5*(q75-q25)
         #outliers
         outliers = v[(v<lower)|(v>upper)]
-
+        if min_value == True:
+            if lower < min(v):
+                lower = min(v)
+        if max_value == True:
+            if upper > max(v):
+                upper = max(v)
         return [lower, q25, q50, q75, upper], outliers
     
 #----------------------------------------------------------
