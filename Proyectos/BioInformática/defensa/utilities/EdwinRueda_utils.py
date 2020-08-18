@@ -5,6 +5,7 @@
 #email: ejrueda95g@gmail.com
 import tensorflow as tf
 import numpy as np
+import pandas as pd
 from time import time
 import matplotlib.pyplot as plt
 from sklearn.metrics import precision_score, recall_score
@@ -13,6 +14,9 @@ from sklearn.neighbors import NearestNeighbors
 tf.keras.backend.set_floatx('float64')
 from tensorflow.keras.layers import Dense
 from tensorflow.keras.models import Sequential
+from sklearn.svm import OneClassSVM
+from sklearn.model_selection import cross_val_score, GridSearchCV, train_test_split
+
 
 #----------------------------------------------------------
 #-------------- Scaler class ------------------------------
@@ -252,6 +256,8 @@ class gan_utils:
 class bokeh_utils:
     """
     this class contains functions to facilitate the use of the bokeh library
+    methods:
+        boxplot_values
     """
     def __init__(self):
         pass
@@ -280,6 +286,8 @@ class bokeh_utils:
 class smote:
     """
     SMOTE: Synthetic Minority Over-sampling Technique
+        Methods:
+            - get_syn_samples
     """
     def __init__(self):
         self.neigh = None
@@ -289,7 +297,7 @@ class smote:
         get synthetic samples with the SMOTE algorithm.
         Inputs:
             T: 2D-data array to be increase
-            N: Amount of SMOTE N%. between (0, 100]
+            N: Amount of SMOTE N%.
             k: Number of nearest neighbors
         Ouput:
             (N/100)*T synthetic minority class samples
@@ -322,3 +330,96 @@ class smote:
             synthetic[i] = T_sample + gap*dif
     
         return synthetic
+    
+#-----------------------------------------------------
+#----------- One-Class SVM Classifier ----------------
+#-----------------------------------------------------
+class ocsvm_utilities:
+    """
+    ocsvm_utilities class allows to train an one-class SVM with cross_validation
+    and allows select the best initial parameters
+    inputs:
+        X: Dataframe with the RG to train the novelty detector. The index of this
+           Dataframe must be the name of each gene.
+        y: labels, for this aproach the target is a vector of ones with dimension
+           equal to X.shape[0]
+        test_size: the percentage of data to be used in the test step
+        k_folds: the number of folds in the cross validation step
+    """
+    def __init__(self, X, y, test_size, k_folds):
+        self.X = X
+        self.y = y
+        self.test_size = test_size
+        self.k_folds = k_folds
+        self.cv_results = {}
+        
+    def ocsvm_score(self,estimator, X, y):
+        """
+        this function compute the recall score obtained in a one-class classifier.
+        this function is used as an argument in cross validation
+        inputs:
+            estimator: trained estimator
+            X: test data
+            y: target
+        output:
+            recall socore
+        """
+        tp, fn = sum(estimator.predict(X)==1), sum(estimator.predict(X)!=1)
+        return  tp/(tp + fn)
+    
+    def get_best_params(self, param_grid, n_iter=5):
+        """
+        This function compute a GridSearchCV for different training sets
+        inputs:
+            n_iter: number of iterations of the GridSearchCV in different training sets
+                    ex: the training set is divided in 70% to train and 30% to test. For
+                    default, this selection is made five times, then, the GridSearchCV is
+                    used five times.
+            param_grid: dictionary with the name and values of the parameter to change.
+                        ex: {"nu": [.2, .5, .7]}
+        return:
+        
+        """
+        self.train_score, self.test_score = pd.DataFrame(), pd.DataFrame()
+        self.train_score["best_nu"] = np.zeros(len(param_grid["nu"]))
+        self.test_score["best_nu"] = np.zeros(len(param_grid["nu"]))
+        #set index
+        self.train_score = self.train_score.set_index(param_grid["nu"])
+        self.test_score = self.test_score.set_index(param_grid["nu"])
+        count_cv = 0
+        for i in range(n_iter):
+            X_train, X_test, y_train, y_test = train_test_split(self.X, self.y, test_size=self.test_size)
+            self.ocsvm = OneClassSVM(kernel="rbf", gamma="auto")
+            self.gsCV = GridSearchCV(self.ocsvm, param_grid=param_grid, cv=self.k_folds,
+                                     scoring=self.ocsvm_score, return_train_score=True, iid=False)
+            self.gsCV.fit(X_train, y_train)
+            #self.cv_results["iter_"+str(i)] = self.gsCV.cv_results_            
+            for cv in range(self.k_folds):
+                self.train_score["score_cv_"+str(count_cv)] = self.gsCV.cv_results_["split"+str(cv)+"_train_score"]
+                self.test_score["score_cv_"+str(count_cv)] = self.gsCV.cv_results_["split"+str(cv)+"_test_score"]
+                count_cv += 1
+            self.train_score.loc[self.gsCV.best_params_["nu"], "best_nu"] += 1
+            self.test_score.loc[self.gsCV.best_params_["nu"], "best_nu"] += 1
+        return self.train_score, self.test_score
+    
+    def get_statistics(self, iterations):
+        """
+        this funtion computes the recall score n times in both training and test set.
+        where n=iterations
+        inputs:
+            iterations: int. number of times that the classifier is trained and tested.
+        outputs:
+            train_recall_score = list with n score values in the training data. where n=iterations
+            test_recall_score = list with n score values in the test data. where n=iterations
+        """
+        train_recall_score = []
+        test_recall_score = []
+        best_nu_param = self.test_score.where(self.test_score.best_nu==self.test_score.best_nu.max()).dropna().index[0]
+        for i in range(iterations):
+            X_train, X_test, y_train, y_test = train_test_split(self.X, self.y, test_size=self.test_size)
+            clf = OneClassSVM(kernel="rbf", gamma="auto", nu=best_nu_param)
+            clf.fit(X_train, y_train)
+            train_recall_score.append(self.ocsvm_score(clf, X_train, y_train))
+            test_recall_score.append(self.ocsvm_score(clf, X_test, y_test))
+            
+        return train_recall_score, test_recall_score
