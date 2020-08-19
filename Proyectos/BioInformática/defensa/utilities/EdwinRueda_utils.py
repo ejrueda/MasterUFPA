@@ -58,6 +58,12 @@ class scaler:
 class gan_utils:
     """
     gan_utils allows train a Generative Adversarial Network and shows its result
+    Methods:
+        - kl_divergence
+        - binary_cross_entropy
+        - train_step
+        - train
+        - plot results
     """
     def __init__(self):
         self.accumulated_gloss = []
@@ -121,7 +127,7 @@ class gan_utils:
 
         return gen_loss, dis_loss
     
-    def train(self, dataset, G, D, noise_input, epochs, batch_size, optimizerG, optimizerD):
+    def train(self, dataset, G, D, noise_input, epochs, batch_size, optimizerG, optimizerD, verbose=True):
         """
         This function train a GAN architecture.
         inputs:
@@ -135,6 +141,10 @@ class gan_utils:
                         of the Generator network.
             optimizerD: an optimizer of tensorflow, this optimizer is used to update the gradients
                         of the Discriminator network.
+            verbose: Bolean, default True. parameter to show the convergence process of the architecture
+        Return:
+            accumulated_gloss: list of the loss in each epoch of the generator network
+            accumulated_dloss: list of the loss in each epoch of the discriminator network
         """
         #reset metrics
         self.accumulated_gloss = []
@@ -166,11 +176,11 @@ class gan_utils:
             self.precision.append(precision_score(y_comb.numpy(), y_predict.numpy()))
             self.recall.append(recall_score(y_comb.numpy(), y_predict.numpy()))
             t_f = time()
-            
-            print("epochs[%d:%d] :: G_loss[%f] :: D_loss[%f] :: time:%f[s]"%(epoch, epochs,
-                                                                             self.accumulated_gloss[-1],
-                                                                             self.accumulated_dloss[-1],
-                                                                             t_f-t_i))
+            if verbose:
+                print("epochs[%d:%d] :: G_loss[%f] :: D_loss[%f] :: time:%f[s]"%(epoch, epochs,
+                                                                                 self.accumulated_gloss[-1],
+                                                                                 self.accumulated_dloss[-1],
+                                                                                 t_f-t_i))
         return self.accumulated_gloss, self.accumulated_dloss
         
     def plot_results(self, syn_size):
