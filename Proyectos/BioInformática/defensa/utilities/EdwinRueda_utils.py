@@ -277,24 +277,26 @@ class bokeh_utils:
         This function returns the values to plot a boxplot in the bokeh library
         parameters: 
             v: array with the values to make a boxplot
-            min_value: Bolean, default False. if the min_value is True, the min value of the boxplot
-            would be the min value of the v.
-            max_value: Bolean, default False. if the max_value is True, the max value of the boxplot
-            would be the max value of the v.
+            min_value: Bolean, default False. if the min_value is True, the min value of the boxplot would be the min value of the v.
+            max_value: Bolean, default False. if the max_value is True, the max value of the boxplot would be the max value of the v.
         return: [lower, quantile25, quantile50, quantile75, upper] and outliers
         """
         q25 = np.quantile(v, q=.25, interpolation="midpoint")
         q50 = np.quantile(v, q=.5, interpolation="midpoint")
         q75 = np.quantile(v, q=.75, interpolation="midpoint")
-        lower = q25 - 1.5*(q75-q25)
-        upper = q75 + 1.5*(q75-q25)
+        IQR = q75-q25
+        lower = q25 - 1.5*IQR
+        upper = q75 + 1.5*IQR
         #outliers
-        outliers = v[(v<lower)|(v>upper)]
-        if min_value == True:
-            if lower < min(v):
+        #v[(v<lower)|(v>upper)]
+        outliers_min = v[v<lower]
+        outliers_max = v[v>upper]
+        outliers = np.concatenate((outliers_min,outliers_max))
+        if min_value:
+            if lower < min(v) and len(outliers_min)==0:
                 lower = min(v)
-        if max_value == True:
-            if upper > max(v):
+        if max_value:
+            if upper > max(v) and len(outliers_max)==0:
                 upper = max(v)
         return [lower, q25, q50, q75, upper], outliers
     
@@ -353,6 +355,7 @@ class smote:
 #-----------------------------------------------------
 #----------- One-Class SVM Classifier ----------------
 #-----------------------------------------------------
+
 class ocsvm_utilities:
     """
     ocsvm_utilities class allows to train an one-class SVM with cross_validation
@@ -365,10 +368,9 @@ class ocsvm_utilities:
         test_size: the percentage of data to be used in the test step
         k_folds: the number of folds in the cross validation step
     """
-    def __init__(self, X, y, test_size, k_folds):
+    def __init__(self, X, y, k_folds):
         self.X = X
         self.y = y
-        self.test_size = test_size
         self.k_folds = k_folds
         self.cv_results = {}
         
@@ -407,11 +409,12 @@ class ocsvm_utilities:
         self.test_score = self.test_score.set_index(param_grid["nu"])
         count_cv = 0
         for i in range(n_iter):
-            X_train, X_test, y_train, y_test = train_test_split(self.X, self.y, test_size=self.test_size)
+            #self.X = self.X.sample(self.X.shape[0]) #shuffle pandas dataframe is very slow           
+            np.random.shuffle(self.X)
             self.ocsvm = OneClassSVM(kernel="rbf", gamma="auto")
             self.gsCV = GridSearchCV(self.ocsvm, param_grid=param_grid, cv=self.k_folds,
-                                     scoring=self.ocsvm_score, return_train_score=True, iid=False)
-            self.gsCV.fit(X_train, y_train)
+                                     scoring=self.ocsvm_score, return_train_score=True, ) #idd=False
+            self.gsCV.fit(self.X, self.y)
             #self.cv_results["iter_"+str(i)] = self.gsCV.cv_results_            
             for cv in range(self.k_folds):
                 self.train_score["score_cv_"+str(count_cv)] = self.gsCV.cv_results_["split"+str(cv)+"_train_score"]
@@ -421,7 +424,7 @@ class ocsvm_utilities:
             self.test_score.loc[self.gsCV.best_params_["nu"], "best_nu"] += 1
         return self.train_score, self.test_score
     
-    def get_statistics(self, iterations):
+    def get_statistics(self, iterations, test_size=.3):
         """
         this funtion computes the recall score n times in both training and test set.
         where n=iterations
@@ -433,9 +436,21 @@ class ocsvm_utilities:
         """
         train_recall_score = []
         test_recall_score = []
-        best_nu_param = self.test_score.where(self.test_score.best_nu==self.test_score.best_nu.max()).dropna().index[0]
+        best_nu = self.test_score.where(self.test_score.best_nu==self.test_score.best_nu.max()).dropna()
+        #si hay mas de uno, se selecciona el de menor desviación estandar
+        if len(best_nu) > 1:
+            best_nu_param = best_nu.iloc[0,1:].name
+            best_std = best_nu.iloc[0,1:].std()
+            for i in range(1,len(best_nu)):
+                aux_std = best_nu.iloc[i,1:].std()
+                if aux_std < best_std:
+                    best_std = aux_std
+                    best_nu_param = best_nu.iloc[i,1:].name
+        else:
+            best_nu_param = best_nu.index[0]
+                
         for i in range(iterations):
-            X_train, X_test, y_train, y_test = train_test_split(self.X, self.y, test_size=self.test_size)
+            X_train, X_test, y_train, y_test = train_test_split(self.X, self.y, test_size=test_size)
             clf = OneClassSVM(kernel="rbf", gamma="auto", nu=best_nu_param)
             clf.fit(X_train, y_train)
             train_recall_score.append(self.ocsvm_score(clf, X_train, y_train))
