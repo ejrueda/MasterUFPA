@@ -259,6 +259,7 @@ class gan_utils:
             d_loss.append(self.binary_cross_entropy(y_proba, y_comb).numpy())
             
         return precision_d, kld_divergence, g_loss, d_loss
+
     
 #----------------------------------------------------------
 #-------------- bokeh_utils class -------------------------
@@ -301,7 +302,7 @@ class bokeh_utils:
         return [lower, q25, q50, q75, upper], outliers
     
 #----------------------------------------------------------
-#-------------------- SMOTE class -------------------------
+#-------------------- SMOTE algorithm -------------------------
 #----------------------------------------------------------
 
 class smote:
