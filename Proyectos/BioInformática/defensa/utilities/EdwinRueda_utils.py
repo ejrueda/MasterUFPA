@@ -391,6 +391,7 @@ class gaussian_noise_samples:
             synthetic_samples[i] = x[idx] + np.random.normal(self.mu, self.sigma, size=(x.shape[1]))
     
         return synthetic_samples    
+    
 #-----------------------------------------------------
 #----------- One-Class SVM Classifier ----------------
 #-----------------------------------------------------
@@ -496,3 +497,34 @@ class ocsvm_utilities:
             test_recall_score.append(self.ocsvm_score(clf, X_test, y_test))
             
         return train_recall_score, test_recall_score
+    
+#-----------------------------------------------------
+#---------------- Similarity metrics -----------------
+#-----------------------------------------------------
+
+class metrics:
+    """
+    class to compute the similarity metrics between real and synthetic samples
+    methods:
+        - get_e_similarity
+    """
+    def __init__(self):
+        self.error = None
+        
+    def get_e_similarity(self, real, synthetic):
+        """
+        this function calculates the metric E, this metric is a similarity metric
+        based on the coefficient of variation of the synthetic samples plus
+        the absolute distance between real and synthetic samples.
+        Inputs:
+            - real: 2D array with the real samples
+            - synthetic: 2D array with the synthetic samples
+        Return a similarity metric
+        """
+        assert real.shape[1]==synthetic.shape[1], "real and synthetic samples are not the same number of features"
+        distance = []
+        for g in range(real.shape[1]):
+            distance.append(np.mean(abs(real[g,:] - synthetic)))
+        cv = (np.std(synthetic,axis=1)/np.mean(synthetic,axis=1))
+        return np.mean(distance) + np.mean(cv)
+        
