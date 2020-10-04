@@ -1,5 +1,5 @@
 ### for more documentation, you can read the "creating utils" notebook.
-#data: 30/07/2020
+#data: 03/10/2020
 #author: Edwin Jahir Rueda Rojas
 #page: https://github.com/ejrueda
 #email: ejrueda95g@gmail.com
@@ -353,6 +353,44 @@ class smote:
     
         return synthetic
     
+#-----------------------------------------------------
+#------------- Gaussian noise samples ----------------
+#-----------------------------------------------------
+class gaussian_noise_samples:
+    """
+    Gaussian noise samples allows generate synthetic samples based in a real samples.
+    This method adds Gaussian noise to a real example.
+    parameters:
+        - mu: mean of the gaussian distribution
+        - sigma: standard desviation of the gaussian distribution
+    Methods:
+        - get_syn_samples
+    """
+    def __init__(self, mu, sigma):
+        self.mu = mu
+        self.sigma = sigma
+
+    def get_syn_samples(self, x, n):
+        """
+        Inputs:
+            T: 2D-data array to be increase
+            N: Percentage of synthetic samples N%.
+        """
+        max_index = x.shape[0]
+        if n < 100:
+            idxs = np.random.choice(range(len(x)), size=int(len(x)*(n/100)), replace=False)
+            x = x[idxs, :]
+            n = 100
+            max_index = x.shape[0]
+        n = int(n/100)*len(x)
+        synthetic_samples = np.ones((n, x.shape[1]))
+        #generating synthetic samples
+        for i in range(n):
+            #getting a random real sample
+            idx = np.random.randint(0, max_index)
+            synthetic_samples[i] = x[idx] + np.random.normal(self.mu, self.sigma, size=(x.shape[1]))
+    
+        return synthetic_samples    
 #-----------------------------------------------------
 #----------- One-Class SVM Classifier ----------------
 #-----------------------------------------------------
