@@ -66,15 +66,7 @@ class gan_utils:
         - plot results
     """
     def __init__(self):
-        self.accumulated_gloss = []
-        self.accumulated_dloss = []
-        self.precision = []
-        self.recall = []
-        self.kl_d = []
         self.X_train = None
-        self.G = None
-        self.D = None
-        self.noise_input = None
     
     @tf.function
     def kl_divergence(self, probability):
@@ -95,6 +87,13 @@ class gan_utils:
         """
         prediction = tf.clip_by_value(prediction, 1e-5, 1-1e-5)
         return -tf.reduce_mean(target*tf.math.log(prediction) + (1-target)*tf.math.log(1-prediction))
+
+    def compute_s_metric(self, real, synthetic, beta):
+        dist = []
+        for g in range(real.shape[0]):
+            dist.append(tf.reduce_mean(abs(real.iloc[g].values - synthetic)))
+        distance = tf.reduce_mean(dist)
+        return distance + beta*tf.reduce_mean(self.D(synthetic) - .5)**2
 
     @tf.function
     def train_step(self, sample, batch_size, noise_input, optimizerG, optimizerD):
@@ -151,7 +150,7 @@ class gan_utils:
         self.accumulated_dloss = []
         self.precision = []
         self.recall = []
-        self.kld = []
+        self.kl_d = []
         batch_g_loss = []
         batch_d_loss = []
         self.G, self.D = G, D
@@ -244,6 +243,7 @@ class gan_utils:
         kld_divergence = []
         g_loss = []
         d_loss = []
+        s_metric = []
         for i in range(num_iter):
             noise = tf.random.normal([self.X_train.shape[0], self.noise_input])
             synthetic_samples = self.G(noise)
@@ -257,8 +257,9 @@ class gan_utils:
             g_loss.append(self.binary_cross_entropy(self.D(synthetic_samples),
                                                     tf.zeros(synthetic_samples.shape[0], dtype=tf.float64)).numpy())
             d_loss.append(self.binary_cross_entropy(y_proba, y_comb).numpy())
+            s_metric.append(self.compute_s_metric(self.X_train, synthetic_samples, beta=5))
             
-        return precision_d, kld_divergence, g_loss, d_loss
+        return precision_d, kld_divergence, g_loss, d_loss, s_metric
 
     
 #----------------------------------------------------------
