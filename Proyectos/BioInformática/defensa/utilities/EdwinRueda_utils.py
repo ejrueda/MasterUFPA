@@ -302,57 +302,6 @@ class bokeh_utils:
                 upper = max(v)
         return [lower, q25, q50, q75, upper], outliers
     
-#----------------------------------------------------------
-#-------------------- SMOTE algorithm -------------------------
-#----------------------------------------------------------
-
-class smote:
-    """
-    SMOTE: Synthetic Minority Over-sampling Technique
-        Methods:
-            - get_syn_samples
-    """
-    def __init__(self):
-        self.neigh = None
-    
-    def get_syn_samples(self, T, N, k):
-        """
-        get synthetic samples with the SMOTE algorithm.
-        Inputs:
-            T: 2D-data array to be increase
-            N: Amount of SMOTE N%.
-            k: Number of nearest neighbors
-        Ouput:
-            (N/100)*T synthetic minority class samples
-            (∗ If N is less than 100%, randomize the minority class samples as only a random
-               percent of them will be SMOTEd. ∗)
-        """
-        if N < 100:
-            idxs = np.random.choice(range(len(T)), size=int(len(T)*(N/100)), replace=False)
-            T = T[idxs, :]
-            N = 100
-        
-        N = int(N/100)*len(T)
-        synthetic = np.ones((N, T.shape[1]))
-        self.neigh = NearestNeighbors(n_neighbors = k)
-        self.neigh.fit(T)
-        #generating synthetic samples
-        for i in range(N):
-            #print(i)
-            idx = np.random.randint(low=0, high=T.shape[0])
-            T_sample = T[idx] #x_i random sample
-            #print(T_sample.shape)
-            #getting the k-nearest neighbors
-            nn = self.neigh.kneighbors(T_sample.reshape(1,T.shape[1]), return_distance=False)
-            #getting random k-neighbors index
-            nn_index = np.random.choice(nn[0])
-            while (T_sample == T[nn_index]).all():
-                nn_index = np.random.choice(nn[0])
-            dif = T_sample - T[nn_index]
-            gap = np.random.normal()
-            synthetic[i] = T_sample + gap*dif
-    
-        return synthetic
     
 #-----------------------------------------------------
 #------------- Gaussian noise samples ----------------
@@ -454,7 +403,7 @@ class ocsvm_utilities:
             np.random.shuffle(self.X)
             self.ocsvm = OneClassSVM(kernel="rbf", gamma="auto")
             self.gsCV = GridSearchCV(self.ocsvm, param_grid=param_grid, cv=self.k_folds,
-                                     scoring=self.ocsvm_score, return_train_score=True, ) #idd=False
+                                     scoring=self.ocsvm_score, return_train_score=True, n_jobs=3) #idd=False
             self.gsCV.fit(self.X, self.y)
             #self.cv_results["iter_"+str(i)] = self.gsCV.cv_results_            
             for cv in range(self.k_folds):
@@ -529,3 +478,82 @@ class metrics:
         cv = (np.std(synthetic,axis=1)/np.mean(synthetic,axis=1))
         return np.mean(distance) + np.mean(cv)
         
+#-------------------------------------------------
+# ---------- SMOTE algorithm ---------------------
+#-------------------------------------------------
+class SMOTE:
+    
+    def __init(self):
+        pass
+    
+    def smote(self, T, N, k, s):
+        """
+        Inputs:
+            T: 2D-data array to be increase
+            N: Amount of SMOTE N%. between (0, 100]
+            k: Number of nearest neighbors
+            s: standard desviation of the noise vector
+        Ouput:
+        (N/100)* T synthetic minority class samples
+        (∗ If N is less than 100%, randomize the minority class samples as only a random
+           percent of them will be SMOTEd. ∗)
+        """
+        if N < 100:
+            idxs = np.random.choice(range(len(T)), size=int(len(T)*(N/100)), replace=False)
+            T = T[idxs, :]
+            N = 100
+
+        N = int(N/100)*len(T)
+        synthetic = np.ones((N, T.shape[1]))
+        neigh = NearestNeighbors(n_neighbors = k)
+        neigh.fit(T)
+        #generating synthetic samples
+        for i in range(N):
+            #print(i)
+            idx = np.random.randint(low=0, high=T.shape[0])
+            T_sample = T[idx] #x_i random sample
+            #print(T_sample.shape)
+            #getting the k-nearest neighbors
+            nn = neigh.kneighbors(T_sample.reshape(1,T.shape[1]), return_distance=False)
+            #getting random k-neighbors index
+            nn_index = np.random.choice(nn[0])
+            while (T_sample == T[nn_index]).all():
+                nn_index = np.random.choice(nn[0])
+            dif = T_sample - T[nn_index]
+            gap = np.random.normal(scale=s)
+            synthetic[i] = T_sample + gap*dif
+
+        return synthetic
+    
+    
+    def score(self, synthetic, real):
+        dist = []
+        for i in range(real.shape[0]):
+            dist.append(np.mean(abs(real[i] - synthetic)))
+        return np.mean(dist)
+    
+    def get_best_params(self, X, k_v, s_v, n_iter):
+        """
+        function to get the best params:
+        input:
+            - X: real data augmented by the smote algorithm
+            - smote: function that implement the smote algorithm, with T,N,k and s as inputs
+            - k_v: vector with the k-values to tested (k=k-nearest neighbors)
+            - s_v: vector with the s-values to tested (s=standard desviation of the noise vector)
+            - n_iter: number of iterations in each pair of parameters.
+        """
+        grid = {}
+        heatmap_matrix = np.zeros((len(k_v), len(s_v)))
+        r = 0 #to handle indexing of the heatmap_matrix
+        for k in k_v:
+            c = 0
+            for s in s_v:
+                aux_score = []
+                for i in range(n_iter):
+                    synthetic_samples = smote(X, N=100, k=k+1, s=s)
+                    aux_score.append(self.score(synthetic_samples, X))
+                grid[(k,s)] = aux_score
+                heatmap_matrix[r][c] = np.mean(aux_score)
+                c +=1 
+            r += 1
+        return grid, heatmap_matrix
