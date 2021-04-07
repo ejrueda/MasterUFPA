@@ -383,9 +383,6 @@ class ocsvm_utilities:
         This function compute a GridSearchCV for different training sets
         inputs:
             n_iter: number of iterations of the GridSearchCV in different training sets
-                    ex: the training set is divided in 70% to train and 30% to test. For
-                    default, this selection is made five times, then, the GridSearchCV is
-                    used five times.
             param_grid: dictionary with the name and values of the parameter to change.
                         ex: {"nu": [.2, .5, .7]}
         return:
